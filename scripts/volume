@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get the current date and time
+date_str=$(date +" %a, %b %d  %r")
+
+# Get the volume percentage using amixer
+vol=$(amixer -D pulse sget Master | grep -oE '[0-9]{1,3}%' | head -n 1)
+
+# Battery Percentage
+BATTERY=$(acpi | awk '{print $4}' | sed 's/,//')
+BATTERY_ICON=$(if [[ ${BATTERY%?} -le 20 ]]; then echo -e "\uf244"; else echo -e "\uf240"; fi)
+
+echo "  $vol | ${BATTERY_ICON} ${BATTERY} | $date_str  "
+
+#xsetroot -name "   $vol | ${BATTERY_ICON} ${BATTERY}  |  $date_str "
+

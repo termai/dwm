@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Battery Percentage
+BATTERY=$(acpi | awk '{print $4}' | sed 's/,//')
+BATTERY_ICON=$(if [[ ${BATTERY%?} -le 20 ]]; then echo -e "\uf244"; else echo -e "\uf240"; fi)
+
+echo " ${BATTERY_ICON} ${BATTERY} "
+
+#xsetroot -name "$vol | ${BATTERY_ICON} ${BATTERY}  |  $date_str "

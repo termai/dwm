@@ -1,0 +1,54 @@
+#!/bin/bash
+# Program to get the current muslim prayer time using an API 
+
+# API URL
+api_url="http://api.aladhan.com/v1/timingsByCity/23-03-2023?city=Bloomington&state=Minnesota&country=United+States"
+
+# Get the data from the API
+prayer_data=`curl -s $api_url`
+
+# Parse the data from JSON
+midnight=`echo $prayer_data | jq -r ".data.timings.Midnight"`
+fajr=`echo $prayer_data | jq -r ".data.timings.Fajr"`
+dhuhur=`echo $prayer_data | jq -r ".data.timings.Dhuhr"`
+asr=`echo $prayer_data | jq -r ".data.timings.Asr"`
+maghrib=`echo $prayer_data | jq -r ".data.timings.Maghrib"`
+isha=`echo $prayer_data | jq -r ".data.timings.Isha"`
+
+# Get the current time
+current_time=`date +%H:%M`
+
+# Check if it's in 24 hour time
+if [[ $midnight == *"AM"* ]]
+then
+    # Convert to 12 hour time
+    midnight=`date -d $midnight +"%I:%M %p"`
+    fajr=`date -d $fajr +"%I:%M %p"`
+    dhuhur=`date -d $dhuhur +"%I:%M %p"`
+    asr=`date -d $asr +"%I:%M %p"`
+    maghrib=`date -d $maghrib +"%I:%M %p"`
+    isha=`date -d $isha +"%I:%M %p"`
+fi
+
+# Check what time it is closest to and display it
+if [[ $current_time < $midnight ]]
+then
+    echo "Fajr: $fajr"
+elif [[ $current_time < $fajr ]]
+then
+    echo "Midnight: $midnight"
+elif [[ $current_time < $dhuhur ]]
+then
+    echo "Fajr: $fajr"
+elif [[ $current_time < $asr ]]
+then
+    echo "Dhuhur: $dhuhur"
+elif [[ $current_time < $maghrib ]]
+then
+    echo "Asr: $asr"
+elif [[ $current_time < $isha ]]
+then
+    echo "Maghrib: $maghrib"
+else
+    echo "Isha: $isha"
+fi
