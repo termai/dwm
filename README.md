@@ -17,5 +17,5 @@
 
 I basically modified most of DWM's original keybindings to better fit my own set of keybindings that I am usually used to.
 
-![alt text](https://github.com/termai/Dot-Files/blob/main/wallpapers/dwm_rice.png?raw=true)
+![alt text](https://github.com/termai/dwm/blob/main/dwm_rice.png?raw=true)
  
