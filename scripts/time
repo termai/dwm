@@ -3,4 +3,4 @@
 # Get the current date and time
 date_str=$(date +" %a, %b %d  %r")
 
-echo "$date_str"
+echo " $date_str "
