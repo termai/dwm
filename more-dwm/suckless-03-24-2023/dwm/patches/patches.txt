@@ -1,0 +1,8 @@
+* = Patches I have in my dwm config
+# = Patches I plan to add to my dwm config
+
+1. *Cfacts, VanityGaps
+2. *restoreafterrestart
+3. *pertag
+4. *cyclelayouts
+5. *barpadding
