@@ -2,7 +2,7 @@
 static const Block blocks[] = {
   /*Icon*/  /*Command*/   /*Update Interval*/ /*Update Signal*/
   {"", "prayer",  30,   0},
-  {"", "newdwmstatusbar", 30,   0},
+  {"", "newdwmstatusbar", 1,   0},
   {"", "batt", 1,   0},
   {"", "~/.myconfig/dwm-blocks/time", 1,   0},
 
