@@ -13,7 +13,7 @@ static const unsigned int gappoh    = 10;       /* horiz outer gap between windo
 static const unsigned int gappov    = 10;       /* vert outer gap between windows and screen edge */
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 1;        /* 0 means bottom bar */
+static const int topbar             = 0;        /* 0 means bottom bar */
 static const int vertpad            = 10;       /* vertical padding of bar */
 static const int sidepad            = 10;       /* horizontal padding of bar */
 static const char *fonts[]          = { "JetBrainsMono NF:size=16"};
@@ -113,6 +113,8 @@ static const char *shot[]    = {"scrot", "/home/termi/Pictures/Screenshots/%Y-%m
 static const char *mute[] = { "amixer", "-q", "set", "Master", "toggle", NULL };
 static const char *volup[] = { "amixer", "-q", "set", "Master", "5%+", "unmute", NULL };
 static const char *voldown[] = { "amixer", "-q", "set", "Master", "5%-", "unmute", NULL };
+//static const char *startimage[] = { "~/nitrowall.sh", "&", NULL };
+static const char *endimage[] = { "endimage", NULL };
 
 
 static const Key keys[] = {
@@ -124,6 +126,8 @@ static const Key keys[] = {
         { MODKEY,                       XK_n,      spawn,          {.v = nitro } },
         { MODKEY,                       XK_b,      spawn,          {.v = chrome } },
         { MODKEY,                       XK_c,      spawn,          {.v = shot } },
+        { MODKEY,                       XK_e,      spawn,          {.v = endimage } },
+        { MODKEY,                       XK_w,      spawn,         SHCMD("~/nitrowall.sh &") },
         { 0,                            XF86XK_AudioMute, spawn,   {.v = mute } },
         { 0,                            XF86XK_AudioLowerVolume,   spawn, {.v = voldown } },
         { 0,                            XF86XK_AudioRaiseVolume,   spawn, {.v = volup } },
