@@ -1,0 +1,48 @@
+font:
+  normal:
+    family: monospace
+    style: Regular
+
+  bold:
+    family: monospace
+    style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+
+  size: 15
+
+
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x303030'
+    red:     '0xc03000'
+    green:   '0xb1d631'
+    yellow:  '0xfecf35'
+    blue:    '0x426870'
+    magenta: '0x6d506d'
+    cyan:    '0x4bb5c1'
+    white:   '0xe2e2e5'
+
+  # Bright colors
+  bright:
+    black:   '0x5f5f5f'
+    red:     '0xff3a78'
+    green:   '0xa6cd07'
+    yellow:  '0xb5c865'
+    blue:    '0x4a7781'
+    magenta: '0xff3b77'
+    cyan:    '0x4bb5c1'
+    white:   '0xe2e2e5'
+

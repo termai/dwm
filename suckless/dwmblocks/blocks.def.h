@@ -2,8 +2,11 @@
 static const Block blocks[] = {
   /*Icon*/  /*Command*/   /*Update Interval*/ /*Update Signal*/
   {"", "prayer",  30,   0},
-  {"", "newdwmstatusbar", 1,   0},
-  {"", "batt", 1,   0},
+  {"", "~/more-github/move_to_github/dwm/scripts/weath.sh", 600,   0},
+  //{"", "newdwmstatusbar", 1,   0},
+  {"", "/home/termi/sb-vol", 1,   1},
+  //{"", "batt", 1,   0},
+  {"", "/home/termi/batt.sh", 30,   0},
   {"", "~/.myconfig/dwm-blocks/time", 1,   0},
 
 };
