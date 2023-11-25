@@ -1,0 +1,84 @@
+//$background:#2f2e45;
+//$background:black;
+//$foreground:#ffff00;
+$background:#141827;
+$foreground:#818bd9;
+
+
+*,button {
+
+  all:unset;
+}
+
+
+button {
+  padding:0px 10px;
+  border-radius:12px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.dash-parent {
+  background-color:$background;
+  border:2px solid $foreground;
+  border-radius:10px;
+}
+
+.power {
+  color:$foreground;
+  font-size:3em;
+  margin-left:8px;
+}
+
+.restart {
+  color:$foreground;
+  font-size:3em;
+}
+.logout {
+  color:$foreground;
+  font-size:3em;
+}
+.close {
+  color:$foreground;
+  font-size:4em;
+  margin-right:8px;
+}
+
+.lock {
+  color:$foreground;
+  font-size:2.7em;
+  margin-right:8px;
+}
+
+.power:hover {
+  color:$background;
+  background-color:$foreground;
+  transition: background-color 1s ease, color 0.3s ease;
+  margin-left:8px;
+}
+
+.restart:hover {
+  color:$background;
+  background-color:$foreground;
+  transition: background-color 1s ease, color 0.3s ease;
+}
+
+.logout:hover {
+  color:$background;
+  background-color:$foreground;
+  transition: background-color 1s ease, color 0.3s ease;
+}
+
+.close:hover {
+  color:$background;
+  background-color:$foreground;
+  transition: background-color 1s ease, color 0.3s ease;
+  margin-right:8px;
+}
+
+.lock:hover {
+  color:$background;
+  background-color:$foreground;
+  transition: background-color 1s ease, color 0.3s ease;
+  margin-right:8px;
+}

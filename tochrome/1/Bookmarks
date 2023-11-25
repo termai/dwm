@@ -1,0 +1,3238 @@
+{
+   "checksum": "1096264a7217e5a2c3d9c48be4c3c5e1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13339979878631095",
+            "date_last_used": "13343131521997425",
+            "guid": "599f280d-ff42-4695-86cb-30e4d93b493f",
+            "id": "405",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/firefox/?utm_medium=firefox-desktop&utm_source=bookmarks-toolbar&utm_campaign=new-users&utm_content=-global"
+         }, {
+            "date_added": "13321982666000000",
+            "date_last_used": "0",
+            "guid": "5aaa8d7a-2d6a-49f0-9a75-e046c57d06e4",
+            "id": "414",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13321982666000000",
+                  "date_last_used": "0",
+                  "guid": "2ca29063-c1e0-4521-8c01-d343d4c2a2a8",
+                  "id": "779",
+                  "name": "Gmail",
+                  "type": "url",
+                  "url": "https://accounts.google.com/b/0/AddMailService"
+               }, {
+                  "date_added": "13241083442000000",
+                  "date_last_used": "0",
+                  "guid": "f11ac28a-9e8a-456d-ba88-87c92c438cb4",
+                  "id": "782",
+                  "name": "Random Credit Card Numbers Generator - NamsoGen",
+                  "type": "url",
+                  "url": "https://namso-gen.com/"
+               }, {
+                  "date_added": "13241178602000000",
+                  "date_last_used": "0",
+                  "guid": "4c7fe57a-46d7-4f41-93b4-15aba5718a8b",
+                  "id": "783",
+                  "name": "News",
+                  "type": "url",
+                  "url": "https://news.google.com/"
+               }, {
+                  "date_added": "13241178603000000",
+                  "date_last_used": "0",
+                  "guid": "ddb30517-965d-407c-8ef1-f9c83eeddfe6",
+                  "id": "784",
+                  "name": "Translate",
+                  "type": "url",
+                  "url": "https://translate.google.com/"
+               }, {
+                  "date_added": "13241193712000000",
+                  "date_last_used": "0",
+                  "guid": "d9848682-68ab-47ad-b3cb-2e4a5534b1e5",
+                  "id": "785",
+                  "name": "Martyr2's Mega Project Ideas List! - Share Your Project | Dream.In.Code",
+                  "type": "url",
+                  "url": "https://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/"
+               } ],
+               "date_added": "13339980025127104",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "572592c0-ed41-4753-83fb-c21800e606fd",
+               "id": "777",
+               "name": "Bookmarks bar",
+               "type": "folder"
+            }, {
+               "date_added": "13244031016000000",
+               "date_last_used": "0",
+               "guid": "f6339c92-34bb-42dd-9870-4d3924467d45",
+               "id": "798",
+               "name": "Temp Mail - Disposable Temporary Email",
+               "type": "url",
+               "url": "https://temp-mail.org/en/"
+            }, {
+               "date_added": "13245043504000000",
+               "date_last_used": "13340324534721419",
+               "guid": "8027a394-d77c-4b4f-83f5-5d9513ad2bd6",
+               "id": "799",
+               "name": "Physics Video Tutorial - Distance vs. Displacement",
+               "type": "url",
+               "url": "https://www.physicsclassroom.com/Physics-Video-Tutorial/Kinematics/Distance-vs-Displacement"
+            }, {
+               "date_added": "13245177837000000",
+               "date_last_used": "0",
+               "guid": "9616e93c-a2e3-40f0-ba34-a7d33f890110",
+               "id": "800",
+               "name": "Kinematics",
+               "type": "url",
+               "url": "https://landgreen.github.io/physics/notes/motion/kinematics/"
+            }, {
+               "date_added": "13247579508000000",
+               "date_last_used": "0",
+               "guid": "00d59f6d-455d-4a41-9e43-4efa09bfcae3",
+               "id": "801",
+               "name": "Library Genesis",
+               "type": "url",
+               "url": "http://gen.lib.rus.ec/"
+            }, {
+               "date_added": "13247579512000000",
+               "date_last_used": "0",
+               "guid": "d8c370b1-382a-4f5e-98c6-40594fe25e2e",
+               "id": "802",
+               "name": "Library Genesis",
+               "type": "url",
+               "url": "http://libgen.rs/"
+            }, {
+               "date_added": "13247875750000000",
+               "date_last_used": "0",
+               "guid": "97218953-7381-453c-971a-92be084b9d0c",
+               "id": "803",
+               "name": "Electronic library. Download books free. Finding books",
+               "type": "url",
+               "url": "https://b-ok.cc/?signAll=1"
+            }, {
+               "children": [ {
+                  "date_added": "13252339410000000",
+                  "date_last_used": "0",
+                  "guid": "72907e23-109e-400e-a8e7-58a855b0b490",
+                  "id": "805",
+                  "name": "Full Stack Developer Track | Hands-on Tech Learning with Crio | Crio.Do | Project-Based Learning Platform for Developers",
+                  "type": "url",
+                  "url": "https://www.crio.do/full-stack-developer-track"
+               }, {
+                  "date_added": "13252339420000000",
+                  "date_last_used": "0",
+                  "guid": "3e330c1b-fb75-4b46-b9df-e1fc5d4b0a14",
+                  "id": "806",
+                  "name": "Web Developer Accelerator | SovereignDeveloper.com",
+                  "type": "url",
+                  "url": "https://www.sovereigndeveloper.com/?gclid=CjwKCAiAlNf-BRB_EiwA2osbxaIvR0XkcHZsDFhSiPqDvmYBuAcKwF6yNSnOEYa58Ar-3HItqYFm4hoCfS0QAvD_BwE"
+               }, {
+                  "date_added": "13252339424000000",
+                  "date_last_used": "0",
+                  "guid": "acfa1ec1-8de6-43d9-a170-1588c878cd91",
+                  "id": "807",
+                  "name": "Code College Membership | Code College",
+                  "type": "url",
+                  "url": "https://codecollege.ca/"
+               }, {
+                  "date_added": "13252438042000000",
+                  "date_last_used": "0",
+                  "guid": "fab47316-6d0b-46fe-822d-311d4d11bf4b",
+                  "id": "808",
+                  "name": "Competitive Programming: From Beginner to Expert | CommonLounge",
+                  "type": "url",
+                  "url": "https://www.commonlounge.com/discussion/55e14de95aed4baa84f61bcb4c14ca3c"
+               }, {
+                  "date_added": "13252438965000000",
+                  "date_last_used": "0",
+                  "guid": "dc376df4-c413-4f6d-b4f9-1d03fd546fb0",
+                  "id": "809",
+                  "name": "Find Video Solutions for Your Textbook Problems |…",
+                  "type": "url",
+                  "url": "https://www.numerade.com/"
+               }, {
+                  "date_added": "13252602251000000",
+                  "date_last_used": "0",
+                  "guid": "1b0c1ed2-f10c-4221-ace2-4165ccd4089d",
+                  "id": "810",
+                  "name": "Skills :: Offensive Bash Scripting",
+                  "type": "url",
+                  "url": "https://app.infosecinstitute.com/portal/skills/path/1016"
+               }, {
+                  "date_added": "13252627272000000",
+                  "date_last_used": "0",
+                  "guid": "25ef64fd-ec22-4462-8a7c-b5803ff9c52d",
+                  "id": "811",
+                  "name": "Competitive Programming Resources",
+                  "type": "url",
+                  "url": "https://www.cs.purdue.edu/homes/ninghui/courses/cp_resources.html"
+               }, {
+                  "date_added": "13253122195000000",
+                  "date_last_used": "0",
+                  "guid": "0afedd15-bdd5-4bc2-acc2-dd7d2e5f98fe",
+                  "id": "812",
+                  "name": "Tips for Acing This Course | Upskill",
+                  "type": "url",
+                  "url": "https://v1.upskillcourses.com/courses/119763/lectures/1747101"
+               }, {
+                  "date_added": "13253122205000000",
+                  "date_last_used": "0",
+                  "guid": "4a815b79-265e-448a-85af-51ac70f107e6",
+                  "id": "813",
+                  "name": "Introduction to ethical hacking. What is it in detail? | JTDigital",
+                  "type": "url",
+                  "url": "https://jtdigital.teachable.com/courses/149971/lectures/2227655"
+               }, {
+                  "date_added": "13253125751000000",
+                  "date_last_used": "0",
+                  "guid": "1c5e3cd1-7ecc-4eb8-a85b-8a26e1ea9d5f",
+                  "id": "814",
+                  "name": "Temperature and Heat | University Physics with Mo…",
+                  "type": "url",
+                  "url": "https://www.numerade.com/books/chapter/temperature-and-heat/"
+               }, {
+                  "date_added": "13253300004000000",
+                  "date_last_used": "0",
+                  "guid": "32e8050a-2e28-415c-917c-348aaa7ac001",
+                  "id": "815",
+                  "name": "Deep Learning with TensorFlow 2.0 [2020] - TutFlix - Free Education Community",
+                  "type": "url",
+                  "url": "https://www.tutflix.org/threads/deep-learning-with-tensorflow-2-0-2020.15211/"
+               }, {
+                  "date_added": "13253344026000000",
+                  "date_last_used": "0",
+                  "guid": "d00b86fc-2025-45da-bdd1-2daf8a3128bf",
+                  "id": "816",
+                  "name": "Download Paid Udemy Courses Free | UdemyDownload",
+                  "type": "url",
+                  "url": "https://udemydownload.com/"
+               }, {
+                  "date_added": "13253414734000000",
+                  "date_last_used": "0",
+                  "guid": "35ce6815-6300-4d28-b962-8858a45a0913",
+                  "id": "817",
+                  "name": "FreetutsDownload.com - Download All Course Free",
+                  "type": "url",
+                  "url": "https://freetutsdownload.com/"
+               }, {
+                  "date_added": "13253415921000000",
+                  "date_last_used": "0",
+                  "guid": "b3bf3cc1-ebcb-42e9-87bf-9fa24ea58619",
+                  "id": "818",
+                  "name": "Stremio - All You Can Watch",
+                  "type": "url",
+                  "url": "https://www.stremio.com/"
+               }, {
+                  "date_added": "13253416883000000",
+                  "date_last_used": "0",
+                  "guid": "527f0eae-f60c-44eb-b246-36c405dc716b",
+                  "id": "819",
+                  "name": "Hacking World",
+                  "type": "url",
+                  "url": "https://www.hackingworld.best/"
+               }, {
+                  "date_added": "13253484878000000",
+                  "date_last_used": "0",
+                  "guid": "7e6ad9ae-c6d4-4033-b0b7-0d5d82586cb5",
+                  "id": "820",
+                  "name": "Problems | binarysearch",
+                  "type": "url",
+                  "url": "https://binarysearch.com/problems"
+               }, {
+                  "date_added": "13253485895000000",
+                  "date_last_used": "0",
+                  "guid": "4c58130d-56af-400a-9631-dbd689edc483",
+                  "id": "821",
+                  "name": "NPTEL :: Courses",
+                  "type": "url",
+                  "url": "https://nptel.ac.in/course.html"
+               }, {
+                  "date_added": "13253613533000000",
+                  "date_last_used": "0",
+                  "guid": "d97d67c8-327a-4969-aa94-31c0ad7675c7",
+                  "id": "822",
+                  "name": "bafykbzacedtwfx5525x6c2wn2bji73qhmtnz66geznecivfq5naclysfbpjwq",
+                  "type": "url",
+                  "url": "https://cloudflare-ipfs.com/ipfs/bafykbzacedtwfx5525x6c2wn2bji73qhmtnz66geznecivfq5naclysfbpjwq?filename=Barbara%20Lee%20Bleau%20-%20Forgotten%20algebra_%20a%20self-teaching%20refresher%20course-Barron%27s%20%282003%29.pdf"
+               }, {
+                  "date_added": "13253679401000000",
+                  "date_last_used": "0",
+                  "guid": "4c5e2e52-6b0f-4296-bcab-8c6b97e8c4ce",
+                  "id": "823",
+                  "name": "Babiato Forums",
+                  "type": "url",
+                  "url": "https://babiato.co/"
+               }, {
+                  "date_added": "13253698289000000",
+                  "date_last_used": "0",
+                  "guid": "a2662368-12dd-47e6-9b39-9e905576786d",
+                  "id": "824",
+                  "name": "All labs | Web Security Academy",
+                  "type": "url",
+                  "url": "https://portswigger.net/web-security/all-labs#oauth-authentication"
+               }, {
+                  "date_added": "13253861119000000",
+                  "date_last_used": "0",
+                  "guid": "4a9759f2-9ca4-4cb9-a155-65285cab223e",
+                  "id": "825",
+                  "name": "UPLIFT V2 & V2-Commercial Standing Desk #1 Desk | UPLIFT Desk",
+                  "type": "url",
+                  "url": "https://www.upliftdesk.com/uplift-v2-standing-desk-v2-or-v2-commercial/"
+               }, {
+                  "date_added": "13253890145000000",
+                  "date_last_used": "0",
+                  "guid": "d9322b07-e7cb-477e-90b5-9aca7d50fce8",
+                  "id": "826",
+                  "name": "Dashboard · USACO Guide",
+                  "type": "url",
+                  "url": "https://usaco.guide/dashboard"
+               }, {
+                  "date_added": "13253897602000000",
+                  "date_last_used": "0",
+                  "guid": "4f5ef689-06c1-4e85-ba73-d7328941cef3",
+                  "id": "827",
+                  "name": "Contents • Build Your Own Lisp",
+                  "type": "url",
+                  "url": "http://www.buildyourownlisp.com/contents"
+               }, {
+                  "date_added": "13253941381000000",
+                  "date_last_used": "0",
+                  "guid": "3b4f7381-63ad-4460-aa8e-a1968acae435",
+                  "id": "828",
+                  "name": "Python Programming Tutorials",
+                  "type": "url",
+                  "url": "https://pythonprogramming.net/"
+               }, {
+                  "date_added": "13253969914000000",
+                  "date_last_used": "0",
+                  "guid": "9249cff6-481f-4e37-a877-8cd87fe32907",
+                  "id": "829",
+                  "name": "MathTV - Home",
+                  "type": "url",
+                  "url": "https://www.mathtv.com/"
+               }, {
+                  "date_added": "13253970963000000",
+                  "date_last_used": "0",
+                  "guid": "b7d510e5-9f92-4d59-bae9-aac9d12cff31",
+                  "id": "830",
+                  "name": "Videos",
+                  "type": "url",
+                  "url": "https://artofproblemsolving.com/videos/algebra1"
+               }, {
+                  "date_added": "13253971048000000",
+                  "date_last_used": "0",
+                  "guid": "64de43ab-7550-4e72-a30f-e992e0f6716e",
+                  "id": "831",
+                  "name": "Physics Videos - Instructional Videos - The Tutoring Center - Oakland University",
+                  "type": "url",
+                  "url": "https://www.oakland.edu/tutoring/instructional-videos/physics-videos/"
+               }, {
+                  "date_added": "13253971472000000",
+                  "date_last_used": "0",
+                  "guid": "3ecee785-9902-45e1-a642-14b3d807fde7",
+                  "id": "832",
+                  "name": "Math Antics | Basic Math Videos and Worksheets",
+                  "type": "url",
+                  "url": "https://mathantics.com/"
+               }, {
+                  "date_added": "13254042005000000",
+                  "date_last_used": "0",
+                  "guid": "e0b238bd-720b-44cb-88ca-0d3a865a3424",
+                  "id": "833",
+                  "name": "Coderbyte | The #1 Coding Assessment Platform",
+                  "type": "url",
+                  "url": "https://coderbyte.com/starter-course/algorithms-and-data-structures"
+               }, {
+                  "date_added": "13254086948000000",
+                  "date_last_used": "0",
+                  "guid": "6c280bd3-d2bb-4985-be4c-d91f589cab54",
+                  "id": "834",
+                  "name": "Getfreecourses.net - Download All Paid Courses For Free",
+                  "type": "url",
+                  "url": "https://getfreecourses.net/"
+               }, {
+                  "date_added": "13254160472000000",
+                  "date_last_used": "0",
+                  "guid": "bc833b3c-3f21-4a33-89d7-8cdcea6ed9d0",
+                  "id": "835",
+                  "name": "Downloadly.net – Free Software Download",
+                  "type": "url",
+                  "url": "https://downloadly.net/"
+               }, {
+                  "date_added": "13254223022000000",
+                  "date_last_used": "0",
+                  "guid": "0ba80b58-7691-408e-99f0-000a9cd032f9",
+                  "id": "836",
+                  "name": "deeplizard - Building Collective Intelligence",
+                  "type": "url",
+                  "url": "https://deeplizard.com/"
+               }, {
+                  "date_added": "13254336602000000",
+                  "date_last_used": "0",
+                  "guid": "458e9073-da7b-495a-8b93-e31a4b0a37e8",
+                  "id": "837",
+                  "name": "Python Machine Learning Notebooks (Tutorial style) — Machine-Learning-with-Python documentation",
+                  "type": "url",
+                  "url": "https://machine-learning-with-python.readthedocs.io/en/latest/"
+               }, {
+                  "date_added": "13254704569000000",
+                  "date_last_used": "0",
+                  "guid": "765046f6-c57c-4377-9cb5-9aff5797ae2d",
+                  "id": "838",
+                  "name": "Pre-College Artificial Intelligence Camp | Curriculum | Inspirit AI — INSPIRIT AI",
+                  "type": "url",
+                  "url": "https://www.inspiritai.com/curriculum"
+               }, {
+                  "date_added": "13254709063000000",
+                  "date_last_used": "0",
+                  "guid": "b074197e-b306-4cfa-9127-3d352cb5a2b4",
+                  "id": "839",
+                  "name": "Eloquent JavaScript",
+                  "type": "url",
+                  "url": "https://eloquentjavascript.net/"
+               }, {
+                  "date_added": "13254709119000000",
+                  "date_last_used": "0",
+                  "guid": "962fcd30-6bb7-410e-9246-fd0154893199",
+                  "id": "840",
+                  "name": "Python Projects [Book]",
+                  "type": "url",
+                  "url": "https://www.oreilly.com/library/view/python-projects/9781118908662/"
+               }, {
+                  "date_added": "13254730733000000",
+                  "date_last_used": "0",
+                  "guid": "039e8c44-3b55-45a3-b880-e4f009a08cda",
+                  "id": "841",
+                  "name": "Mathematics for Machine Learning",
+                  "type": "url",
+                  "url": "https://sebastianraschka.com/resources/math-for-ml.html"
+               }, {
+                  "date_added": "13254735846000000",
+                  "date_last_used": "13340267066427528",
+                  "guid": "75dac933-93c2-446d-a0bd-db003bc58ceb",
+                  "id": "842",
+                  "name": "Index / Fundamentals.md at master HowProgrammingWorks / Index",
+                  "type": "url",
+                  "url": "https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Fundamentals.md"
+               }, {
+                  "date_added": "13254974379000000",
+                  "date_last_used": "0",
+                  "guid": "fee96784-4586-4b76-8713-ac9b6c5eb213",
+                  "id": "843",
+                  "name": "Week 1 - CS50x 2021",
+                  "type": "url",
+                  "url": "https://cs50.harvard.edu/x/2021/weeks/1/"
+               }, {
+                  "date_added": "13255147992000000",
+                  "date_last_used": "0",
+                  "guid": "0e72c0e3-6438-46e1-9be2-efbe16cea2db",
+                  "id": "844",
+                  "name": "Machine Learning Internship Roadmap - JustPaste.it",
+                  "type": "url",
+                  "url": "https://justpaste.it/7o3no"
+               }, {
+                  "date_added": "13255148152000000",
+                  "date_last_used": "0",
+                  "guid": "d5a69da6-13a9-452b-9cda-4999e97957f1",
+                  "id": "845",
+                  "name": "Complete Roadmap to Learn data science / Machine Learning. How did I learn & how did my internship at an A.i startup help? - DEV Community",
+                  "type": "url",
+                  "url": "https://dev.to/developertharun/complete-roadmap-to-learn-data-science-machine-learning-how-did-i-learn-how-did-my-internship-at-an-a-i-startup-help-4ink"
+               }, {
+                  "date_added": "13255769707000000",
+                  "date_last_used": "0",
+                  "guid": "4314749b-22f1-4e6c-94d8-bfa0669e6cad",
+                  "id": "846",
+                  "name": "A free self-paced learning path for #machinelearning and #deeplearning - Data Science Central",
+                  "type": "url",
+                  "url": "https://www.datasciencecentral.com/profiles/blogs/a-free-self-paced-learning-path-for-machinelearning-and"
+               }, {
+                  "date_added": "13257152060000000",
+                  "date_last_used": "0",
+                  "guid": "aa548c14-9c8b-4915-8f31-dd2f049bf9a5",
+                  "id": "847",
+                  "name": "STEAMUNLOCKED » Free Steam Games Pre-installed for PC",
+                  "type": "url",
+                  "url": "https://steamunlocked.net/"
+               }, {
+                  "date_added": "13257943823000000",
+                  "date_last_used": "0",
+                  "guid": "02f0cffc-2694-4d97-9862-27f36f94c714",
+                  "id": "848",
+                  "name": "Learning Resource Roadmap - (Front-End Development) - Learning Resource Path",
+                  "type": "url",
+                  "url": "https://learning-resource-path.gitbook.io/resources/"
+               }, {
+                  "date_added": "13258773102000000",
+                  "date_last_used": "0",
+                  "guid": "09161d78-3bb4-4bf7-9319-0b036f0d3620",
+                  "id": "849",
+                  "name": "Courses Archive - Cybr",
+                  "type": "url",
+                  "url": "https://cybr.com/courses/"
+               }, {
+                  "date_added": "13258886514000000",
+                  "date_last_used": "0",
+                  "guid": "8fa32249-687c-4d74-81e1-8b3a37c8b1cb",
+                  "id": "850",
+                  "name": "warrior-trading",
+                  "type": "url",
+                  "url": "https://mega.nz/folder/cNdEABzA#t7n4kVxaZ6TBqgYyybl0Dg"
+               }, {
+                  "date_added": "13259212692000000",
+                  "date_last_used": "0",
+                  "guid": "13cef75b-bdd2-4385-b7f2-35fee4cd7646",
+                  "id": "851",
+                  "name": "TutsPlus - HTML and CSS Courses",
+                  "type": "url",
+                  "url": "https://mega.nz/folder/SCg0Xa6L#EtxQqmwgn4IzROKpT2LyYA"
+               }, {
+                  "date_added": "13259212956000000",
+                  "date_last_used": "0",
+                  "guid": "3c3a37d8-fe66-4f95-aa77-c74d58258ced",
+                  "id": "852",
+                  "name": "Coding Interview University From Web Developer to Software Engineer - Resource for Learning - Freesoff.com - Free Courses, Software and Useful Methods",
+                  "type": "url",
+                  "url": "https://freesoff.com/t/coding-interview-university-from-web-developer-to-software-engineer/6295"
+               }, {
+                  "date_added": "13259288167000000",
+                  "date_last_used": "0",
+                  "guid": "649dfc37-2008-4e00-a24e-ae4c5ad5c980",
+                  "id": "853",
+                  "name": "PWD Practical Web Defense (Old But Good Course) | Hacking World",
+                  "type": "url",
+                  "url": "https://www.hackingworld.best/2020/07/pwd-practical-web-defense-old-but-good.html"
+               }, {
+                  "date_added": "13259401727000000",
+                  "date_last_used": "0",
+                  "guid": "48b90e07-a3ea-49e7-8357-e38a4a495b61",
+                  "id": "854",
+                  "name": "CC Checker - Free Credit card checker | mrchecker.net",
+                  "type": "url",
+                  "url": "https://www.mrchecker.net/?__cf_chl_jschl_tk__=626d9611867790298553abf8c82db68921915a11-1614927806-0-AY9I7gZeyPmrtOFwLCbkrNwb9Oa0lIThG0TzfyNK-iXSf-wIk3Fg5AfmOw-FvdAR8heBH0XXTkhRzxsfCDu0vNSttLSRVNplybFhuNTADAijQdjLOJutDkpPSxvn1OFCBUr0uGYPgutMLCNG1VhQCRKBk1dOs6Yeh7j9k4P9rRpo36VEnz7UrS4IwPEbptSbloTKcnMT0loZsYpebguXmIUiHbfMAfplQnrsoc4Buvq-OqKe6ri71nic-20Wn5nszArVrMSkNGV4Dk3iYlPR5ETk3Ap84sJ0-A7eM4-QjdxYLl43jTjvNDRa3IOzT8Iogg"
+               }, {
+                  "date_added": "13259806368000000",
+                  "date_last_used": "0",
+                  "guid": "f4b342d2-b31a-4df5-97bf-5284e57ccf97",
+                  "id": "855",
+                  "name": "FrontendMasters Courses - Babiato Forums",
+                  "type": "url",
+                  "url": "https://babiato.co/threads/frontendmasters-courses.32040/#post-305554"
+               }, {
+                  "date_added": "13259809629000000",
+                  "date_last_used": "13340142878036876",
+                  "guid": "b6d5dd9c-187b-434d-a75a-85cb6cd4af94",
+                  "id": "856",
+                  "name": "Norman Chess Club",
+                  "type": "url",
+                  "url": "http://normanchess.org/links.html"
+               }, {
+                  "date_added": "13260114807000000",
+                  "date_last_used": "0",
+                  "guid": "4477f8f6-9ec5-40af-a055-806277db7c2c",
+                  "id": "857",
+                  "name": "TorLook - fast and easy torrent search",
+                  "type": "url",
+                  "url": "https://torlook.info/"
+               }, {
+                  "date_added": "13260118604000000",
+                  "date_last_used": "0",
+                  "guid": "6edbf88b-95c2-4fdd-b783-38f9fb45fa30",
+                  "id": "858",
+                  "name": "Reikan Kresna - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/channel/UCAE2BXB4kZ6rlXh3tc-Pj-g/playlists"
+               }, {
+                  "date_added": "13260784440000000",
+                  "date_last_used": "0",
+                  "guid": "1d5c9fda-9b77-4585-8a34-a00f0fb4f3dc",
+                  "id": "859",
+                  "name": "inurl:fitbit site:http://s3.amazonaws.com confidential | top secret | classified | undisclosed | - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=inurl%3Afitbit+site%3Ahttp%3A%2F%2Fs3.amazonaws.com+confidential+%7C+top+secret+%7C+classified+%7C+undisclosed+%7C&rlz=1C1CHBF_enUS925US925&sxsrf=ALeKk00HoT1KWXozLN_oo9_EpMoPebHv1Q%3A1616310750841&ei=3vFWYM3mMoGPtAbaqLpY&oq=inurl%3Afitbit+site%3Ahttp%3A%2F%2Fs3.amazonaws.com+confidential+%7C+top+secret+%7C+classified+%7C+undisclosed+%7C&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANQrk9Y5ecEYJfuBGgDcAJ4AYABnguIAfUckgENNy4wLjEuNS0xLjEuMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjNzZnh6sDvAhWBB80KHVqUDgsQ4dUDCA0&uact=5"
+               }, {
+                  "date_added": "13260847493000000",
+                  "date_last_used": "0",
+                  "guid": "685c7a42-8072-401e-8082-82c25779644e",
+                  "id": "860",
+                  "name": "Best Buy Order Details",
+                  "type": "url",
+                  "url": "https://www.bestbuy.com/profile/ss/orders/order-details/1121079528850/view"
+               }, {
+                  "date_added": "13260998523000000",
+                  "date_last_used": "0",
+                  "guid": "17d3f9a0-42f2-449f-890c-b6cc57070095",
+                  "id": "861",
+                  "name": "Tracking | UPS - United States",
+                  "type": "url",
+                  "url": "https://www.ups.com/track?loc=null&tracknum=1Z4265670372732308&requester=WT/trackdetails"
+               }, {
+                  "date_added": "13261104114000000",
+                  "date_last_used": "0",
+                  "guid": "5522c115-922d-4f01-857b-165d69efadab",
+                  "id": "862",
+                  "name": "Google Hacking - Free Google Dorks for Recon | Pentest-Tools.com",
+                  "type": "url",
+                  "url": "https://pentest-tools.com/information-gathering/google-hacking"
+               }, {
+                  "date_added": "13261381104000000",
+                  "date_last_used": "0",
+                  "guid": "afd097a2-90f9-4267-9ac4-a049da845939",
+                  "id": "863",
+                  "name": "Free Automated Malware Analysis Service - powered by Falcon Sandbox",
+                  "type": "url",
+                  "url": "https://www.hybrid-analysis.com/"
+               }, {
+                  "date_added": "13261464698000000",
+                  "date_last_used": "0",
+                  "guid": "a53de8c6-58a6-41ce-becb-990d57e1ffaa",
+                  "id": "864",
+                  "name": "Ethereum Blockchain Developer Bootcamp With Solidity (2020)",
+                  "type": "url",
+                  "url": "https://mega.nz/folder/1KhDGCAS#uO1Nm4FmS7IRs_lBw8bEVA"
+               }, {
+                  "date_added": "13261501539000000",
+                  "date_last_used": "0",
+                  "guid": "4038c2f4-dc54-4d5a-916e-afd4fd947779",
+                  "id": "865",
+                  "name": "Hidden shared drives - Google Drive",
+                  "type": "url",
+                  "url": "https://drive.google.com/drive/u/1/shared-drives-hidden"
+               }, {
+                  "date_added": "13261583724000000",
+                  "date_last_used": "0",
+                  "guid": "616fe01c-e833-4eb4-9a96-6b543d2a2ef8",
+                  "id": "866",
+                  "name": "https://mail.google.com/.well-known/assetlinks.json",
+                  "type": "url",
+                  "url": "https://mail.google.com/.well-known/assetlinks.json"
+               }, {
+                  "date_added": "13266254149000000",
+                  "date_last_used": "0",
+                  "guid": "2376d6ac-18db-4f5c-a14c-eb00b5cd519d",
+                  "id": "867",
+                  "name": "Basics of C ++ language that you can learn in a week | Top page-A site where even beginners of C ++ language can easily learn programming.",
+                  "type": "url",
+                  "url": "https://cpp-lang.sevendays-study.com/"
+               }, {
+                  "date_added": "13266254153000000",
+                  "date_last_used": "13340059490198331",
+                  "guid": "6d6f0bbf-c310-4e65-b899-a03dd66f387f",
+                  "id": "868",
+                  "name": "Learn from scratch C ++",
+                  "type": "url",
+                  "url": "https://rinatz.github.io/cpp-book/"
+               }, {
+                  "date_added": "13266991854000000",
+                  "date_last_used": "0",
+                  "guid": "03459a4e-ca4b-49cf-a8de-1d6b000bd5cf",
+                  "id": "869",
+                  "name": "Hello, Go · Build web application with Golang",
+                  "type": "url",
+                  "url": "https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/02.1.html"
+               }, {
+                  "date_added": "13267251089000000",
+                  "date_last_used": "0",
+                  "guid": "eb2bcfd3-6809-44dd-ba56-05b5adee4f0a",
+                  "id": "870",
+                  "name": "MEGA",
+                  "type": "url",
+                  "url": "https://mega.nz/folder/kpYziChI#MNOzu9QxoWTWe61qUPFC9A/folder/95AHwKLL"
+               }, {
+                  "date_added": "13267298779000000",
+                  "date_last_used": "0",
+                  "guid": "e9ca1ffb-da95-4605-bfe8-7bd7b3cc8a65",
+                  "id": "871",
+                  "name": "swebacktoback",
+                  "type": "url",
+                  "url": "https://mega.nz/folder/O0p0xKia#C4ay7CZ9JW_ZUuauSgUoBw"
+               }, {
+                  "date_added": "13267690856000000",
+                  "date_last_used": "0",
+                  "guid": "f9b4bc4f-ba01-4db9-87d4-cbc729835020",
+                  "id": "872",
+                  "name": "Beginner C++ Game Programming Series - Chilipedia",
+                  "type": "url",
+                  "url": "https://wiki.planetchili.net/index.php/Beginner_C%2B%2B_Game_Programming_Series"
+               }, {
+                  "date_added": "13267915750000000",
+                  "date_last_used": "0",
+                  "guid": "f3283219-1155-491b-9aa1-c7f10237d1b4",
+                  "id": "873",
+                  "name": "cb courses links",
+                  "type": "url",
+                  "url": "https://rentry.co/AjQUsf27QuSvdY3g"
+               }, {
+                  "date_added": "13268020275000000",
+                  "date_last_used": "0",
+                  "guid": "05b4be5e-c5db-4b09-92fa-c2c98634ca50",
+                  "id": "874",
+                  "name": "Important note:- Copy What actually you need to download right now! Don't copy all folders at onc...",
+                  "type": "url",
+                  "url": "https://rentry.co/gSDwvqxw2CjDjUeQD42qKucUUrxkzR"
+               }, {
+                  "date_added": "13268096576000000",
+                  "date_last_used": "0",
+                  "guid": "69e88414-8913-4b41-8f68-8066409a3974",
+                  "id": "875",
+                  "name": "laracasts",
+                  "type": "url",
+                  "url": "https://rentry.co/uWP8wNft2Xstd2nM"
+               }, {
+                  "date_added": "13268650487000000",
+                  "date_last_used": "0",
+                  "guid": "e45c1345-73e9-48db-814e-d248f57d685a",
+                  "id": "876",
+                  "name": "Free Programming Books – GoalKicker.com",
+                  "type": "url",
+                  "url": "https://goalkicker.com/"
+               }, {
+                  "date_added": "13268800339000000",
+                  "date_last_used": "0",
+                  "guid": "d405232f-1d61-46bd-a688-708e6cb7d0c2",
+                  "id": "877",
+                  "name": "College Compendium",
+                  "type": "url",
+                  "url": "https://collegecompendium.goldin.io/"
+               }, {
+                  "date_added": "13268803249000000",
+                  "date_last_used": "0",
+                  "guid": "8f819c28-47a0-40df-a771-0ba76d192e99",
+                  "id": "878",
+                  "name": "Edspira - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/c/Edspira/playlists"
+               }, {
+                  "date_added": "13268803264000000",
+                  "date_last_used": "0",
+                  "guid": "d9a0669a-5756-4369-bedd-1dd88726bdad",
+                  "id": "879",
+                  "name": "Open SecurityTraining - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/user/OpenSecurityTraining/playlists"
+               }, {
+                  "date_added": "13268805153000000",
+                  "date_last_used": "0",
+                  "guid": "c29499c3-cfe5-4139-8717-88892dd91c66",
+                  "id": "880",
+                  "name": "ECED4406 - Computer Security - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/playlist?list=PLyAXNQGte3qNNbs8J3gE8JkpAJ9_OH75q"
+               }, {
+                  "date_added": "13268805159000000",
+                  "date_last_used": "0",
+                  "guid": "53e64095-05e8-413f-9778-48d2383ad30d",
+                  "id": "881",
+                  "name": "Ryan Levick - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/c/RyanLevicksVideos/videos"
+               }, {
+                  "date_added": "13268898222000000",
+                  "date_last_used": "0",
+                  "guid": "c54c769f-5879-43e7-8f28-8b599955bcf7",
+                  "id": "882",
+                  "name": "Josh Hug - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/channel/UC7FzTMO4rKvlqIyU5vwzFKQ/playlists"
+               }, {
+                  "date_added": "13269329293000000",
+                  "date_last_used": "0",
+                  "guid": "9352adf6-5b7e-4aac-a8f2-fd10ba713a51",
+                  "id": "883",
+                  "name": "Kemono",
+                  "type": "url",
+                  "url": "https://kemono.party/"
+               }, {
+                  "date_added": "13270823446000000",
+                  "date_last_used": "13340267192285741",
+                  "guid": "49f0407e-d618-4a8a-b55f-f16eff91747a",
+                  "id": "884",
+                  "name": "Hillary VanSpronsen - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/user/hillaryvs/playlists"
+               }, {
+                  "date_added": "13270990743000000",
+                  "date_last_used": "0",
+                  "guid": "1dc05b2c-d143-4172-9450-9b801d6ef21d",
+                  "id": "885",
+                  "name": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books · GitHub",
+                  "type": "url",
+                  "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md"
+               }, {
+                  "date_added": "13272472324000000",
+                  "date_last_used": "0",
+                  "guid": "d8167c79-b212-468c-a09e-502d646bdd14",
+                  "id": "886",
+                  "name": "Ricing :: ThatNixGuy",
+                  "type": "url",
+                  "url": "https://thatnixguy.github.io/posts/ricing/"
+               }, {
+                  "date_added": "13272472339000000",
+                  "date_last_used": "0",
+                  "guid": "3505e2eb-3ac0-4975-9873-827d6306435a",
+                  "id": "887",
+                  "name": "GitHub - ibrahimbutt/direwolf-arch-rice: 🐺🍚 A guide to replicating my riced Arch Linux set-up.",
+                  "type": "url",
+                  "url": "https://github.com/ibrahimbutt/direwolf-arch-rice"
+               }, {
+                  "date_added": "13272561321000000",
+                  "date_last_used": "0",
+                  "guid": "337e0598-3051-4323-91bf-8780430897c1",
+                  "id": "888",
+                  "name": "Baka-Updates Manga - Your Reviews, Series, Scanlator and Latest Manga Release Resource",
+                  "type": "url",
+                  "url": "https://www.mangaupdates.com/index.html"
+               }, {
+                  "date_added": "13272682646000000",
+                  "date_last_used": "0",
+                  "guid": "aa986a64-40c4-4705-8bf8-b1e40f477caf",
+                  "id": "889",
+                  "name": "[TalkPython] - #100DaysOfCode in Python Course | TutFlix - Free Education Community",
+                  "type": "url",
+                  "url": "https://tutflix.org/resources/talkpython-100daysofcode-in-python-course.3461/"
+               }, {
+                  "date_added": "13273015021000000",
+                  "date_last_used": "0",
+                  "guid": "a09b4f69-d1a2-4d65-b3f2-60ea9286c4de",
+                  "id": "890",
+                  "name": "Complete Web Development Resources 2021 ALL IN ONE! - Google Drive Links",
+                  "type": "url",
+                  "url": "https://googledrivelinks.com/complete-web-development-resources-2021-all-in-one/"
+               }, {
+                  "date_added": "13274242360000000",
+                  "date_last_used": "0",
+                  "guid": "425e719b-b525-4c29-90cf-3fc006016878",
+                  "id": "891",
+                  "name": "cs4414: Operating Systems",
+                  "type": "url",
+                  "url": "http://rust-class.org/index.html"
+               }, {
+                  "date_added": "13274244520000000",
+                  "date_last_used": "0",
+                  "guid": "cb4a0f21-39b2-480d-9e79-59e1df84bbe3",
+                  "id": "892",
+                  "name": "RustCast - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/c/RustCast/videos"
+               }, {
+                  "date_added": "13275278413000000",
+                  "date_last_used": "0",
+                  "guid": "444b0eab-7ab2-4abd-9fb0-ee1098d56f58",
+                  "id": "893",
+                  "name": "CS 240: Introduction to Computer Systems (Fall 2020)",
+                  "type": "url",
+                  "url": "https://courses.engr.illinois.edu/cs240/fa2020/"
+               }, {
+                  "date_added": "13275278420000000",
+                  "date_last_used": "0",
+                  "guid": "15ad4026-112f-4f73-8e09-f764334f336b",
+                  "id": "894",
+                  "name": "Course Websites | The Grainger College of Engineering | UIUC",
+                  "type": "url",
+                  "url": "https://courses.engr.illinois.edu/"
+               }, {
+                  "date_added": "13275283160000000",
+                  "date_last_used": "0",
+                  "guid": "6ae5d116-1667-427f-a2ba-ee02aaeb11fb",
+                  "id": "895",
+                  "name": "Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.",
+                  "type": "url",
+                  "url": "https://github.com/Developer-Y/cs-video-courses"
+               }, {
+                  "date_added": "13275283211000000",
+                  "date_last_used": "0",
+                  "guid": "58ea079c-e47a-422a-9708-4a5260f7c522",
+                  "id": "896",
+                  "name": "ClassTranscribe",
+                  "type": "url",
+                  "url": "https://classtranscribe.illinois.edu/"
+               }, {
+                  "date_added": "13275381706000000",
+                  "date_last_used": "0",
+                  "guid": "63e63f88-5b73-4ca7-8546-7a32b6cc440d",
+                  "id": "897",
+                  "name": "Data Science",
+                  "type": "url",
+                  "url": "https://www.msyamkumar.com/cs220/s20/schedule.html"
+               }, {
+                  "date_added": "13276284050000000",
+                  "date_last_used": "0",
+                  "guid": "0d00649a-ea17-4c5d-b9cd-68992ec91814",
+                  "id": "898",
+                  "name": "GitHub - ugglr/Remote-Junior-Developer-jobs-directory: Document all things for a entry level remote developer positions.",
+                  "type": "url",
+                  "url": "https://github.com/ugglr/Remote-Junior-Developer-jobs-directory"
+               }, {
+                  "date_added": "13276297965000000",
+                  "date_last_used": "0",
+                  "guid": "26db53b9-f4fe-405d-99c9-531c0c180a03",
+                  "id": "899",
+                  "name": "warrior trading",
+                  "type": "url",
+                  "url": "https://resources.tradex.workers.dev/0:/TRADE%2001%20(INDIAN+FOREIGN)/Warrior%20Pro%20Trading%20Course/"
+               }, {
+                  "date_added": "13276498270000000",
+                  "date_last_used": "0",
+                  "guid": "e87620a4-3349-45d1-8468-9558d85f3f9b",
+                  "id": "900",
+                  "name": "Exploit Education :: Andrew Griffiths' Exploit Education",
+                  "type": "url",
+                  "url": "https://exploit.education/"
+               }, {
+                  "date_added": "13276505477000000",
+                  "date_last_used": "0",
+                  "guid": "e37c5d3d-a022-42fb-88ba-46529c7f2d1a",
+                  "id": "901",
+                  "name": "Steven Skiena",
+                  "type": "url",
+                  "url": "https://www3.cs.stonybrook.edu/~skiena/teaching/"
+               }, {
+                  "date_added": "13276714761000000",
+                  "date_last_used": "13343041398209829",
+                  "guid": "72af4c8a-8cd5-4f1b-acf7-ef45be5a55e3",
+                  "id": "902",
+                  "name": "Ziteboard",
+                  "type": "url",
+                  "url": "https://app.ziteboard.com/"
+               }, {
+                  "date_added": "13276714777000000",
+                  "date_last_used": "0",
+                  "guid": "3addcee5-e4b7-4585-9aff-b65eb244cd9b",
+                  "id": "903",
+                  "name": "MangaJar. Read manga online",
+                  "type": "url",
+                  "url": "https://mangajar.com/"
+               }, {
+                  "date_added": "13276752977000000",
+                  "date_last_used": "0",
+                  "guid": "c60d8b54-12dd-4889-a239-69165c396248",
+                  "id": "904",
+                  "name": "Aksheet10/Cyber-Security-Resources: I have collected many Free Resources. Feel free share more resources",
+                  "type": "url",
+                  "url": "https://github.com/Aksheet10/Cyber-Security-Resources#intro-to-cybersec"
+               }, {
+                  "date_added": "13277002428000000",
+                  "date_last_used": "0",
+                  "guid": "a375a555-3b5a-490b-961e-dd320f7e2fab",
+                  "id": "905",
+                  "name": "node tutorials",
+                  "type": "url",
+                  "url": "https://vimeo.com/user5033472"
+               }, {
+                  "date_added": "13277092850000000",
+                  "date_last_used": "0",
+                  "guid": "1133ec5b-a95c-4b4c-8d97-0ff89255efa1",
+                  "id": "906",
+                  "name": "CSCI 0300/1310: Fundamentals of Computer Systems",
+                  "type": "url",
+                  "url": "http://cs.brown.edu/courses/csci0300/2021/schedule.html"
+               }, {
+                  "date_added": "13277097726000000",
+                  "date_last_used": "0",
+                  "guid": "a4935aed-e78c-47a4-8f8b-51f6c4f496ab",
+                  "id": "907",
+                  "name": "study plan to become a software engineer",
+                  "type": "url",
+                  "url": "https://github.com/jwasham/coding-interview-university"
+               }, {
+                  "date_added": "13277098363000000",
+                  "date_last_used": "0",
+                  "guid": "adc0af8f-c112-4e83-923a-233637c8b9aa",
+                  "id": "908",
+                  "name": "project-based tutorials",
+                  "type": "url",
+                  "url": "https://github.com/practical-tutorials/project-based-learning"
+               }, {
+                  "children": [ {
+                     "date_added": "13277198642000000",
+                     "date_last_used": "0",
+                     "guid": "42396b8b-3e30-457e-9f6c-f1d848a938cd",
+                     "id": "910",
+                     "name": "Watch Anime Online, Free Anime Streaming Online on Zoro.to Anime Website",
+                     "type": "url",
+                     "url": "https://zoro.to/"
+                  }, {
+                     "date_added": "13277198579000000",
+                     "date_last_used": "13340673123215779",
+                     "guid": "f17eace6-a0e5-4d13-b8f0-c32177e3b7cc",
+                     "id": "911",
+                     "name": "Yugen",
+                     "type": "url",
+                     "url": "https://yugen.to/"
+                  }, {
+                     "date_added": "13277198656000000",
+                     "date_last_used": "0",
+                     "guid": "6d986634-8645-4dba-b817-715abb29c47e",
+                     "id": "912",
+                     "name": "Anime Simple - Watch Free Dubbed & Subbed Anime Online",
+                     "type": "url",
+                     "url": "https://ww1.animesimple.com/"
+                  }, {
+                     "date_added": "13277198666000000",
+                     "date_last_used": "13340673131318970",
+                     "guid": "6e7e55a9-6e2e-4697-be54-aa793ca742b3",
+                     "id": "913",
+                     "name": "AniMixPlay - Watch HD Anime for Free",
+                     "type": "url",
+                     "url": "https://animixplay.to/"
+                  }, {
+                     "date_added": "13277484470000000",
+                     "date_last_used": "0",
+                     "guid": "5ed2fe62-6ee5-4cd2-b0be-c287b067cbeb",
+                     "id": "914",
+                     "name": "AnimeK - The anime calendar",
+                     "type": "url",
+                     "url": "https://animek.fun/"
+                  }, {
+                     "date_added": "13278275266000000",
+                     "date_last_used": "0",
+                     "guid": "af40ac5e-8ba7-4d3d-a86a-90a7ad8e33f5",
+                     "id": "915",
+                     "name": "🚀 ComicK.fun",
+                     "type": "url",
+                     "url": "https://comick.fun/"
+                  }, {
+                     "date_added": "13279584382000000",
+                     "date_last_used": "0",
+                     "guid": "4952f3df-b285-4fca-8396-4f33ef416046",
+                     "id": "916",
+                     "name": "Anime Twist - HD anime for free",
+                     "type": "url",
+                     "url": "https://twist.moe/"
+                  }, {
+                     "children": [ {
+                        "date_added": "13281028816000000",
+                        "date_last_used": "0",
+                        "guid": "4b960e6b-6457-4407-a95d-1bad808ac5f6",
+                        "id": "918",
+                        "name": "CS 161 Fall 2021 | CS 161: Computer Security",
+                        "type": "url",
+                        "url": "https://cs161.org/"
+                     }, {
+                        "date_added": "13281040682000000",
+                        "date_last_used": "0",
+                        "guid": "78358900-18e4-4f9f-9dda-a23d488a3b3c",
+                        "id": "919",
+                        "name": "CSCI 0300/1310: Fundamentals of Computer Systems",
+                        "type": "url",
+                        "url": "http://cs.brown.edu/courses/csci0300/2021/"
+                     }, {
+                        "date_added": "13281040736000000",
+                        "date_last_used": "0",
+                        "guid": "92f4cf89-fd3a-45c8-94c2-4544b379ac93",
+                        "id": "920",
+                        "name": "CS 61C",
+                        "type": "url",
+                        "url": "https://inst.eecs.berkeley.edu/~cs61c/su20/"
+                     }, {
+                        "date_added": "13281042719000000",
+                        "date_last_used": "0",
+                        "guid": "26b0ce61-2fc2-4e6b-9e72-c45f5af86170",
+                        "id": "921",
+                        "name": "Machine-Learning-Tokyo/AI_Curriculum: Open Deep Learning and Reinforcement Learning lectures from top Universities like Stanford, MIT, UC Berkeley.",
+                        "type": "url",
+                        "url": "https://github.com/Machine-Learning-Tokyo/AI_Curriculum"
+                     }, {
+                        "date_added": "13281050345000000",
+                        "date_last_used": "0",
+                        "guid": "cbfde5a5-eae9-4e4a-8b7f-70a2aa1866d2",
+                        "id": "922",
+                        "name": "Lectures - CS 3110 Spring 2020",
+                        "type": "url",
+                        "url": "https://www.cs.cornell.edu/courses/cs3110/2020sp/lectures.html"
+                     }, {
+                        "date_added": "13281051697000000",
+                        "date_last_used": "0",
+                        "guid": "096750d8-fcc8-4399-891c-c259afba2b86",
+                        "id": "923",
+                        "name": "Lecture 01: Course Overview",
+                        "type": "url",
+                        "url": "https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d8c83d3a-8074-4afe-ae3b-693e2250999a"
+                     }, {
+                        "date_added": "13281051940000000",
+                        "date_last_used": "0",
+                        "guid": "f9559a89-9eeb-4ac1-9745-87d71e9d13aa",
+                        "id": "924",
+                        "name": "CS 144: Introduction to Computer Networking",
+                        "type": "url",
+                        "url": "https://cs144.github.io/"
+                     }, {
+                        "date_added": "13281093981000000",
+                        "date_last_used": "0",
+                        "guid": "2c03cd64-beb8-4319-9f0a-5db90d4495ff",
+                        "id": "925",
+                        "name": "jraleman (Jose Ramon Aleman) / Repositories",
+                        "type": "url",
+                        "url": "https://github.com/jraleman?tab=repositories&q=Piscine&type=&language=&sort="
+                     }, {
+                        "date_added": "13281095533000000",
+                        "date_last_used": "0",
+                        "guid": "b4b8bd99-a655-4feb-954d-ced467ac4310",
+                        "id": "926",
+                        "name": "learn-co-curriculum/onl01-seng-pt-030220",
+                        "type": "url",
+                        "url": "https://github.com/learn-co-curriculum/onl01-seng-pt-030220"
+                     }, {
+                        "date_added": "13281135698000000",
+                        "date_last_used": "0",
+                        "guid": "c4fa31e9-272e-4edc-a7a6-a46ba1283d0c",
+                        "id": "927",
+                        "name": "Powerful, online SVG editor for teams",
+                        "type": "url",
+                        "url": "https://vecta.io/"
+                     }, {
+                        "date_added": "13282780356000000",
+                        "date_last_used": "0",
+                        "guid": "84394820-0e5f-4338-8942-96fa52d5b0ee",
+                        "id": "928",
+                        "name": "SANS_Collection | Webtor.io",
+                        "type": "url",
+                        "url": "https://webtor.io/#/show?pwd=%2FSANS_Collection&magnet=magnet%3A%3Fxt%3Durn%3Abtih%3A4e5338d177fe11b4b05fdb7591dcc7773448fc85%26dn%3DSANS_Collection%26tr%3Dudp%253A%252F%252Ftracker.coppersurfer.tk%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252F9.rarbg.to%253A2920%252Fannounce%26tr%3Dudp%253A%252F%252Ftracker.opentrackr.org%253A1337%26tr%3Dudp%253A%252F%252Ftracker.internetwarriors.net%253A1337%252Fannounce%26tr%3Dudp%253A%252F%252Ftracker.leechers-paradise.org%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Ftracker.pirateparty.gr%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Ftracker.cyberia.is%253A6969%252Fannounce"
+                     }, {
+                        "date_added": "13283374081000000",
+                        "date_last_used": "0",
+                        "guid": "b2e573b8-6cc5-46aa-a780-4d3642265723",
+                        "id": "929",
+                        "name": "Cyber Security Skills Roadmap | SANS Institute: Cyber Security Skills Roadmap",
+                        "type": "url",
+                        "url": "https://www.sans.org/cyber-security-skills-roadmap/"
+                     }, {
+                        "date_added": "13283448755000000",
+                        "date_last_used": "0",
+                        "guid": "ce13e40c-a4e2-4222-b7fb-ca38e30978ce",
+                        "id": "930",
+                        "name": "CS 521 - Systems Programming",
+                        "type": "url",
+                        "url": "https://www.cs.usfca.edu/~mmalensek/cs521/"
+                     }, {
+                        "date_added": "13283462046000000",
+                        "date_last_used": "0",
+                        "guid": "eea7a6ef-e0d0-4510-97f2-d9f9f5d38b46",
+                        "id": "931",
+                        "name": "Hide01 - Free Learning",
+                        "type": "url",
+                        "url": "https://hide01.ir/"
+                     }, {
+                        "date_added": "13283462380000000",
+                        "date_last_used": "0",
+                        "guid": "1ac3d448-f58b-4c42-98cb-f19057133aea",
+                        "id": "932",
+                        "name": "0 - /All courses (5.40Tb 374442 Files Approx)/",
+                        "type": "url",
+                        "url": "https://learning.readyourflow.workers.dev/0:/All%20courses%20(5.40Tb%20%20374442%20Files%20Approx)/"
+                     }, {
+                        "date_added": "13283462391000000",
+                        "date_last_used": "0",
+                        "guid": "3d8f1a34-0320-4078-8a86-6f0ef47a6c58",
+                        "id": "933",
+                        "name": "COURSES 03 - /PREMIUM COURSES /",
+                        "type": "url",
+                        "url": "https://resources.teleflixv5.workers.dev/8:/PREMIUM%20COURSES%20/"
+                     }, {
+                        "date_added": "13283572009000000",
+                        "date_last_used": "0",
+                        "guid": "0beeedb5-fcc9-48e9-9a25-e0e0b8c0cade",
+                        "id": "934",
+                        "name": "Refactoring UI - Complete Package - Google Drive",
+                        "type": "url",
+                        "url": "https://drive.google.com/drive/folders/1c0PoopD2LD8UfnZL4Ktq-HA2an9Mg1fh"
+                     }, {
+                        "children": [ {
+                           "date_added": "13280437078000000",
+                           "date_last_used": "0",
+                           "guid": "6f2b74bd-4b8c-4dfd-b4a1-d9003d7eca98",
+                           "id": "936",
+                           "name": "Search Results - World Digital Library",
+                           "type": "url",
+                           "url": "https://www.wdl.org/en/search/?q=somali"
+                        }, {
+                           "date_added": "13280437122000000",
+                           "date_last_used": "0",
+                           "guid": "6cf78ea0-7aa7-4dbb-bec6-d5edb3beeb56",
+                           "id": "937",
+                           "name": "Electronic library. Download books free. Finding books",
+                           "type": "url",
+                           "url": "https://1lib.us/"
+                        } ],
+                        "date_added": "13339980025145672",
+                        "date_last_used": "0",
+                        "date_modified": "0",
+                        "guid": "1bbe1fdc-395f-417b-827a-5abc56808a17",
+                        "id": "935",
+                        "name": "Library",
+                        "type": "folder"
+                     }, {
+                        "date_added": "13283798790000000",
+                        "date_last_used": "0",
+                        "guid": "627be8db-11b6-42a7-89a6-573f6bf94151",
+                        "id": "938",
+                        "name": "Portfolio Presentation Page (Responsive)",
+                        "type": "url",
+                        "url": "https://codepen.io/RodenKerthin/pen/JjWvVWj"
+                     } ],
+                     "date_added": "13339980025143789",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "87fe39e3-f7c4-4672-af1c-16c20651767d",
+                     "id": "917",
+                     "name": "college courses",
+                     "type": "folder"
+                  }, {
+                     "date_added": "13336789124000000",
+                     "date_last_used": "0",
+                     "guid": "c3277680-38e0-4e08-a079-c7e9a88c0981",
+                     "id": "939",
+                     "name": "Filter - Aniwave",
+                     "type": "url",
+                     "url": "https://aniwave.to/filter?keyword=Utawarerumono"
+                  }, {
+                     "date_added": "13340732791580499",
+                     "date_last_used": "0",
+                     "guid": "221ad601-3541-47b0-a79f-9e6a66663756",
+                     "id": "1148",
+                     "meta_info": {
+                        "power_bookmark_meta": ""
+                     },
+                     "name": "Ryuk - Watch anime online, English anime online free | Chromecast Available",
+                     "type": "url",
+                     "url": "https://ryuk.to/"
+                  } ],
+                  "date_added": "13339980025143311",
+                  "date_last_used": "0",
+                  "date_modified": "13341367029176978",
+                  "guid": "af815e98-8c9c-43f7-a696-711263622dc8",
+                  "id": "909",
+                  "name": "Anime-sites",
+                  "type": "folder"
+               }, {
+                  "date_added": "13277830164000000",
+                  "date_last_used": "0",
+                  "guid": "15b997c9-5be8-4583-a328-f3c4fb67c2ad",
+                  "id": "940",
+                  "name": "Free the Data Academy",
+                  "type": "url",
+                  "url": "https://www.ftdacademy.com/"
+               }, {
+                  "date_added": "13277916781000000",
+                  "date_last_used": "0",
+                  "guid": "9ce369f0-d149-4f61-9245-0976cf591997",
+                  "id": "941",
+                  "name": "Teleflix",
+                  "type": "url",
+                  "url": "https://resources.teleflixv5.workers.dev/0:/"
+               }, {
+                  "date_added": "13278058377000000",
+                  "date_last_used": "13340267332661303",
+                  "guid": "e3387e94-60dd-4a8c-b984-85005647b440",
+                  "id": "942",
+                  "name": "Megaxd",
+                  "type": "url",
+                  "url": "https://get.mirrorxcloud.workers.dev/0:/"
+               }, {
+                  "date_added": "13278605112000000",
+                  "date_last_used": "0",
+                  "guid": "c1ca782b-fac3-49e7-8481-5334332cc995",
+                  "id": "943",
+                  "name": "CS 170",
+                  "type": "url",
+                  "url": "https://inst.eecs.berkeley.edu/~cs170/fa20/"
+               }, {
+                  "date_added": "13278675930000000",
+                  "date_last_used": "0",
+                  "guid": "2b1a04c9-ba19-447a-b4d3-160e44db5625",
+                  "id": "944",
+                  "name": "CS 423: Operating System Design (Spring 2021)",
+                  "type": "url",
+                  "url": "https://courses.engr.illinois.edu/cs423/sp2021/"
+               }, {
+                  "date_added": "13278677302000000",
+                  "date_last_used": "0",
+                  "guid": "ac8ace8e-e80d-40f8-b0f9-fdf4b6893ebd",
+                  "id": "945",
+                  "name": "Computer Science | Course Explorer",
+                  "type": "url",
+                  "url": "https://courses.illinois.edu/schedule/DEFAULT/DEFAULT/CS"
+               }, {
+                  "date_added": "13278677322000000",
+                  "date_last_used": "0",
+                  "guid": "b799d356-207e-462d-9560-757c1184dd7b",
+                  "id": "946",
+                  "name": "CS 240: Introduction to Computer Systems (Fall 2021)",
+                  "type": "url",
+                  "url": "https://courses.engr.illinois.edu/cs240/fa2021/"
+               }, {
+                  "date_added": "13278959912000000",
+                  "date_last_used": "0",
+                  "guid": "00c03372-2187-4986-9c66-2dadf8259a66",
+                  "id": "947",
+                  "name": "Home | CS 61C",
+                  "type": "url",
+                  "url": "https://cs61c.org/fa21/"
+               }, {
+                  "date_added": "13279009492000000",
+                  "date_last_used": "0",
+                  "guid": "77338c4c-e624-4fa7-bda3-e9b243b0c896",
+                  "id": "948",
+                  "name": "Build-your-own-x 🤓 | Build your own (insert technology here) | Massive Content - Tutorials & Methods - OneHack.Us | Tutorials For Free, Guides, Articles & Community Forum",
+                  "type": "url",
+                  "url": "https://onehack.us/t/build-your-own-x-build-your-own-insert-technology-here-massive-content/88868"
+               }, {
+                  "date_added": "13280047499000000",
+                  "date_last_used": "0",
+                  "guid": "c512c6a9-f424-406f-97c7-ce8a03437560",
+                  "id": "949",
+                  "name": "mrpond/BlockTheSpot: Video, audio & banner adblock/skip for Spotify",
+                  "type": "url",
+                  "url": "https://github.com/mrpond/BlockTheSpot"
+               }, {
+                  "date_added": "13280753225000000",
+                  "date_last_used": "0",
+                  "guid": "d730d167-f018-48d7-89f9-b78eea1639a4",
+                  "id": "950",
+                  "name": "90 Websites To Cure Boredom — SHE THE SPY",
+                  "type": "url",
+                  "url": "https://www.shethespy.com/blog/websites-to-cure-boredom"
+               }, {
+                  "date_added": "13281054943000000",
+                  "date_last_used": "0",
+                  "guid": "964ff34a-40f9-41e2-906a-229d0ad5577c",
+                  "id": "951",
+                  "name": "Problem Solving - Interview Questions | DSA",
+                  "type": "url",
+                  "url": "https://workat.tech/problem-solving/practice"
+               }, {
+                  "date_added": "13281319734000000",
+                  "date_last_used": "0",
+                  "guid": "0bd191f5-5bca-4ff9-9299-99ebe0b48e29",
+                  "id": "952",
+                  "name": "Sleep Cycle Calculator - Optimal Bedtime and Wake up Times by Age",
+                  "type": "url",
+                  "url": "https://sleepyti.me/"
+               }, {
+                  "date_added": "13281647494000000",
+                  "date_last_used": "0",
+                  "guid": "bb322372-4c3d-45eb-b9ca-e79e3188abc0",
+                  "id": "953",
+                  "name": "Coding Classes - /",
+                  "type": "url",
+                  "url": "https://codingclasses.stream/0:/"
+               }, {
+                  "date_added": "13281750502000000",
+                  "date_last_used": "0",
+                  "guid": "31a40311-e367-4df6-9c79-52b7ba5905b7",
+                  "id": "954",
+                  "name": "Portfolio - Investopedia Stock Simulator",
+                  "type": "url",
+                  "url": "https://www.investopedia.com/simulator/portfolio"
+               }, {
+                  "date_added": "13282110075000000",
+                  "date_last_used": "0",
+                  "guid": "b0168823-6dc8-421e-8b5a-357834855830",
+                  "id": "955",
+                  "name": "Vancir/365-days-get-xuanwulab-job: Get a job from Xuanwu Lab in 365 days",
+                  "type": "url",
+                  "url": "https://github.com/Vancir/365-days-get-xuanwulab-job"
+               }, {
+                  "date_added": "13283556942000000",
+                  "date_last_used": "13340267552018907",
+                  "guid": "044ab0d5-527f-4de5-9cb7-5e65d97d7159",
+                  "id": "956",
+                  "name": "The Javascript advent calendar for December 2021",
+                  "type": "url",
+                  "url": "https://scrimba.com/learn/javascriptmas2021"
+               }, {
+                  "date_added": "13284018509000000",
+                  "date_last_used": "0",
+                  "guid": "d3e30f77-cc5c-498a-a0c2-3527d4746d3d",
+                  "id": "957",
+                  "name": "WhatTheFont! « MyFonts",
+                  "type": "url",
+                  "url": "https://www.myfonts.com/WhatTheFont"
+               }, {
+                  "date_added": "13284233854000000",
+                  "date_last_used": "0",
+                  "guid": "9e7fc757-15f0-433b-8752-0e023b699543",
+                  "id": "958",
+                  "name": "0x4D31/awesome-oscp: A curated list of awesome OSCP resources",
+                  "type": "url",
+                  "url": "https://github.com/0x4D31/awesome-oscp"
+               }, {
+                  "children": [ {
+                     "date_added": "13285481889000000",
+                     "date_last_used": "0",
+                     "guid": "c277968f-f8eb-4fdf-ba8a-b4278d5ec61a",
+                     "id": "960",
+                     "name": "Aksheet10/Cyber-Security-Resources: I have collected many Free Resources. Feel free share more resources",
+                     "type": "url",
+                     "url": "https://github.com/Aksheet10/Cyber-Security-Resources#web-pentesting"
+                  }, {
+                     "date_added": "13285481894000000",
+                     "date_last_used": "0",
+                     "guid": "e74b72c7-47f9-436d-b2b2-6528b070fde0",
+                     "id": "961",
+                     "name": "https://terminal-samai.github.io/coolcoolwebsite/index.html",
+                     "type": "url",
+                     "url": "https://terminal-samai.github.io/coolcoolwebsite/index.html"
+                  }, {
+                     "date_added": "13285481899000000",
+                     "date_last_used": "0",
+                     "guid": "f4708b8c-6676-4440-99e2-ea7d6ccd26b5",
+                     "id": "962",
+                     "name": "EdOverflow/can-i-take-over-xyz: \"Can I take over XYZ?\" — a list of services and how to claim (sub)domains with dangling DNS records.",
+                     "type": "url",
+                     "url": "https://github.com/EdOverflow/can-i-take-over-xyz"
+                  }, {
+                     "date_added": "13285491488000000",
+                     "date_last_used": "0",
+                     "guid": "0dbf0407-48b1-42fd-b106-f78b50d020d2",
+                     "id": "963",
+                     "name": "practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+                     "type": "url",
+                     "url": "https://github.com/practical-tutorials/project-based-learning#go"
+                  }, {
+                     "date_added": "13285493765000000",
+                     "date_last_used": "0",
+                     "guid": "dfc56b00-1268-4673-8b7a-a7d51127c6eb",
+                     "id": "964",
+                     "name": "vavkamil/awesome-bugbounty-tools: A curated list of various bug bounty tools",
+                     "type": "url",
+                     "url": "https://github.com/vavkamil/awesome-bugbounty-tools"
+                  }, {
+                     "date_added": "13285788552000000",
+                     "date_last_used": "0",
+                     "guid": "4693a8aa-044d-4f69-b90c-d2e41bebaa6e",
+                     "id": "965",
+                     "name": "Awesome Web Security | Curated list of awesome lists | Project-Awesome.org",
+                     "type": "url",
+                     "url": "https://project-awesome.org/qazbnm456/awesome-web-security#xss---cross-site-scripting"
+                  }, {
+                     "date_added": "13285788559000000",
+                     "date_last_used": "0",
+                     "guid": "95e790c6-3e9e-4ba2-825e-58464236fd74",
+                     "id": "966",
+                     "name": "PayloadsAllTheThings",
+                     "type": "url",
+                     "url": "https://github.com/swisskyrepo/PayloadsAllTheThings"
+                  }, {
+                     "date_added": "13285853439000000",
+                     "date_last_used": "0",
+                     "guid": "2109cd79-d05e-4f7b-89de-31af0e8e3124",
+                     "id": "967",
+                     "name": "Epic Games - Bug Bounty Program | HackerOne",
+                     "type": "url",
+                     "url": "https://hackerone.com/epicgames?type=team&view_policy=true"
+                  }, {
+                     "date_added": "13285968542000000",
+                     "date_last_used": "0",
+                     "guid": "ac9b29c9-285e-4b3b-aab3-31f4a7e88c7c",
+                     "id": "968",
+                     "name": "AWS S3 Bucket Misconfiguration. Hello I am Sudharshan (just a noob who… | by Sudharshan | Techiepedia | Medium",
+                     "type": "url",
+                     "url": "https://medium.com/techiepedia/s3-bucket-misconfiguration-50883f347869"
+                  }, {
+                     "date_added": "13285971741000000",
+                     "date_last_used": "0",
+                     "guid": "c81eca6a-7182-4572-85c4-195085d439af",
+                     "id": "969",
+                     "name": "mxm0z/awesome-sec-s3: A collection of awesome AWS S3 tools that collects and enumerates exposed S3 buckets",
+                     "type": "url",
+                     "url": "https://github.com/mxm0z/awesome-sec-s3"
+                  }, {
+                     "date_added": "13285973280000000",
+                     "date_last_used": "0",
+                     "guid": "cb6ffa0e-33f8-48df-84dc-466bdf02b6f7",
+                     "id": "970",
+                     "name": "free-programming-books/free-programming-books-subjects.md at main · EbookFoundation/free-programming-books",
+                     "type": "url",
+                     "url": "https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-subjects.md#game-development"
+                  }, {
+                     "date_added": "13285981082000000",
+                     "date_last_used": "0",
+                     "guid": "b8172e25-71bf-4c38-9715-e0484fed504f",
+                     "id": "971",
+                     "name": "List of bug bounty writeups · Pentester Land",
+                     "type": "url",
+                     "url": "https://pentester.land/list-of-bug-bounty-writeups.html"
+                  }, {
+                     "date_added": "13286033202000000",
+                     "date_last_used": "0",
+                     "guid": "142a5ea1-cb3d-48f6-80b4-00d85e09f8f6",
+                     "id": "972",
+                     "name": "freeCodeCamp/how-to-contribute-to-open-source: A guide to contributing to open source",
+                     "type": "url",
+                     "url": "https://github.com/freeCodeCamp/how-to-contribute-to-open-source"
+                  }, {
+                     "date_added": "13286033207000000",
+                     "date_last_used": "0",
+                     "guid": "325e4f5f-4be8-40c1-bb17-c70b666a224a",
+                     "id": "973",
+                     "name": "beginner-project · GitHub Topics",
+                     "type": "url",
+                     "url": "https://github.com/topics/beginner-project"
+                  }, {
+                     "date_added": "13286036437000000",
+                     "date_last_used": "0",
+                     "guid": "db4a1aef-6008-4cc6-93c6-07d4b5d87933",
+                     "id": "974",
+                     "name": "IP to Long IP Converter",
+                     "type": "url",
+                     "url": "https://www.smartconversion.com/unit_conversion/IP_Address_Converter.aspx"
+                  }, {
+                     "date_added": "13286066470000000",
+                     "date_last_used": "0",
+                     "guid": "a006e71e-99e3-4070-b5d5-7100f5ee561f",
+                     "id": "975",
+                     "name": "Search Results org=\"TIKTOK PTE. LTD.\" - Cyberspace Mapping, Cyberspace Security Search Engine, Cyberspace Search Engine, Security Situational Awareness - FOFA Cyberspace Mapping System",
+                     "type": "url",
+                     "url": "https://fofa.so/result?qbase64=b3JnPSJUSUtUT0sgUFRFLiBMVEQuIg%3D%3D"
+                  }, {
+                     "date_added": "13286066483000000",
+                     "date_last_used": "0",
+                     "guid": "246eca8b-96cf-4e50-b702-95aab4200d47",
+                     "id": "976",
+                     "name": "tiktok - bgp.he.net",
+                     "type": "url",
+                     "url": "https://bgp.he.net/search?search%5Bsearch%5D=tiktok&commit=Search"
+                  }, {
+                     "date_added": "13286066489000000",
+                     "date_last_used": "0",
+                     "guid": "086f78b2-2709-44d1-81a2-0fbffe7c316c",
+                     "id": "977",
+                     "name": "Cyberspace Search Engine | Spyse",
+                     "type": "url",
+                     "url": "https://spyse.com/target/cidr/103.136.220.0%2F23/ipv4-hosts-with-open-ports?target=ip&search_params=%5B%7B%22open_port%22%3A%7B%22operator%22%3A%22exists%22%7D%7D,%7B%22cidr%22%3A%7B%22operator%22%3A%22eq%22,%22value%22%3A%22103.136.220.0%2F23%22%7D%7D%5D"
+                  }, {
+                     "date_added": "13286130772000000",
+                     "date_last_used": "0",
+                     "guid": "f91d583b-dec8-4d74-9808-62c7679580d2",
+                     "id": "978",
+                     "name": "Search · learn language:C",
+                     "type": "url",
+                     "url": "https://github.com/search?p=2&q=learn+language%3AC&type=Repositories"
+                  }, {
+                     "date_added": "13286130776000000",
+                     "date_last_used": "0",
+                     "guid": "680063ed-d331-403f-bc31-d9b80369e865",
+                     "id": "979",
+                     "name": "mykter/afl-training: Exercises to learn how to fuzz with American Fuzzy Lop",
+                     "type": "url",
+                     "url": "https://github.com/mykter/afl-training"
+                  }, {
+                     "date_added": "13286191977000000",
+                     "date_last_used": "0",
+                     "guid": "e061a9e5-85ba-449e-99a4-0386ac1a31a8",
+                     "id": "980",
+                     "name": "Spyse — Internet Assets Search Engine",
+                     "type": "url",
+                     "url": "https://spyse.com/"
+                  }, {
+                     "date_added": "13286218265000000",
+                     "date_last_used": "0",
+                     "guid": "dd17eb49-4106-455d-8161-31175cd6ad15",
+                     "id": "981",
+                     "name": "lutfumertceylan/top25-parameter: For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon. 🛡️⚔️🧙",
+                     "type": "url",
+                     "url": "https://github.com/lutfumertceylan/top25-parameter"
+                  } ],
+                  "date_added": "13339980025147760",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "50f6cfa2-8ec3-46dc-adb5-689355bb2e36",
+                  "id": "959",
+                  "name": "Bug Bounty",
+                  "type": "folder"
+               }, {
+                  "date_added": "13285617734000000",
+                  "date_last_used": "0",
+                  "guid": "fc48ea6b-8292-472e-9690-1a1a91ddba1d",
+                  "id": "982",
+                  "name": "Tim Corey - Complete Siterip Collection",
+                  "type": "url",
+                  "url": "https://rentry.co/4o4dz"
+               }, {
+                  "date_added": "13285717017000000",
+                  "date_last_used": "0",
+                  "guid": "4ced52ac-79a0-4e9e-ab9b-83081f5abb65",
+                  "id": "983",
+                  "name": "FMovies | Watch Silicon Valley (2014) Online Free on fmovies.to",
+                  "type": "url",
+                  "url": "https://fmovies.to/series/silicon-valley-0qml9/2-7"
+               }, {
+                  "date_added": "13285803964000000",
+                  "date_last_used": "0",
+                  "guid": "24c0db9a-172b-498f-af44-9d0bf811ee39",
+                  "id": "984",
+                  "name": "Code And Create | Web Development / Web Design | Udemy",
+                  "type": "url",
+                  "url": "https://www.udemy.com/user/codeandcreate/"
+               }, {
+                  "date_added": "13286033190000000",
+                  "date_last_used": "0",
+                  "guid": "8c6c44d4-d2cf-4b6b-996a-176b2ab634e9",
+                  "id": "985",
+                  "name": "MYCODE | Competitive Programming",
+                  "type": "url",
+                  "url": "https://mycode.prepbytes.com/competitive-coding/practice"
+               }, {
+                  "date_added": "13286579065000000",
+                  "date_last_used": "0",
+                  "guid": "78a5601b-928d-45e0-9d75-87fbf0127b23",
+                  "id": "986",
+                  "name": "Tabler Icons - 800+ Highly customizable free SVG icons",
+                  "type": "url",
+                  "url": "https://tablericons.com/"
+               }, {
+                  "date_added": "13286582084000000",
+                  "date_last_used": "0",
+                  "guid": "f2ec84e0-9b9d-4dc4-99cf-c95a60956689",
+                  "id": "987",
+                  "name": "Homepage - Material Design",
+                  "type": "url",
+                  "url": "https://material.io/"
+               }, {
+                  "date_added": "13286679028000000",
+                  "date_last_used": "0",
+                  "guid": "7089757b-966e-4d3a-ac69-0e229189ceba",
+                  "id": "988",
+                  "name": "3840x2160 Demon Black Clover 4K Wallpaper, HD Anime 4K Wallpapers, Images, Photos and Background - Wallpapers Den",
+                  "type": "url",
+                  "url": "https://wallpapersden.com/demon-black-clover-wallpaper/3840x2160/"
+               }, {
+                  "date_added": "13286854353000000",
+                  "date_last_used": "0",
+                  "guid": "b27fbab6-7ff5-499b-819f-3dbbb534dc27",
+                  "id": "989",
+                  "name": "CopyAI: Create Marketing Copy In Seconds",
+                  "type": "url",
+                  "url": "https://www.copy.ai/"
+               }, {
+                  "date_added": "13287198389000000",
+                  "date_last_used": "0",
+                  "guid": "ca3a3678-ab60-4fb6-804b-e9ae1f2731c5",
+                  "id": "990",
+                  "name": "c tutorials | Learn C Games Programming Blog",
+                  "type": "url",
+                  "url": "https://learncgames.com/tutorials/"
+               }, {
+                  "date_added": "13287198393000000",
+                  "date_last_used": "0",
+                  "guid": "4d68ba49-7da9-42d8-9cb5-d91da1801348",
+                  "id": "991",
+                  "name": "Distributed Services with Go",
+                  "type": "url",
+                  "url": "https://learning.oreilly.com/library/view/distributed-services-with/9781680508376/"
+               }, {
+                  "date_added": "13287226582000000",
+                  "date_last_used": "0",
+                  "guid": "83dd2420-ab50-4741-9ef1-ece9dc9ca422",
+                  "id": "992",
+                  "name": "Young GTO Home",
+                  "type": "url",
+                  "url": "http://shonanjunaigumi.weebly.com/young-gto-home.html"
+               }, {
+                  "date_added": "13277507473000000",
+                  "date_last_used": "0",
+                  "guid": "f6e82c35-d339-4678-8ac0-bca0b4e6059e",
+                  "id": "993",
+                  "name": "rby90/project-based-tutorials-in-c: A curated list of project-based tutorials in C",
+                  "type": "url",
+                  "url": "https://github.com/rby90/project-based-tutorials-in-c"
+               }, {
+                  "date_added": "13287430020000000",
+                  "date_last_used": "0",
+                  "guid": "86de36d0-adb1-41d5-a777-f5a71ee27d85",
+                  "id": "994",
+                  "name": "achrafelkhnissi/1337: This repository contains a collection of 42School cursus projects in addition to the pool/piscine days (with a detailed step by step explanation). Enjoy!",
+                  "type": "url",
+                  "url": "https://github.com/achrafelkhnissi/1337"
+               }, {
+                  "children": [ {
+                     "children": [ {
+                        "date_added": "13287432159000000",
+                        "date_last_used": "0",
+                        "guid": "340a9f98-2842-4887-a451-300ea6ad3447",
+                        "id": "997",
+                        "name": "go.pdf",
+                        "type": "url",
+                        "url": "https://www.openmymind.net/assets/go/go.pdf"
+                     }, {
+                        "date_added": "13287432210000000",
+                        "date_last_used": "0",
+                        "guid": "330196ec-2f51-49a3-a225-6e49821d50e6",
+                        "id": "998",
+                        "name": "The Go Programming Language",
+                        "type": "url",
+                        "url": "https://www.gopl.io/ch1.pdf"
+                     } ],
+                     "date_added": "13339980025150700",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "201ae36b-9a1e-4ff4-8f2e-0b0cc37385e3",
+                     "id": "996",
+                     "name": "golang",
+                     "type": "folder"
+                  }, {
+                     "children": [ {
+                        "date_added": "13287432558000000",
+                        "date_last_used": "0",
+                        "guid": "1a7d8930-ccac-495c-9a6c-ba1373f9e157",
+                        "id": "1000",
+                        "name": "C Programming Tutorial",
+                        "type": "url",
+                        "url": "https://www.unf.edu/~wkloster/2220/ppts/cprogramming_tutorial.pdf"
+                     }, {
+                        "date_added": "13287523952000000",
+                        "date_last_used": "0",
+                        "guid": "096dad52-0be4-480d-8209-589b9c29caec",
+                        "id": "1001",
+                        "name": "Free Programming Books – GoalKicker.com",
+                        "type": "url",
+                        "url": "https://goalkicker.com//"
+                     }, {
+                        "date_added": "13287586908000000",
+                        "date_last_used": "0",
+                        "guid": "4955ab7e-46c0-439e-8513-f0c43ef89e1b",
+                        "id": "1002",
+                        "name": "DjVu Document",
+                        "type": "url",
+                        "url": "https://kremlin.cc/rob.pdf"
+                     }, {
+                        "date_added": "13287586914000000",
+                        "date_last_used": "0",
+                        "guid": "0af23a13-ffb0-49a8-ab16-783a8a6d0961",
+                        "id": "1003",
+                        "name": "beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf",
+                        "type": "url",
+                        "url": "http://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf"
+                     }, {
+                        "date_added": "13287879907000000",
+                        "date_last_used": "0",
+                        "guid": "920dc2c2-7f4a-4de3-a6ef-865d3f7b78d4",
+                        "id": "1004",
+                        "name": "bnb/awesome-developer-streams: 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming",
+                        "type": "url",
+                        "url": "https://github.com/bnb/awesome-developer-streams#adam13531"
+                     }, {
+                        "date_added": "13288236733000000",
+                        "date_last_used": "0",
+                        "guid": "8de94cd8-35dd-48f7-94f3-b6ff56766554",
+                        "id": "1005",
+                        "name": "Data Structures and Algorithms using C++ : Zero To Mastery | Harsh Kajla | Skillshare",
+                        "type": "url",
+                        "url": "https://www.skillshare.com/classes/Data-Structures-and-Algorithms-using-C-Zero-To-Mastery/109572333/projects?via=user-profile"
+                     }, {
+                        "date_added": "13288563794000000",
+                        "date_last_used": "0",
+                        "guid": "0f31740e-fc21-4f25-96d0-37b56a95b50d",
+                        "id": "1006",
+                        "name": "∑ Xah Code",
+                        "type": "url",
+                        "url": "http://xahlee.info/index.html"
+                     } ],
+                     "date_added": "13339980025150850",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "1514f509-3570-422f-959f-889eacd7d4b9",
+                     "id": "999",
+                     "name": "C-lang",
+                     "type": "folder"
+                  } ],
+                  "date_added": "13339980025150644",
+                  "date_last_used": "0",
+                  "date_modified": "13339980025150644",
+                  "guid": "9a26dbb3-a346-456c-8385-c34c41eacb2d",
+                  "id": "995",
+                  "name": "prog-pdf",
+                  "type": "folder"
+               }, {
+                  "date_added": "13288598465000000",
+                  "date_last_used": "0",
+                  "guid": "d65396fe-57e7-4427-be2d-4de4406e7309",
+                  "id": "1007",
+                  "name": "Folder - Send.cm",
+                  "type": "url",
+                  "url": "https://send.cm/s/6ON/CSGO"
+               }, {
+                  "date_added": "13288671299000000",
+                  "date_last_used": "0",
+                  "guid": "95e13750-674f-4df0-876d-4ee0263cf756",
+                  "id": "1008",
+                  "name": "EggHead .io - Complete Siterip Collection",
+                  "type": "url",
+                  "url": "https://rentry.co/ud3um"
+               }, {
+                  "date_added": "13288857001000000",
+                  "date_last_used": "0",
+                  "guid": "05d04147-6827-42b2-b476-5f1666975b3e",
+                  "id": "1009",
+                  "name": "Getting Started With Vim - A Practical Guide",
+                  "type": "url",
+                  "url": "https://www.jakewiesler.com/blog/getting-started-with-vim"
+               }, {
+                  "date_added": "13289271049000000",
+                  "date_last_used": "0",
+                  "guid": "62fe12a5-e781-4884-b6db-118eb3c3ccb6",
+                  "id": "1010",
+                  "name": "0xRick's Blog",
+                  "type": "url",
+                  "url": "https://0xrick.github.io/"
+               }, {
+                  "date_added": "13289321857000000",
+                  "date_last_used": "0",
+                  "guid": "c3aa3d25-797c-4779-a76b-19336cf890e2",
+                  "id": "1011",
+                  "name": "Comprehensive Data Structure and Algorithm Study Guide - LeetCode Discuss",
+                  "type": "url",
+                  "url": "https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide"
+               }, {
+                  "date_added": "13289321864000000",
+                  "date_last_used": "0",
+                  "guid": "e58efb83-f34b-458a-9058-d6f21795b092",
+                  "id": "1012",
+                  "name": "Leetcode Patterns",
+                  "type": "url",
+                  "url": "https://seanprashad.com/leetcode-patterns/"
+               }, {
+                  "date_added": "13289657303000000",
+                  "date_last_used": "0",
+                  "guid": "5cb3e250-c097-42ef-adfd-9b3864809d74",
+                  "id": "1013",
+                  "name": "PortSwigger",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=github+ssrf+google&rlz=1C1CHBF_enUS988US988&oq=github+ssrf+google&aqs=chrome.0.69i59j69i57j69i64.9982j0j4&sourceid=chrome&ie=UTF-8"
+               }, {
+                  "date_added": "13289891285000000",
+                  "date_last_used": "0",
+                  "guid": "171d75c8-aede-4a1e-bc72-1823e6957146",
+                  "id": "1014",
+                  "name": "FrontendMasters - Complete Siterip Collection",
+                  "type": "url",
+                  "url": "https://rentry.co/iesue"
+               }, {
+                  "date_added": "13290039905000000",
+                  "date_last_used": "0",
+                  "guid": "1fdae0b5-bd46-4ddc-b60f-fc174a9fad24",
+                  "id": "1015",
+                  "name": "https://drive.tutflix.org/#ZGVjcnlwdC50dXRmbGl4LmNvbS9kZWNyeXB0LnBocDtnZGVmYy50dXRuZXRmbGl4Lndvcm...",
+                  "type": "url",
+                  "url": "https://rentry.co/pf7Uy4VBDQEAyFnQeSBfXN3"
+               }, {
+                  "date_added": "13290096032000000",
+                  "date_last_used": "0",
+                  "guid": "315754a2-93f5-4dda-bad7-3a888a2b50af",
+                  "id": "1016",
+                  "name": "KingOfBugbounty/KingOfBugBountyTips: Our main goal is to share tips from some well-known bughunters. Using recon methodology, we are able to find subdomains, apis, and tokens that are already exploitable, so we can report them. We wish to influence Onelinetips and explain the commands, for the better understanding of new hunters..",
+                  "type": "url",
+                  "url": "https://github.com/KingOfBugbounty/KingOfBugBountyTips"
+               }, {
+                  "date_added": "13290115701000000",
+                  "date_last_used": "0",
+                  "guid": "8f11d8e0-a026-4323-a5c0-1fb2f0a5720d",
+                  "id": "1017",
+                  "name": "python jumpstart 20 projects",
+                  "type": "url",
+                  "url": "https://mega.nz/folder/76YCVZKS#hjzkYRprU9qRQ-ozBTtdXw/folder/mzYjGQ5C"
+               }, {
+                  "date_added": "13290661685000000",
+                  "date_last_used": "0",
+                  "guid": "a4a35a8d-2a6c-44ed-9e2c-b958c9ab334e",
+                  "id": "1018",
+                  "name": "After Recon - Bug Hunter Handbook",
+                  "type": "url",
+                  "url": "https://gowthams.gitbook.io/bughunter-handbook/list-of-vulnerabilities-bugs/recon-and-osint/after-recon"
+               }, {
+                  "date_added": "13290663867000000",
+                  "date_last_used": "0",
+                  "guid": "a679821a-342f-4bad-b337-08226c0a2793",
+                  "id": "1019",
+                  "name": "Google Drive Links heaven mega collection free download all courses - Google Drive Links",
+                  "type": "url",
+                  "url": "https://googledrivelinks.com/google-drive-links-heaven-mega-collection-free-download-all-courses/"
+               }, {
+                  "date_added": "13291182434000000",
+                  "date_last_used": "0",
+                  "guid": "8b5fdf42-fc84-4a1d-ae13-e21aa78dda53",
+                  "id": "1020",
+                  "name": "carols daughter coco creme - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=carols+daughter+coco+creme&rlz=1C1CHBF_enUS994US994&oq=carols+daughter+coco+creme&aqs=chrome..69i57.2246288546j0j0&sourceid=chrome&ie=UTF-8"
+               }, {
+                  "date_added": "13291522979000000",
+                  "date_last_used": "0",
+                  "guid": "577ae2bc-952a-4ac1-a08c-aa2da28b402c",
+                  "id": "1021",
+                  "name": "devChallenges.io | Real-life Coding Challenges to become a Software Engineer",
+                  "type": "url",
+                  "url": "https://devchallenges.io/"
+               }, {
+                  "date_added": "13291535847000000",
+                  "date_last_used": "0",
+                  "guid": "b40724b5-1160-4002-9917-bbf95cda6c76",
+                  "id": "1022",
+                  "name": "Canon PIXMA TR4720 Wireless All-In-One Inkjet Printer Black 5074C002 - Best Buy",
+                  "type": "url",
+                  "url": "https://www.bestbuy.com/site/canon-pixma-tr4720-wireless-all-in-one-inkjet-printer-black/6477031.p?skuId=6477031&ref=212&loc=1&extStoreId=281&ref=212&loc=1&gclid=CjwKCAiAg6yRBhBNEiwAeVyL0Hoqg_E4auWLIl7h2LIogjBerQuvMVp_lLKCWXgSVNqX6mBN-Dwl3RoC4TQQAvD_BwE&gclsrc=aw.ds"
+               }, {
+                  "date_added": "13292843563000000",
+                  "date_last_used": "13340059750006356",
+                  "guid": "0f616de1-bacf-4d87-b795-4b62ab1e397d",
+                  "id": "1023",
+                  "name": "ZenPen ~ Minimal Distraction, Maximum Zen",
+                  "type": "url",
+                  "url": "https://zenpen.io/"
+               }, {
+                  "date_added": "13292877781000000",
+                  "date_last_used": "0",
+                  "guid": "4d67ebcc-3d30-4c86-89d4-127389dc7f43",
+                  "id": "1024",
+                  "name": "Table of Contents - Rust Cookbook",
+                  "type": "url",
+                  "url": "https://rust-lang-nursery.github.io/rust-cookbook/intro.html"
+               }, {
+                  "date_added": "13293360522000000",
+                  "date_last_used": "13340059779391460",
+                  "guid": "66089090-a54a-4ae6-8852-0775a12c1967",
+                  "id": "1025",
+                  "name": "Grid by Example - Usage examples of CSS Grid Layout",
+                  "type": "url",
+                  "url": "https://gridbyexample.com/examples/"
+               }, {
+                  "date_added": "13294986486000000",
+                  "date_last_used": "13341089059175114",
+                  "guid": "f589420d-daf4-4f52-a07d-3a3e28823983",
+                  "id": "1026",
+                  "name": "Aizu Online Judge",
+                  "type": "url",
+                  "url": "https://onlinejudge.u-aizu.ac.jp/challenges/sources/ICPC/Prelim"
+               }, {
+                  "date_added": "13294986496000000",
+                  "date_last_used": "13340059796417027",
+                  "guid": "95c62e2d-958a-4e31-97b8-af9a56e23832",
+                  "id": "1027",
+                  "name": "Training Materials (2022) – Hong Kong Olympiad in Informatics",
+                  "type": "url",
+                  "url": "https://hkoi.org/en/training-materials/2022/"
+               }, {
+                  "date_added": "13297492241000000",
+                  "date_last_used": "0",
+                  "guid": "7d947f98-0268-443f-904b-1d233cb7ea5c",
+                  "id": "1028",
+                  "name": "d",
+                  "type": "url",
+                  "url": "https://quizlet.com/151797743/literary-devices-flash-cards/"
+               }, {
+                  "date_added": "13297572107000000",
+                  "date_last_used": "0",
+                  "guid": "80bc4c21-bce0-4fae-aaa6-2e15f33c3921",
+                  "id": "1029",
+                  "name": "data",
+                  "type": "url",
+                  "url": "https://www.youtube.com/user/pantechsolutions/playlists"
+               }, {
+                  "date_added": "13297750046000000",
+                  "date_last_used": "0",
+                  "guid": "239bc534-53fa-4f79-8639-d12008f3b64b",
+                  "id": "1030",
+                  "name": "supehi-css-js",
+                  "type": "url",
+                  "url": "https://rentry.co/TMK4T59qfdyUuF5EjgxxD4u"
+               }, {
+                  "date_added": "13298581203000000",
+                  "date_last_used": "0",
+                  "guid": "242774f5-3a38-4f38-a86a-9bade0b5643c",
+                  "id": "1031",
+                  "name": "umi on Twitter: \"If your hair is curly make sure you use Coconut and Almond oil.\" / Twitter",
+                  "type": "url",
+                  "url": "https://twitter.com/suqaaaar/status/1532045629719040001"
+               }, {
+                  "date_added": "13298832520000000",
+                  "date_last_used": "0",
+                  "guid": "038ecca6-229e-4c39-8831-9536c1b9be55",
+                  "id": "1032",
+                  "name": "d",
+                  "type": "url",
+                  "url": "https://www.youtube.com/playlist?list=PLMcpDl1Pr-viA25VUkHNmcUkWx9usPgyb"
+               }, {
+                  "date_added": "13299546615000000",
+                  "date_last_used": "0",
+                  "guid": "1fcdf0ad-5321-463a-87ab-d59678ba1d29",
+                  "id": "1033",
+                  "name": "Getting Started | JSchallenger",
+                  "type": "url",
+                  "url": "https://www.jschallenger.com/start"
+               }, {
+                  "date_added": "13299652399000000",
+                  "date_last_used": "0",
+                  "guid": "e2caaf5c-a683-427d-b0eb-c2382d1e021b",
+                  "id": "1034",
+                  "name": "How To Get Started in the Tech Industry - DEV Community",
+                  "type": "url",
+                  "url": "https://dev.to/mishaeldada/how-to-get-started-in-the-tech-industry-1k0i"
+               }, {
+                  "date_added": "13299998980000000",
+                  "date_last_used": "0",
+                  "guid": "eba9839e-3ff8-48b9-947c-bb7fa2cc838d",
+                  "id": "1035",
+                  "name": "Learn Data Structures and Algorithms | DSA tutorials | CodeChef",
+                  "type": "url",
+                  "url": "https://www.codechef.com/certification/data-structures-and-algorithms/prepare"
+               }, {
+                  "date_added": "13300862683000000",
+                  "date_last_used": "0",
+                  "guid": "49ba71da-2362-4f2a-891a-385c1fb741c7",
+                  "id": "1036",
+                  "name": "RSO Blog | Get High Quality Tips and Tricks",
+                  "type": "url",
+                  "url": "https://blog.receivefreesms.co.uk/"
+               }, {
+                  "date_added": "13300865037000000",
+                  "date_last_used": "0",
+                  "guid": "c6a5824a-7243-496d-891a-7ab74b8f5635",
+                  "id": "1037",
+                  "name": "Why Rust? | Learning Rust",
+                  "type": "url",
+                  "url": "https://learning-rust.github.io/docs/a1.why_rust.html"
+               }, {
+                  "date_added": "13301016304000000",
+                  "date_last_used": "0",
+                  "guid": "35493af2-1894-4a8e-818e-a1843fc349f8",
+                  "id": "1038",
+                  "name": "CSCI 0300/1310: Fundamentals of Computer Systems",
+                  "type": "url",
+                  "url": "http://cs.brown.edu/courses/csci0300/2022/schedule.html"
+               }, {
+                  "date_added": "13301870052000000",
+                  "date_last_used": "0",
+                  "guid": "d4e3b224-2c25-42c2-8c7a-e1f6b61198dd",
+                  "id": "1039",
+                  "name": "Freesoff.com - Free Courses, Software and Useful Methods",
+                  "type": "url",
+                  "url": "https://freesoff.com/"
+               }, {
+                  "children": [ {
+                     "date_added": "13306452000000000",
+                     "date_last_used": "0",
+                     "guid": "0ee2888e-f81c-4653-837e-4be2e9d8e0ba",
+                     "id": "1041",
+                     "name": "Walmart USA Advanced Software Engineering - Forage",
+                     "type": "url",
+                     "url": "https://www.theforage.com/virtual-internships/prototype/oX6f9BbCL9kJDJzfg/Walmart-Software-Engineering-Virtual-Experience-Program?ref=jpaJkwBSjGidmaSiG"
+                  }, {
+                     "date_added": "13306452018000000",
+                     "date_last_used": "0",
+                     "guid": "65d58e64-4b60-49ba-a151-425d4dc9b503",
+                     "id": "1042",
+                     "name": "J.P. Morgan Software Engineering - Forage",
+                     "type": "url",
+                     "url": "https://www.theforage.com/virtual-internships/prototype/R5iK7HMxJGBgaSbvk/JP-Morgan-Banking-Technology-Virtual-Program?ref=jpaJkwBSjGidmaSiG"
+                  }, {
+                     "date_added": "13306452021000000",
+                     "date_last_used": "0",
+                     "guid": "34743747-6cd9-4fcf-8c70-aea9aa87928d",
+                     "id": "1043",
+                     "name": "Accenture North America Coding: Development & Advanced Engineering - Forage",
+                     "type": "url",
+                     "url": "https://www.theforage.com/virtual-internships/prototype/XvvYRvb2YpfkyA52H/Coding-Virtual-Experience?ref=jpaJkwBSjGidmaSiG"
+                  }, {
+                     "date_added": "13306452023000000",
+                     "date_last_used": "0",
+                     "guid": "abda00b1-48c4-41d7-b27a-6fd0709ba54b",
+                     "id": "1044",
+                     "name": "Quantium Software Engineering - Forage",
+                     "type": "url",
+                     "url": "https://www.theforage.com/virtual-internships/prototype/jhiG2W9K8KLZK8nXP/Quantium:-Software-Engineering-Virtual-Experience-Program?ref=jpaJkwBSjGidmaSiG"
+                  }, {
+                     "date_added": "13308713610000000",
+                     "date_last_used": "0",
+                     "guid": "6aa033fd-9957-495e-9d64-962d975cbc63",
+                     "id": "1045",
+                     "name": "GitHub - hackermancool/TypeCheat: A JS script to cheat on certain online typing tests.",
+                     "type": "url",
+                     "url": "javascript:/* *    TypeCheat - A JS script to cheat on certain online typing tests *    Copyright (C) 2020  hackermancool * *    This program is free software: you can redistribute it and/or modify *    it under the terms of the GNU General Public License as published by *    the Free Software Foundation, either version 3 of the License, or *    (at your option) any later version. * *    This program is distributed in the hope that it will be useful, *    but WITHOUT ANY WARRANTY; without even the implied warranty of *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the *    GNU General Public License for more details. * *    You should have received a copy of the GNU General Public License *    along with this program.  If not, see \u003Chttps://www.gnu.org/licenses/>. */let tText,tWords,cWord,tField,workWord,url=window.location.href.split(\"/\")[2].replace(\"www.\",\"\"),site=-1,altMode=0;switch(url){case\"10fastfingers.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite: 10FastFingers\\n~~~~~~~~~~~~~~~~~~~\"),site=0,\"text\"==window.location.href.split(\"/\")[3]&&(altMode=1);break;case\"typeracer.com\":case\"play.typeracer.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:     TypeRacer\\n~~~~~~~~~~~~~~~~~~~\"),site=1;break;case\"typingtestnow.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite: TypingTestNow\\n~~~~~~~~~~~~~~~~~~~\"),site=2;break;case\"bing.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:     Bing Test\\n~~~~~~~~~~~~~~~~~~~\"),site=3;break;case\"livechat.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:  LiveChat\\n~~~~~~~~~~~~~~~~~~~\"),site=4;break;case\"quicktypingtest.com\":console.log(\" ~~~~~~~~~~~~~~~~~~~\\n  TypeCheat Active! \\nSite: QuickTypingTest\\n ~~~~~~~~~~~~~~~~~~~\"),site=5;break;case\"typing-speed-test.aoeu.eu\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:     AOEU Test\\n~~~~~~~~~~~~~~~~~~~\"),site=6;break;case\"indiatyping.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:  India Typing\\n~~~~~~~~~~~~~~~~~~~\"),site=7}switch(site){case 0:tText=document.getElementById(\"row1\"),tWords=[];for(let e=0;e\u003CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,tField=null,0==altMode?tField=document.getElementById(%22inputfield%22):1==altMode&&(tField=document.getElementById(%22text_typed%22)),tField.addEventListener(%22keyup%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%201:tText=document.querySelector(%22.inputPanel%22).firstChild.firstChild.firstChild.firstChild.firstChild.firstChild,tWords=tText.innerText.split(%22%20%22),cWord=0,(tField=document.querySelector(%22.txtInput%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%202:tText=document.getElementsByClassName(%22sample-text%22)[0],tWords=[];for(let%20e=0;e%3CtText.children.length;e++)for(let%20t=0;t%3CtText.children[e].children.length;t++)tWords.push(tText.children[e].children[t].innerText);cWord=0,(tField=document.getElementById(%22practice-input%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%203:tText=document.getElementById(%22edu_promptText%22),tWords=[],workWord=%22%22;for(let%20e=0;e%3CtText.children.length;e++)for(let%20t=0;t%3CtText.children[e].children.length;t++)%22space%22==tText.children[e].children[t].className?(tWords.push(workWord),workWord=%22%22):workWord+=tText.children[e].children[t].innerText;cWord=0,(tField=document.getElementById(%22edu_inputText%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value+=tWords[cWord],cWord++)});break;case%204:tText=document.getElementsByClassName(%22tst-input-wrapper%22)[1],tWords=[];for(let%20e=0;e%3CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,(tField=document.getElementById(%22test-input%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.innerText=tWords[cWord],cWord++,tText.lastChild.innerText!=tWords.slice(-1)&&tWords.push(tText.lastChild.innerText))});break;case%205:tText=document.querySelector(%22#text-display%22),tWords=[],workWord=%22%22;for(let%20e=0;e%3CtText.children.length;e++){workWord=%22%22;for(let%20t=0;t%3CtText.children[e].children.length;t++)workWord+=tText.children[e].children[t].innerText;tWords.push(workWord)}cWord=0,(tField=document.getElementById(%22text-input%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value+=tWords[cWord],cWord++)});break;case%206:tText=document.getElementById(%22words%22),tWords=[];for(let%20e=0;e%3CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,(tField=document.getElementById(%22input%22)).addEventListener(%22keyup%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%207:tText=document.getElementById(%22blockrandom%22).contentDocument.getElementById(%22unicodeText%22),tWords=[];for(let%20e=0;e%3CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,(tField=document.getElementById(%22blockrandom%22).contentDocument.getElementById(%22toType%22)).addEventListener(%22keyup%22,function(e){32==e.keyCode&&(tField.value+=tWords[cWord],cWord++)})}"
+                  }, {
+                     "date_added": "13308713645000000",
+                     "date_last_used": "0",
+                     "guid": "30b2d621-4d5c-4ec7-b0dc-32a0d4e75551",
+                     "id": "1046",
+                     "name": "GitHub - hackermancool/TypeCheat: A JS script to cheat on certain online typing tests.",
+                     "type": "url",
+                     "url": "https://github.com/hackermancool/TypeCheat"
+                  }, {
+                     "date_added": "13308713647000000",
+                     "date_last_used": "0",
+                     "guid": "d42532fc-9697-4345-a07a-fae331d002ae",
+                     "id": "1047",
+                     "name": "Keyboarding Online - Lesson 6 - Comma Key, Letter U, Caps Lock",
+                     "type": "url",
+                     "url": "javascript:/* *    TypeCheat - A JS script to cheat on certain online typing tests *    Copyright (C) 2020  hackermancool * *    This program is free software: you can redistribute it and/or modify *    it under the terms of the GNU General Public License as published by *    the Free Software Foundation, either version 3 of the License, or *    (at your option) any later version. * *    This program is distributed in the hope that it will be useful, *    but WITHOUT ANY WARRANTY; without even the implied warranty of *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the *    GNU General Public License for more details. * *    You should have received a copy of the GNU General Public License *    along with this program.  If not, see \u003Chttps://www.gnu.org/licenses/>. */let tText,tWords,cWord,tField,workWord,url=window.location.href.split(\"/\")[2].replace(\"www.\",\"\"),site=-1,altMode=0;switch(url){case\"10fastfingers.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite: 10FastFingers\\n~~~~~~~~~~~~~~~~~~~\"),site=0,\"text\"==window.location.href.split(\"/\")[3]&&(altMode=1);break;case\"typeracer.com\":case\"play.typeracer.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:     TypeRacer\\n~~~~~~~~~~~~~~~~~~~\"),site=1;break;case\"typingtestnow.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite: TypingTestNow\\n~~~~~~~~~~~~~~~~~~~\"),site=2;break;case\"bing.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:     Bing Test\\n~~~~~~~~~~~~~~~~~~~\"),site=3;break;case\"livechat.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:  LiveChat\\n~~~~~~~~~~~~~~~~~~~\"),site=4;break;case\"quicktypingtest.com\":console.log(\" ~~~~~~~~~~~~~~~~~~~\\n  TypeCheat Active! \\nSite: QuickTypingTest\\n ~~~~~~~~~~~~~~~~~~~\"),site=5;break;case\"typing-speed-test.aoeu.eu\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:     AOEU Test\\n~~~~~~~~~~~~~~~~~~~\"),site=6;break;case\"indiatyping.com\":console.log(\"~~~~~~~~~~~~~~~~~~~\\n TypeCheat Active! \\nSite:  India Typing\\n~~~~~~~~~~~~~~~~~~~\"),site=7}switch(site){case 0:tText=document.getElementById(\"row1\"),tWords=[];for(let e=0;e\u003CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,tField=null,0==altMode?tField=document.getElementById(%22inputfield%22):1==altMode&&(tField=document.getElementById(%22text_typed%22)),tField.addEventListener(%22keyup%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%201:tText=document.querySelector(%22.inputPanel%22).firstChild.firstChild.firstChild.firstChild.firstChild.firstChild,tWords=tText.innerText.split(%22%20%22),cWord=0,(tField=document.querySelector(%22.txtInput%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%202:tText=document.getElementsByClassName(%22sample-text%22)[0],tWords=[];for(let%20e=0;e%3CtText.children.length;e++)for(let%20t=0;t%3CtText.children[e].children.length;t++)tWords.push(tText.children[e].children[t].innerText);cWord=0,(tField=document.getElementById(%22practice-input%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%203:tText=document.getElementById(%22edu_promptText%22),tWords=[],workWord=%22%22;for(let%20e=0;e%3CtText.children.length;e++)for(let%20t=0;t%3CtText.children[e].children.length;t++)%22space%22==tText.children[e].children[t].className?(tWords.push(workWord),workWord=%22%22):workWord+=tText.children[e].children[t].innerText;cWord=0,(tField=document.getElementById(%22edu_inputText%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value+=tWords[cWord],cWord++)});break;case%204:tText=document.getElementsByClassName(%22tst-input-wrapper%22)[1],tWords=[];for(let%20e=0;e%3CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,(tField=document.getElementById(%22test-input%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.innerText=tWords[cWord],cWord++,tText.lastChild.innerText!=tWords.slice(-1)&&tWords.push(tText.lastChild.innerText))});break;case%205:tText=document.querySelector(%22#text-display%22),tWords=[],workWord=%22%22;for(let%20e=0;e%3CtText.children.length;e++){workWord=%22%22;for(let%20t=0;t%3CtText.children[e].children.length;t++)workWord+=tText.children[e].children[t].innerText;tWords.push(workWord)}cWord=0,(tField=document.getElementById(%22text-input%22)).addEventListener(%22keydown%22,function(e){32==e.keyCode&&(tField.value+=tWords[cWord],cWord++)});break;case%206:tText=document.getElementById(%22words%22),tWords=[];for(let%20e=0;e%3CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,(tField=document.getElementById(%22input%22)).addEventListener(%22keyup%22,function(e){32==e.keyCode&&(tField.value=tWords[cWord],cWord++)});break;case%207:tText=document.getElementById(%22blockrandom%22).contentDocument.getElementById(%22unicodeText%22),tWords=[];for(let%20e=0;e%3CtText.children.length;e++)tWords.push(tText.children[e].innerText);cWord=0,(tField=document.getElementById(%22blockrandom%22).contentDocument.getElementById(%22toType%22)).addEventListener(%22keyup%22,function(e){32==e.keyCode&&(tField.value+=tWords[cWord],cWord++)})}"
+                  }, {
+                     "date_added": "13308713777000000",
+                     "date_last_used": "0",
+                     "guid": "304f515d-901c-45e2-ae92-83f042efa330",
+                     "id": "1048",
+                     "name": "Keyboarding Online - Lesson 6 - Comma Key, Letter U, Caps Lock",
+                     "type": "url",
+                     "url": "https://app2.keyboardingonline.com/lesson/kbm/5/14"
+                  }, {
+                     "date_added": "13319967849000000",
+                     "date_last_used": "0",
+                     "guid": "cd9f5820-6604-4ff6-a9d5-bd6bf50716db",
+                     "id": "1049",
+                     "name": "Manga: Return of the 8th class Magician Chapter - 48-eng-li",
+                     "type": "url",
+                     "url": "https://www.mreader.co/reader/en/return-of-the-8th-class-magician-chapter-48-eng-li/#comment-5797784973"
+                  } ],
+                  "date_added": "13339980025156822",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "48dbaea0-320b-45ed-bd39-9032ee48d255",
+                  "id": "1040",
+                  "name": "TheForage",
+                  "type": "folder"
+               }, {
+                  "date_added": "13321646909000000",
+                  "date_last_used": "0",
+                  "guid": "40dbd0d3-52c5-4c5e-b705-a13f2a473807",
+                  "id": "1050",
+                  "name": "Hack Club Workshops – Hack Club",
+                  "type": "url",
+                  "url": "https://workshops.hackclub.com/"
+               }, {
+                  "date_added": "13321826494000000",
+                  "date_last_used": "0",
+                  "guid": "c5097f93-822a-49b9-a51c-80affd9ff013",
+                  "id": "1051",
+                  "name": "Essay - Write better.",
+                  "type": "url",
+                  "url": "https://essay.app/"
+               }, {
+                  "date_added": "13321826497000000",
+                  "date_last_used": "0",
+                  "guid": "2325a6e7-82c9-4492-9fa2-e673262780f0",
+                  "id": "1052",
+                  "name": "Essay_Writing_Guide.docx",
+                  "type": "url",
+                  "url": "https://docs.google.com/viewer?url=http://jordanbpeterson.com/wp-content/uploads/2018/02/Essay_Writing_Guide.docx"
+               }, {
+                  "date_added": "13322288969000000",
+                  "date_last_used": "0",
+                  "guid": "6fc6a29b-243f-4433-9fd7-34003fb3cc47",
+                  "id": "1053",
+                  "name": "AllAnime - All About Anime,Manga - AllAnime",
+                  "type": "url",
+                  "url": "https://allanime.to/"
+               }, {
+                  "date_added": "13324593798000000",
+                  "date_last_used": "0",
+                  "guid": "f98952be-ca10-4bc0-9e03-58bd1af5b0b4",
+                  "id": "1054",
+                  "name": "CMV: Immigrants can go back to their own country if they don't like the treatment they receive : changemyview",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/changemyview/comments/wz3hwt/cmv_immigrants_can_go_back_to_their_own_country/"
+               }, {
+                  "date_added": "13324734090000000",
+                  "date_last_used": "0",
+                  "guid": "c61f4fde-41df-4a33-92ef-e60f37b8f52c",
+                  "id": "1055",
+                  "name": "Java Roadmap for Beginners 2022",
+                  "type": "url",
+                  "url": "https://www.javaguides.net/2022/01/java-roadmap-for-beginners.html"
+               }, {
+                  "children": [ {
+                     "children": [ {
+                        "date_added": "13325632653000000",
+                        "date_last_used": "0",
+                        "guid": "8c3054fc-0197-4c2e-a59d-159f6d1762d8",
+                        "id": "1058",
+                        "name": "Problems - CodeAbbey",
+                        "type": "url",
+                        "url": "https://www.codeabbey.com/index/task_list/implementation"
+                     } ],
+                     "date_added": "13339980025159402",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "1ef76312-2c76-4b01-8f29-502348d4db07",
+                     "id": "1057",
+                     "name": "C++ Book",
+                     "type": "folder"
+                  } ],
+                  "date_added": "13339980025159314",
+                  "date_last_used": "0",
+                  "date_modified": "13339980025159314",
+                  "guid": "9c953500-2e0f-4211-a339-22d0bb11ca73",
+                  "id": "1056",
+                  "name": "Programs",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13327362689000000",
+                     "date_last_used": "13343869607126203",
+                     "guid": "2e591cb4-f754-4b80-b4d9-fdcd18b2070d",
+                     "id": "1060",
+                     "name": "Developer Pro Roadmap",
+                     "type": "url",
+                     "url": "https://famous-skirt-da8.notion.site/c19080f983d54d54aabd61bb3c8c5298?v=cf4330b1e8b24120b8f4784da9a6cb6d&p=c2cc73dd64974074a12beb8bbb62ae5f&pm=s"
+                  }, {
+                     "date_added": "13327362717000000",
+                     "date_last_used": "0",
+                     "guid": "2eaaa1a8-fe90-4cc9-bf56-2a8109f7873a",
+                     "id": "1061",
+                     "name": "Autodidact - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/@AutodidactOfficial/videos"
+                  }, {
+                     "date_added": "13321826486000000",
+                     "date_last_used": "0",
+                     "guid": "292d034f-608b-4e18-bd6a-a5a074bc5155",
+                     "id": "1062",
+                     "name": "Jordan Peterson | Great Books",
+                     "type": "url",
+                     "url": "https://www.jordanbpeterson.com/great-books/"
+                  }, {
+                     "date_added": "13328106606000000",
+                     "date_last_used": "0",
+                     "guid": "afc62fea-3493-4711-9717-bd3c4daf9c31",
+                     "id": "1063",
+                     "name": "git - the simple guide - no deep shit!",
+                     "type": "url",
+                     "url": "https://rogerdudler.github.io/git-guide/"
+                  }, {
+                     "date_added": "13329467745000000",
+                     "date_last_used": "0",
+                     "guid": "447dad39-e788-4203-97cb-0ea87279c7a9",
+                     "id": "1064",
+                     "name": "Sort by Popularity - Most Popular Movies and TV Shows tagged with keyword \"genius\" - IMDb",
+                     "type": "url",
+                     "url": "https://www.imdb.com/search/keyword/?keywords=genius&mode=detail&page=1&ref_=kw_ref_yr&sort=moviemeter,asc"
+                  } ],
+                  "date_added": "13339980025159552",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "4f5ae2d1-e5c5-4bba-995b-cb21fa35146a",
+                  "id": "1059",
+                  "name": "WebDev/JordanPeterson/Learning",
+                  "type": "folder"
+               }, {
+                  "date_added": "13330093158000000",
+                  "date_last_used": "0",
+                  "guid": "f21ea932-77d1-44d2-9851-fcd3315eba48",
+                  "id": "1065",
+                  "name": "git - the simple guide - no deep shit!",
+                  "type": "url",
+                  "url": "https://rogerdudler.github.io/git-guide/index.html"
+               }, {
+                  "date_added": "13331591418000000",
+                  "date_last_used": "0",
+                  "guid": "a6574107-b03d-4136-acdb-558cec81bc07",
+                  "id": "1066",
+                  "name": "Table of Contents - Practical Python Projects",
+                  "type": "url",
+                  "url": "https://practicalpython.yasoob.me/toc.html"
+               }, {
+                  "date_added": "13332550568000000",
+                  "date_last_used": "0",
+                  "guid": "2b5cf3c5-5679-4b54-b3f7-4733801fe128",
+                  "id": "1067",
+                  "name": "PiPiADS - #1 TikTok Ads Spy Tool",
+                  "type": "url",
+                  "url": "https://www.pipiads.com/"
+               }, {
+                  "date_added": "13332550571000000",
+                  "date_last_used": "0",
+                  "guid": "f446e71d-7497-43b1-9cff-39c318e4a1cb",
+                  "id": "1068",
+                  "name": "E-Com With Jordan 2.0 - Jordan's Library",
+                  "type": "url",
+                  "url": "https://app.jordanslibrary.com/programs/ecom-with-jordan-2-0-2/?module=2"
+               }, {
+                  "date_added": "13334142742000000",
+                  "date_last_used": "13340142908246027",
+                  "guid": "0c732fe8-d7fe-4891-be1c-c51829c31e49",
+                  "id": "1069",
+                  "name": "Study resources : r/kaidomac",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/kaidomac/comments/li4gi3/study_resources/"
+               }, {
+                  "date_added": "13334189532000000",
+                  "date_last_used": "0",
+                  "guid": "c020bd3f-245d-4f1c-88d7-c163a97a7544",
+                  "id": "1070",
+                  "name": "MnCAP - The Minnesota Cooperative Admissions Program | Office of Admissions",
+                  "type": "url",
+                  "url": "https://admissions.tc.umn.edu/mncap-minnesota-cooperative-admissions-program"
+               }, {
+                  "date_added": "13334189535000000",
+                  "date_last_used": "0",
+                  "guid": "9a8e46ae-19b1-4919-a7bb-9e58db7fcf56",
+                  "id": "1071",
+                  "name": "General Requirements for Admission to the University in the Minnesota Cooperative Admissions Program (MnCAP) | Office of Admissions",
+                  "type": "url",
+                  "url": "https://admissions.tc.umn.edu/general-requirements-admission-university-minnesota-cooperative-admissions-program-mncap#cbs"
+               }, {
+                  "date_added": "13334189538000000",
+                  "date_last_used": "0",
+                  "guid": "87f49373-6a3a-4782-86b7-5ff37457b9a3",
+                  "id": "1072",
+                  "name": "Transfer to U of M | Minneapolis Community & Technical College",
+                  "type": "url",
+                  "url": "https://minneapolis.edu/transfer-u-m"
+               }, {
+                  "date_added": "13335258203000000",
+                  "date_last_used": "0",
+                  "guid": "6709ca20-39e8-49d3-9b19-17f65ed097ac",
+                  "id": "1073",
+                  "name": "Good First Issue: Issues for your first open-source contribution",
+                  "type": "url",
+                  "url": "https://goodfirstissue.dev/"
+               }, {
+                  "date_added": "13335263157000000",
+                  "date_last_used": "0",
+                  "guid": "6ebed5e0-d089-4704-b8f8-1b721d2adf43",
+                  "id": "1074",
+                  "name": "GitHub - chesal/Project-Based-Tutorials-in-C: A curated list of project-based tutorials in C",
+                  "type": "url",
+                  "url": "https://github.com/chesal/Project-Based-Tutorials-in-C"
+               }, {
+                  "date_added": "13335290797000000",
+                  "date_last_used": "0",
+                  "guid": "b89aaa89-85f4-4359-9f8c-0e5c666476d2",
+                  "id": "1075",
+                  "name": "GitHub - ndleah/python-mini-project: 🙌 Welcome open-source Python mini-project contributions!",
+                  "type": "url",
+                  "url": "https://github.com/ndleah/python-mini-project"
+               }, {
+                  "date_added": "13335305770000000",
+                  "date_last_used": "0",
+                  "guid": "eaaeb75c-10cb-456e-99cb-b4f7a23148fa",
+                  "id": "1076",
+                  "name": "Using Flexbox and Grid | The Odin Project",
+                  "type": "url",
+                  "url": "https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-using-flexbox-and-grid"
+               }, {
+                  "children": [ {
+                     "date_added": "13336165851000000",
+                     "date_last_used": "0",
+                     "guid": "00293285-4075-419d-8b82-58d8091dde7e",
+                     "id": "1078",
+                     "name": "PAPS.pdf",
+                     "type": "url",
+                     "url": "https://usaco.guide/PAPS.pdf#page=35"
+                  }, {
+                     "date_added": "13336165854000000",
+                     "date_last_used": "0",
+                     "guid": "cb0f48c8-c16a-4de7-8fcc-20751149bfc3",
+                     "id": "1079",
+                     "name": "Solve C++ | HackerRank",
+                     "type": "url",
+                     "url": "https://www.hackerrank.com/domains/cpp"
+                  }, {
+                     "date_added": "13336165857000000",
+                     "date_last_used": "0",
+                     "guid": "ce43b554-74c7-4907-b310-5eb4db647e77",
+                     "id": "1080",
+                     "name": "Problemset - Codeforces",
+                     "type": "url",
+                     "url": "https://codeforces.com/problemset/page/86?order=BY_RATING_DESC"
+                  }, {
+                     "date_added": "13336165860000000",
+                     "date_last_used": "0",
+                     "guid": "7ceb946e-be89-4d6f-bfbf-bb3251caecd8",
+                     "id": "1081",
+                     "name": "ITP1_1_C \u003C Lesson \u003C Courses | Aizu Online Judge",
+                     "type": "url",
+                     "url": "https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_C"
+                  }, {
+                     "date_added": "13336165864000000",
+                     "date_last_used": "0",
+                     "guid": "677879dc-1319-4dbf-bcf6-215089869961",
+                     "id": "1082",
+                     "name": "GitHub - hrsh7th/vim-vsnip: Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.",
+                     "type": "url",
+                     "url": "https://github.com/hrsh7th/vim-vsnip"
+                  }, {
+                     "date_added": "13336165872000000",
+                     "date_last_used": "0",
+                     "guid": "01ef5758-86c5-4074-adc5-73d8d6741f2a",
+                     "id": "1083",
+                     "name": "cplusplus.com/doc/tutorial/arrays/",
+                     "type": "url",
+                     "url": "https://cplusplus.com/doc/tutorial/arrays/"
+                  }, {
+                     "date_added": "13336165877000000",
+                     "date_last_used": "0",
+                     "guid": "ea8818c9-34ae-46fe-a927-f9656c51a397",
+                     "id": "1084",
+                     "name": "Problems – Kattis, Kattis",
+                     "type": "url",
+                     "url": "https://open.kattis.com/problems?page=0&order=difficulty_category"
+                  }, {
+                     "date_added": "13336192198000000",
+                     "date_last_used": "0",
+                     "guid": "5606975e-13eb-492a-a3d8-47042f1e0a03",
+                     "id": "1085",
+                     "name": "Competitive Programming Syllabus · GitHub",
+                     "type": "url",
+                     "url": "https://gist.github.com/sharmaeklavya2/8aa2830f3a46a3f46ff249b4e1f07767"
+                  }, {
+                     "children": [ {
+                        "date_added": "13336546096000000",
+                        "date_last_used": "13340060267601333",
+                        "guid": "0d3a8957-8a8c-466a-973a-653a694a789f",
+                        "id": "1087",
+                        "name": "book.dvi",
+                        "type": "url",
+                        "url": "http://www-personal.umich.edu/~bielajew/ENG101/book.pdf"
+                     }, {
+                        "date_added": "13336546111000000",
+                        "date_last_used": "13340060178200455",
+                        "guid": "b3bd41e3-5c31-4a78-b220-ad207a19e291",
+                        "id": "1088",
+                        "name": "CS106B Getting Your C++ Legs",
+                        "type": "url",
+                        "url": "https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1238/assignments/1-cpp/"
+                     } ],
+                     "date_added": "13339980025161990",
+                     "date_last_used": "0",
+                     "date_modified": "0",
+                     "guid": "20e514a4-426f-40e2-827b-e18e5f82b512",
+                     "id": "1086",
+                     "name": "C++",
+                     "type": "folder"
+                  } ],
+                  "date_added": "13339980025161109",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "c30b1f75-fd4e-47fc-aa98-591edc129f5e",
+                  "id": "1077",
+                  "name": "Competitive Programming",
+                  "type": "folder"
+               }, {
+                  "date_added": "13336758375000000",
+                  "date_last_used": "0",
+                  "guid": "3ee53a7b-a3fc-4518-8765-46a381f52df2",
+                  "id": "1089",
+                  "name": "Free Financial Dashboard | Wake Up Freely",
+                  "type": "url",
+                  "url": "https://www.wakeupfreely.com/dashboard"
+               }, {
+                  "date_added": "13336815845000000",
+                  "date_last_used": "13340144282620219",
+                  "guid": "79cc0bd5-6bfa-4f80-af8e-8f021a10aa18",
+                  "id": "1090",
+                  "name": "GitHub - kunal-kushwaha/DSA-Bootcamp-Java: This repository consists of the code samples, assignments, and notes for the Java Data Structures & Algorithms + interview preparation bootcamp of WeMakeDevs.",
+                  "type": "url",
+                  "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java"
+               }, {
+                  "date_added": "13336815853000000",
+                  "date_last_used": "0",
+                  "guid": "15b1d1ae-079d-4bd1-aebe-6a3d825ea78b",
+                  "id": "1091",
+                  "name": "Java + DSA + Interview Preparation Course - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ"
+               }, {
+                  "date_added": "13336886578000000",
+                  "date_last_used": "0",
+                  "guid": "8ce4c486-3802-4b2c-b73f-97a51e052a81",
+                  "id": "1092",
+                  "name": "Kostya's Recommendations | Patreon",
+                  "type": "url",
+                  "url": "https://www.patreon.com/posts/27108166"
+               }, {
+                  "date_added": "13337120291000000",
+                  "date_last_used": "13340128999237400",
+                  "guid": "11a5dcbb-6939-4ce5-b0c8-44803c720b71",
+                  "id": "1093",
+                  "name": "Structure and Interpretation of Computer Programs (SICP) - Hexlet SICP",
+                  "type": "url",
+                  "url": "https://sicp.hexlet.io/"
+               }, {
+                  "date_added": "13337120534000000",
+                  "date_last_used": "0",
+                  "guid": "a2808df2-75b6-47ba-8747-9a84aff2cffb",
+                  "id": "1094",
+                  "name": "C++ Type Casts Introduction | hacking C++",
+                  "type": "url",
+                  "url": "https://hackingcpp.com/cpp/lang/type_casts.html"
+               }, {
+                  "date_added": "13337120542000000",
+                  "date_last_used": "0",
+                  "guid": "0f12d120-cbdb-4c79-aac8-9e89541f8c2c",
+                  "id": "1095",
+                  "name": "C++ Beginner's Guide for Python/Java/... Programmers | hacking C++",
+                  "type": "url",
+                  "url": "https://hackingcpp.com/cpp/beginners_guide.html#intro"
+               }, {
+                  "date_added": "13337153423000000",
+                  "date_last_used": "0",
+                  "guid": "4f65dca9-86da-4623-b9da-31ba0326db78",
+                  "id": "1096",
+                  "name": "Trading-Interview-Questions/chapters/math.md at master · mikinty/Trading-Interview-Questions · GitHub",
+                  "type": "url",
+                  "url": "https://github.com/mikinty/Trading-Interview-Questions/blob/master/chapters/math.md"
+               }, {
+                  "date_added": "13337265352000000",
+                  "date_last_used": "0",
+                  "guid": "e22f18d9-a2c6-4e21-bd29-61b8f6677702",
+                  "id": "1097",
+                  "name": "Bug Bounty Cheatsheet",
+                  "type": "url",
+                  "url": "https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html"
+               }, {
+                  "date_added": "13337268094000000",
+                  "date_last_used": "0",
+                  "guid": "cc638d96-bd09-414c-86fe-82117c387b9d",
+                  "id": "1098",
+                  "name": "HackTricks - HackTricks",
+                  "type": "url",
+                  "url": "https://book.hacktricks.xyz/welcome/readme"
+               }, {
+                  "date_added": "13340129351064550",
+                  "date_last_used": "13341768731535372",
+                  "guid": "813ee6bd-dcb4-4a73-bcd7-2b74001cf5e7",
+                  "id": "1142",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "EWW Powermenu - dead airspace",
+                  "type": "url",
+                  "url": "https://dharmx.is-a.dev/eww-powermenu/#prerequisites"
+               }, {
+                  "date_added": "13340129367877538",
+                  "date_last_used": "0",
+                  "guid": "db95ba44-61d3-48f1-9368-f47aaf893a1c",
+                  "id": "1143",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "dharmx/vile: Waste of time. Smelly widgets feat. Spaghetti code. Built with eww-3.0.",
+                  "type": "url",
+                  "url": "https://github.com/dharmx/vile/tree/main"
+               }, {
+                  "date_added": "13340147183007912",
+                  "date_last_used": "13340894814755356",
+                  "guid": "ff59351b-3687-42c3-9226-a6fcd5cdcaaf",
+                  "id": "1144",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "CS1000",
+                  "type": "url",
+                  "url": "https://cs1000.vercel.app/"
+               }, {
+                  "date_added": "13340673313153875",
+                  "date_last_used": "13340894859240694",
+                  "guid": "40d8a27f-af26-46ba-90a3-c3490c0521e5",
+                  "id": "1146",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "EverythingMoe - Index of best Anime/Manga sites",
+                  "type": "url",
+                  "url": "https://everythingmoe.com/"
+               }, {
+                  "date_added": "13341367029176978",
+                  "date_last_used": "0",
+                  "guid": "bc2cac2e-a41d-4ab6-9b99-28801580627c",
+                  "id": "1150",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "umutsevdi/rofi-applets: Various useful applets developed with Rofi and shell-scripts.",
+                  "type": "url",
+                  "url": "https://github.com/umutsevdi/rofi-applets"
+               }, {
+                  "date_added": "13341739411309138",
+                  "date_last_used": "13343869569151567",
+                  "guid": "ac49fb6f-415a-401b-907a-d7741adffb5d",
+                  "id": "1152",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "jingyunliang/swinir – Run with an API on Replicate",
+                  "type": "url",
+                  "url": "https://replicate.com/jingyunliang/swinir?prediction=lelziqbbabnfudu5xr7jt4yaiq"
+               }, {
+                  "date_added": "13341985628770069",
+                  "date_last_used": "0",
+                  "guid": "919cc4e4-3246-4d1c-a463-d1a5b6ffb993",
+                  "id": "1154",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "rxyhn/tokyo: BSPWM - Aesthetic Dotfiles 🍚",
+                  "type": "url",
+                  "url": "https://github.com/rxyhn/tokyo/tree/main"
+               }, {
+                  "date_added": "13342852298003486",
+                  "date_last_used": "0",
+                  "guid": "5164c90e-4773-4b2c-b8b9-ed8ad0f5c012",
+                  "id": "1162",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Tail-R/xmonad_eww_dotfiles",
+                  "type": "url",
+                  "url": "https://github.com/Tail-R/xmonad_eww_dotfiles/tree/main"
+               }, {
+                  "date_added": "13343157788605210",
+                  "date_last_used": "13343869575287661",
+                  "guid": "58bdb23d-dab3-46ef-b080-465d84051807",
+                  "id": "1164",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Starting Python — Python Beginners documentation",
+                  "type": "url",
+                  "url": "https://python-adv-web-apps.readthedocs.io/en/latest/learn_python.html"
+               }, {
+                  "children": [ {
+                     "date_added": "13343508983439868",
+                     "date_last_used": "0",
+                     "guid": "86882b0a-7fab-4c77-834c-d6156c58877b",
+                     "id": "1166",
+                     "meta_info": {
+                        "power_bookmark_meta": ""
+                     },
+                     "name": "The Movie Archive",
+                     "type": "url",
+                     "url": "https://themoviearchive.site/"
+                  }, {
+                     "date_added": "13343509001671562",
+                     "date_last_used": "0",
+                     "guid": "a6672ecc-8b2b-4d72-b319-da7234b2492d",
+                     "id": "1168",
+                     "meta_info": {
+                        "power_bookmark_meta": ""
+                     },
+                     "name": "watch.lonelil.com",
+                     "type": "url",
+                     "url": "https://watch.lonelil.com/"
+                  }, {
+                     "date_added": "13343509008095080",
+                     "date_last_used": "0",
+                     "guid": "12176de8-f3fa-413a-b991-4a7763ad7550",
+                     "id": "1169",
+                     "meta_info": {
+                        "power_bookmark_meta": ""
+                     },
+                     "name": "HuraWatch | Watch Movies, TV Shows Online Free",
+                     "type": "url",
+                     "url": "https://hurawatch.bz/home"
+                  }, {
+                     "date_added": "13343517654801828",
+                     "date_last_used": "0",
+                     "guid": "ae103a7c-44a1-4272-ba48-2179568a026b",
+                     "id": "1171",
+                     "meta_info": {
+                        "power_bookmark_meta": ""
+                     },
+                     "name": "SUSFLIX",
+                     "type": "url",
+                     "url": "https://susflix.tv/all_movies"
+                  } ],
+                  "date_added": "13343508996982421",
+                  "date_last_used": "0",
+                  "date_modified": "13343525495665301",
+                  "guid": "ee8ba26a-ebd5-47a0-b625-6e87f9fcf23c",
+                  "id": "1167",
+                  "name": "Movies/Shows",
+                  "type": "folder"
+               }, {
+                  "date_added": "13343525495665301",
+                  "date_last_used": "0",
+                  "guid": "6563d1d4-4f14-4cdf-a923-c19d0b8b916c",
+                  "id": "1173",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Success Stories Archives - Modern States",
+                  "type": "url",
+                  "url": "https://modernstates.org/news_category/success-stories/"
+               }, {
+                  "date_added": "13344507917040990",
+                  "date_last_used": "0",
+                  "guid": "43728746-1d24-4914-88fa-be4b40522bee",
+                  "id": "1175",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "SheaMoisture Moisturizing Nourishing Daily Shampoo, Conditioner & Leave-in Conditioner Full Size Set with Shea Butter, Peppermint & Apple Cider Vinegar - 3 Piece - Walmart.com",
+                  "type": "url",
+                  "url": "https://www.walmart.com/ip/SheaMoisture-Moisturizing-Nourishing-Daily-Shampoo-Conditioner-Leave-in-Full-Size-Set-Shea-Butter-Peppermint-Apple-Cider-Vinegar-3-Piece/339783242?from=/search"
+               }, {
+                  "date_added": "13344703233165124",
+                  "date_last_used": "0",
+                  "guid": "5b86e74b-0978-497b-a652-002559cb21a7",
+                  "id": "1177",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "arpit-omprakash/100ProjectsOfCode: A list of practical knowledge-building projects.",
+                  "type": "url",
+                  "url": "https://github.com/arpit-omprakash/100ProjectsOfCode"
+               }, {
+                  "date_added": "13345380279954450",
+                  "date_last_used": "0",
+                  "guid": "2e77c0ae-23b8-4ddb-b7d7-969b2a8d8664",
+                  "id": "1179",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Foreword - CSDIY.wiki",
+                  "type": "url",
+                  "url": "https://csdiy.wiki/en/"
+               } ],
+               "date_added": "13339980025129651",
+               "date_last_used": "0",
+               "date_modified": "13345380279954450",
+               "guid": "14826ffa-1a3b-49ba-88d3-45940e188b71",
+               "id": "804",
+               "name": "Save",
+               "type": "folder"
+            }, {
+               "date_added": "13243123299000000",
+               "date_last_used": "0",
+               "guid": "ee25db20-f204-4381-bcaa-19a128d22af5",
+               "id": "1099",
+               "name": "Read manga online in english, you can also read manhua, manhwa in english for free. Tons of Isekai manga, manhua and manhwa are available.",
+               "type": "url",
+               "url": "https://isekaiscan.com/"
+            }, {
+               "date_added": "13243335227000000",
+               "date_last_used": "0",
+               "guid": "44e18dc3-b32d-4422-b769-0d9e9992e211",
+               "id": "1100",
+               "name": "How to Become a Software Engineer | Coursera",
+               "type": "url",
+               "url": "https://www.coursera.org/collections/how-to-become-software-engineer"
+            }, {
+               "date_added": "13243335421000000",
+               "date_last_used": "0",
+               "guid": "b39a8381-99bb-4ff3-a0cf-b0f86451713d",
+               "id": "1101",
+               "name": "Full Stack Web Development Courses & Certification | by Momentswithbren | Medium",
+               "type": "url",
+               "url": "https://medium.com/@brenspiration/full-stack-web-development-courses-certification-2c51c3552478"
+            }, {
+               "date_added": "13243336777000000",
+               "date_last_used": "0",
+               "guid": "589816a8-98cc-42b3-8025-5aca58132957",
+               "id": "1102",
+               "name": "https://www.google.com/url?sa=t&source=web&rct=j&url=https://static.realpython.com/python-basics-sample-chapters.pdf&ved=2ahUKEwi7gPjKhMXrAhUhAp0JHaZiBCgQFjAPegQIBxAB&usg=AOvVaw3XK-UokpNwQjr0IabPkgsf",
+               "type": "url",
+               "url": "https://www.google.com/url?sa=t&source=web&rct=j&url=https://static.realpython.com/python-basics-sample-chapters.pdf&ved=2ahUKEwi7gPjKhMXrAhUhAp0JHaZiBCgQFjAPegQIBxAB&usg=AOvVaw3XK-UokpNwQjr0IabPkgsf"
+            }, {
+               "date_added": "13243337036000000",
+               "date_last_used": "0",
+               "guid": "65d7ec4a-0f4d-44b4-bd82-6a5fd67731b7",
+               "id": "1103",
+               "name": "Python Exercises, Practice, Solution - w3resource",
+               "type": "url",
+               "url": "https://www.w3resource.com/python-exercises/"
+            }, {
+               "date_added": "13243337389000000",
+               "date_last_used": "0",
+               "guid": "df05d7f5-c449-4ad1-b054-214fbceee8a0",
+               "id": "1104",
+               "name": "Archived Problems - Project Euler",
+               "type": "url",
+               "url": "https://projecteuler.net/archives"
+            }, {
+               "date_added": "13243337533000000",
+               "date_last_used": "0",
+               "guid": "9914a882-7940-4a2f-b0d7-0fe5cd842f88",
+               "id": "1105",
+               "name": "15 Sites for Programming Exercises | Programming Zen",
+               "type": "url",
+               "url": "https://programmingzen.com/15-sites-for-programming-exercises/"
+            }, {
+               "date_added": "13243337732000000",
+               "date_last_used": "0",
+               "guid": "6d930600-7cdb-4b27-b846-93dd59ca7b08",
+               "id": "1106",
+               "name": "Programming Challenges | Programmr",
+               "type": "url",
+               "url": "http://www.programmr.com/exercises?lang=python"
+            }, {
+               "date_added": "13243340676000000",
+               "date_last_used": "0",
+               "guid": "3bf360e2-dc59-4cd4-a07a-1d3c0ea33acb",
+               "id": "1107",
+               "name": "How to Create the most Awesome Development Setup for Data Science using Atom? | by Rahul Agarwal | Aug, 2020 | Towards Data Science",
+               "type": "url",
+               "url": "https://towardsdatascience.com/how-to-create-the-most-awesome-development-setup-for-data-science-using-atom-261113b46be8"
+            }, {
+               "date_added": "13243424050000000",
+               "date_last_used": "0",
+               "guid": "1992e5bb-308f-40a6-945e-745e62bb7e4c",
+               "id": "1108",
+               "name": "Mangakakalot - Read Manga Online",
+               "type": "url",
+               "url": "https://mangakakalot.com/"
+            }, {
+               "date_added": "13243477225000000",
+               "date_last_used": "0",
+               "guid": "970cbe81-11a9-4c36-8ad5-13a38e402f78",
+               "id": "1109",
+               "name": "The 10 Books with the Most Page-For-Page Wisdom | James Clear",
+               "type": "url",
+               "url": "https://jamesclear.com/best-books/wisdom"
+            }, {
+               "date_added": "13243712083000000",
+               "date_last_used": "0",
+               "guid": "74e77a91-aad7-45e8-bdcf-8b8048ee6424",
+               "id": "1110",
+               "name": "Coursera | Online Courses & Credentials From Top Educators. Join for Free",
+               "type": "url",
+               "url": "https://www.coursera.org/learning-paths/data-science?utm_medium=coursera&utm_source=blog&utm_campaign=consumerfall2020"
+            }, {
+               "date_added": "13243736737000000",
+               "date_last_used": "0",
+               "guid": "5167e8cd-7ca7-4e0b-84d4-697814a0c390",
+               "id": "1111",
+               "name": "Python Projects for Beginners (Massive 2020 Update)",
+               "type": "url",
+               "url": "https://www.dataquest.io/blog/python-projects-for-beginners/"
+            }, {
+               "date_added": "13243737238000000",
+               "date_last_used": "0",
+               "guid": "1ad5561c-3ed8-4be4-8bc0-69bdafc65271",
+               "id": "1112",
+               "name": "42 Exciting Python Project Ideas & Topics for Beginners [2020] | upGrad blog",
+               "type": "url",
+               "url": "https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/#Web"
+            }, {
+               "date_added": "13245479334000000",
+               "date_last_used": "0",
+               "guid": "65c68be2-5214-432e-bebe-24e7663e12a5",
+               "id": "1113",
+               "name": "Contact - Sofia Fund",
+               "type": "url",
+               "url": "https://sofiafund.com/contact/"
+            }, {
+               "date_added": "13245565039000000",
+               "date_last_used": "0",
+               "guid": "61ff6aa7-11d2-4372-888a-c3a717da901b",
+               "id": "1114",
+               "name": "RISE Student Application Form",
+               "type": "url",
+               "url": "https://form.jotform.com/202525765615154"
+            }, {
+               "date_added": "13245741228000000",
+               "date_last_used": "0",
+               "guid": "8034a44b-d17f-4326-890f-f7a9d954994a",
+               "id": "1115",
+               "name": "Clutch Prep | Textbook-specific videos for college students",
+               "type": "url",
+               "url": "https://www.clutchprep.com/"
+            }, {
+               "date_added": "13245778582000000",
+               "date_last_used": "0",
+               "guid": "873fee0f-611c-48f5-8b2a-13a6664307fc",
+               "id": "1116",
+               "name": "Amazon.com : VIVO Single LCD Monitor Desk Mount Stand Fully Adjustable/Tilt/Articulating for 1 Screen 13\" to 27\" (STAND-V001) : Computer Monitor Stands : Office Products",
+               "type": "url",
+               "url": "https://www.amazon.com/VIVO-Monitor-Adjustable-Articulating-STAND-V001/dp/B00B21TLQU/ref=sr_1_9?dchild=1&keywords=monitor%2Barm&qid=1601304799&sr=8-9&th=1"
+            }, {
+               "date_added": "13246178960000000",
+               "date_last_used": "0",
+               "guid": "be89ef02-cfae-4542-adfc-d01cd779137f",
+               "id": "1117",
+               "name": "1D Motion",
+               "type": "url",
+               "url": "https://www.extraiq.org/physics/1d-motion"
+            }, {
+               "date_added": "13246487577000000",
+               "date_last_used": "0",
+               "guid": "0755e320-2496-4796-b4ff-5573cfe0b9dd",
+               "id": "1118",
+               "name": "You Don’t Need A Job To Get Data Science Experience | by Kurtis Pykes | Oct, 2020 | Towards Data Science",
+               "type": "url",
+               "url": "https://towardsdatascience.com/you-dont-need-a-job-to-get-data-science-experience-26af4fd4c200"
+            }, {
+               "date_added": "13248540997000000",
+               "date_last_used": "0",
+               "guid": "6a4c5e64-9238-402a-a068-eb7b71fc8ba1",
+               "id": "1119",
+               "name": "How to Get Into Data Science Without a Degree | by Terence S | Oct, 2020 | Towards Data Science",
+               "type": "url",
+               "url": "https://towardsdatascience.com/how-to-get-into-data-science-without-a-degree-2f84516f1afd"
+            }, {
+               "date_added": "13249388825000000",
+               "date_last_used": "0",
+               "guid": "bf4d8744-3377-47e4-9d9c-f4f2522e0dc5",
+               "id": "1120",
+               "name": "FROM 0 TO 100",
+               "type": "url",
+               "url": "http://igorvoitenko.com/from0to100"
+            }, {
+               "date_added": "13249484770000000",
+               "date_last_used": "0",
+               "guid": "3b7174d4-3ba2-4cee-8644-d787cff14669",
+               "id": "1121",
+               "name": "Correlation vs. Causation (A Mathographic) - Moz",
+               "type": "url",
+               "url": "https://moz.com/blog/correlation-vs-causation-mathographic"
+            }, {
+               "date_added": "13250775639000000",
+               "date_last_used": "0",
+               "guid": "7df43698-3dda-474e-895a-fd78b874f52c",
+               "id": "1122",
+               "name": "The GOAT. Let's graduate! We are a GPA-friendly collaborative study platform - ScieMce",
+               "type": "url",
+               "url": "https://sciemce.com/"
+            }, {
+               "date_added": "13251003259000000",
+               "date_last_used": "0",
+               "guid": "f66c89e3-a1b9-4a61-8791-afff37523ea7",
+               "id": "1123",
+               "name": "Online Training Courses & Classes",
+               "type": "url",
+               "url": "https://learn.forbes.com/catalog/courses"
+            }, {
+               "children": [ {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "039c6652-fbb5-43f1-8fdf-4947eaee4630",
+                  "id": "1126",
+                  "name": "DS-Tech Media - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/c/DSTechMedia/videos"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "e1260954-77be-4fa7-906a-f6fa23dab6fc",
+                  "id": "1127",
+                  "name": "linux rice tutorial - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/results?search_query=linux+rice+tutorial&sp=EgIYAg%253D%253D"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "433e1608-b490-47d6-898f-54f9dff80f9a",
+                  "id": "1128",
+                  "name": "Let's Linux - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/playlist?list=PLt6-rPpOpkb3XKwdUoLtUhCqkMbyqomba"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "ea58ae99-57f5-4f7c-936b-92d838080ab5",
+                  "id": "1129",
+                  "name": "My dwm rice which suck less (0 Patch applied) - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=g8_d2rnwQdo&ab_channel=BugsWriter"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "24e54fd3-81f6-403d-9881-c63802c20668",
+                  "id": "1130",
+                  "name": "[8b] | i3 Basic Customization - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=lvLExb1SUzM&ab_channel=EF-LinuxMadeSimple"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "c95976b3-73f9-4930-9deb-9d918c1a9cd6",
+                  "id": "1131",
+                  "name": "(1) r/unixporn - the home for *NIX customization!",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/unixporn/"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "b6cc5714-03a9-4f62-8667-100e3c85fd1c",
+                  "id": "1132",
+                  "name": "(1) [KDE Theme] Faded - Remember the past for how the present came to be : linuxmasterrace",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/linuxmasterrace/comments/p1h945/kde_theme_faded_remember_the_past_for_how_the/"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "cd2c3db5-c879-44f1-aa66-1fcc1b759e17",
+                  "id": "1133",
+                  "name": "MoviesJoy - Free movies streaming, watch movies online",
+                  "type": "url",
+                  "url": "https://moviesjoy.to/home"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "c6898e9d-78ae-490d-b8b3-ec94d31bd4f5",
+                  "id": "1134",
+                  "name": "MoviesJoy - Free movies streaming, watch movies online",
+                  "type": "url",
+                  "url": "https://moviesjoy.to/"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "931a3b11-c1d5-4a16-a056-bfe78778527d",
+                  "id": "1135",
+                  "name": "pystardust/ytfzf: A posix script to find and watch youtube videos from the terminal. (Without API)",
+                  "type": "url",
+                  "url": "https://github.com/pystardust/ytfzf"
+               }, {
+                  "date_added": "13273415401000000",
+                  "date_last_used": "0",
+                  "guid": "04c7468f-2e77-46c8-993d-ad67b2807028",
+                  "id": "1136",
+                  "name": "ytfzf/INSTALL.md at master · pystardust/ytfzf",
+                  "type": "url",
+                  "url": "https://github.com/pystardust/ytfzf/blob/master/docs/INSTALL.md"
+               }, {
+                  "children": [ {
+                     "date_added": "13273293062000000",
+                     "date_last_used": "0",
+                     "guid": "e2f77a72-cd8f-4161-abb8-548a4170f91b",
+                     "id": "1138",
+                     "name": "Free Wallpapers HD Wallpapers - WallHere",
+                     "type": "url",
+                     "url": "https://wallhere.com/"
+                  }, {
+                     "date_added": "13273293082000000",
+                     "date_last_used": "0",
+                     "guid": "f29d0af8-0afb-423b-85dd-8b34c775c863",
+                     "id": "1139",
+                     "name": "Wallpaper Search: #anime - wallhaven.cc",
+                     "type": "url",
+                     "url": "https://wallhaven.cc/search?q=id%3A1&categories=110&purity=100&atleast=1920x1080&sorting=random&order=desc&seed=kQ72YZ&page=2"
+                  } ],
+                  "date_added": "13339980025166592",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "c4277dd0-ae0d-4fec-a73c-e8d2ab14a8a5",
+                  "id": "1137",
+                  "name": "wallpapers",
+                  "type": "folder"
+               } ],
+               "date_added": "13339980025165230",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "0fdc2c6e-98d9-4383-8cbe-8be3cc271836",
+               "id": "1124",
+               "name": "window1",
+               "type": "folder"
+            }, {
+               "date_added": "13337722978000000",
+               "date_last_used": "0",
+               "guid": "0b71122e-e977-45f7-a1c7-347922ff04e0",
+               "id": "1140",
+               "name": "redditarch installing to another partition - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=redditarch+installing+to+another+partition&client=ms-android-google&sca_esv=560734445&ei=TO_sZIGfKdGiptQPw_iHyAY&oq=redditarch+installing+to+another+partition&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIipyZWRkaXRhcmNoIGluc3RhbGxpbmcgdG8gYW5vdGhlciBwYXJ0aXRpb24yBRAAGKIEMgUQABiiBDIFEAAYogQyBRAAGKIESIATUI0IWKcQcAF4AZABAJgBaqAB0wSqAQMzLjO4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIEEB4YCuIDBBgAIEGIBgGQBgg&sclient=mobile-gws-wiz-serp"
+            } ],
+            "date_added": "13339980025125725",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "1fddfe9d-75ff-4954-bda6-3d82dd77a843",
+            "id": "776",
+            "name": "Imported",
+            "type": "folder"
+         }, {
+            "date_added": "13322286995000000",
+            "date_last_used": "13343496008582990",
+            "guid": "4d986a94-0871-422c-9ac2-fd0aa7aa1219",
+            "id": "797",
+            "name": "https://notabug.org/nbatman/freemediaheckyeah/wiki/_pages",
+            "type": "url",
+            "url": "https://notabug.org/nbatman/freemediaheckyeah/wiki/_pages"
+         }, {
+            "date_added": "13321982666000000",
+            "date_last_used": "13343334486187528",
+            "guid": "010f16c7-a6fa-4054-a36f-0365cdcfa745",
+            "id": "780",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "children": [ {
+               "date_added": "13322237625000000",
+               "date_last_used": "13342408520424791",
+               "guid": "cfba0d56-e9b0-459c-a809-adc9de6050a3",
+               "id": "792",
+               "name": "Teach Yourself Computer Science",
+               "type": "url",
+               "url": "https://teachyourselfcs.com/2016/"
+            }, {
+               "date_added": "13322237630000000",
+               "date_last_used": "0",
+               "guid": "77b643c0-7591-46a7-8b0a-104274be954b",
+               "id": "793",
+               "name": "Computer Science 61A, 001 - Spring 2011 : Free Movies : Free Download, Borrow and Streaming : Internet Archive",
+               "type": "url",
+               "url": "https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter"
+            }, {
+               "date_added": "13322237634000000",
+               "date_last_used": "13340129448967241",
+               "guid": "8cb657f6-7883-4b3f-8a4f-8303d7d581a2",
+               "id": "794",
+               "name": "Understanding Numbers in Elementary School Mathematics",
+               "type": "url",
+               "url": "https://cloudflare-ipfs.com/ipfs/bafykbzacecd6kl2hzx6tgbtz37grcuw7cnxmva46ygltfwwkx4ab3xzvuml3i?filename=%28Monograph%20Book%29%20Hung-Hsi%20Wu%20-%20Understanding%20Numbers%20in%20Elementary%20School%20Mathematics-American%20Mathematical%20Society%20%282011%29.pdf"
+            }, {
+               "date_added": "13322237637000000",
+               "date_last_used": "0",
+               "guid": "88decb05-c708-47b9-be66-1f35fa09aac8",
+               "id": "795",
+               "name": "arith.dvi",
+               "type": "url",
+               "url": "https://www.sumizdat.org/arith_6_8.pdf"
+            }, {
+               "date_added": "13322237641000000",
+               "date_last_used": "0",
+               "guid": "d61cb936-7e06-4223-b881-20c890f97875",
+               "id": "796",
+               "name": "The Absolute Beginner's Guide to Emacs - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV&index=1&t=409s&ab_channel=SystemCrafters"
+            } ],
+            "date_added": "13339980025128844",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "42edf0db-a432-4258-93f1-6f93313af8f8",
+            "id": "791",
+            "name": "Self Teach CS",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13321374395000000",
+               "date_last_used": "13345344946986075",
+               "guid": "b21437a6-23ad-48be-955e-c698be357c89",
+               "id": "788",
+               "name": "GitHub - geohot/fromthetransistor: From the Transistor to the Web Browser, a rough outline for a 12 week course",
+               "type": "url",
+               "url": "https://github.com/geohot/fromthetransistor"
+            }, {
+               "date_added": "13321374399000000",
+               "date_last_used": "13342762962723979",
+               "guid": "43a6267f-bd2a-4432-97a2-97a8af3892fb",
+               "id": "789",
+               "name": "Introduction • Chapter 1 • Build Your Own Lisp",
+               "type": "url",
+               "url": "https://buildyourownlisp.com/chapter1_introduction#about"
+            } ],
+            "date_added": "13339980025128531",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "4f5068b8-1d47-4ee4-9f42-fdd563e84e0d",
+            "id": "787",
+            "name": "C resources",
+            "type": "folder"
+         }, {
+            "date_added": "13322147948000000",
+            "date_last_used": "13343794056076748",
+            "guid": "038f8a3c-40b6-4e0f-b190-896cfa5d02f7",
+            "id": "790",
+            "name": "ComicK",
+            "type": "url",
+            "url": "https://comick.app/home"
+         }, {
+            "date_added": "13278667102000000",
+            "date_last_used": "13343763242521203",
+            "guid": "40f4b298-a415-42ab-bec3-5ab220af8902",
+            "id": "786",
+            "name": "CS 131/CSCI 1310: Fundamentals of Computer Systems",
+            "type": "url",
+            "url": "http://cs.brown.edu/courses/csci1310/2020/index.html"
+         }, {
+            "date_added": "13321982666000000",
+            "date_last_used": "0",
+            "guid": "530aeab7-4eba-4b63-aa05-27aa7df88c6a",
+            "id": "781",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13240733834000000",
+            "date_last_used": "0",
+            "guid": "df1ab2b8-987a-4e28-9928-912aeed636f7",
+            "id": "778",
+            "name": "Bookmarks",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "date_added": "13342362525815078",
+            "date_last_used": "13344862675960015",
+            "guid": "1548d4e4-bc72-4478-93c9-e24af59a9be2",
+            "id": "1156",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Reddit - https://i.redd.it/vtv4copepr0b1.png",
+            "type": "url",
+            "url": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fvtv4copepr0b1.png"
+         }, {
+            "date_added": "13342362529346517",
+            "date_last_used": "13343607047881011",
+            "guid": "047eeef7-3837-49c0-a4a7-4b6ff1600f36",
+            "id": "1157",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Lather, Rinse, Repeat: A Tour of the REPL",
+            "type": "url",
+            "url": "https://gigamonkeys.com/book/lather-rinse-repeat-a-tour-of-the-repl"
+         }, {
+            "date_added": "13342362544818763",
+            "date_last_used": "13343717171025511",
+            "guid": "e0092ca4-99ab-4ec9-b1b2-ebb18b3d112c",
+            "id": "1158",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "end-4/dots-hyprland at hybrid",
+            "type": "url",
+            "url": "https://github.com/end-4/dots-hyprland/tree/hybrid"
+         }, {
+            "date_added": "13342565079027120",
+            "date_last_used": "13343798144020437",
+            "guid": "1ae13dc1-8776-40ed-94fb-7068b3fe2407",
+            "id": "1160",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "juminai/dotfiles",
+            "type": "url",
+            "url": "https://github.com/juminai/dotfiles/tree/hyprland"
+         } ],
+         "date_added": "13337800948468691",
+         "date_last_used": "0",
+         "date_modified": "13342852298003486",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13337800948468702",
+         "date_last_used": "0",
+         "date_modified": "13339979878626635",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13337800948468709",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

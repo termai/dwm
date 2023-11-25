@@ -1,0 +1,62 @@
+/**********************************************/
+/* Color definitions */
+/**********************************************/
+
+@define-color white_color #ffffff;
+@define-color lighter_color #ffffff;
+@define-color base_color #c0c0c0;
+@define-color darker_color #808080;
+@define-color dark_color #7f9faa;
+@define-color darkest_color #2a0000;
+@define-color black_color #000000;
+@define-color edit_color #ffffff;
+@define-color high_color #2adfff;
+@define-color tab_color #a0a0a4;
+@define-color red_color #d40000;
+@define-color blue_color #2a7faa;
+@define-color lblue_color #2adfff;
+@define-color dblue_color #2a3faa;
+@define-color nblue_color #000000;
+@define-color green_color #808080;
+@define-color hgreen_color #ffffff;
+@define-color dgreen_color #2a1f00;
+@define-color scale_color #557faa;
+@define-color lscale_color #7fffff;
+@define-color title_color #ffffff;
+@define-color text_color #000000;
+@define-color text2_color #ffffff;
+@define-color text3_color #000000;
+
+@define-color brown_color #c0c0c0;
+@define-color hbrown_color #ffffff;
+@define-color hhbrown_color #ffffff;
+@define-color dbrown_color #808080;
+@define-color ddbrown_color #7f9faa;
+
+/**********************************************/
+/* Derived colors */
+/**********************************************/
+
+@define-color headerbar_bg_color @base_color;
+@define-color button_selected_bg_color @lighter_color;
+@define-color text_selected_bg_color @high_color;
+@define-color text_selected_fg_color @black_color;
+@define-color menuitem_selected_bg_color @high_color;
+@define-color menuitem_selected_fg_color @black_color;
+@define-color listitem_selected_bg_color @high_color;
+@define-color listitem_selected_fg_color @black_color;
+@define-color text_view_bg @edit_color;
+
+
+/**********************************************/
+/* Color names curiously hardcoded in some gnome applications */
+/**********************************************/
+
+@define-color theme_base_color @base_color;
+@define-color theme_text_color @black_color;
+@define-color theme_bg_color @edit_color;
+@define-color theme_fg_color @black_color;
+@define-color theme_selected_bg_color @high_color; /* list select */
+@define-color theme_selected_fg_color @black_color;
+@define-color theme_tooltip_bg_color @dblue_color;
+@define-color theme_tooltip_fg_color @white_color;

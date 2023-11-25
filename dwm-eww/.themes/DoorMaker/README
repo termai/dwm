@@ -1,0 +1,34 @@
+DoorMaker
+by BunnyMnemonic
+
+"A light theme with 90s aesthetic for your personal desktop computer."
+
+Named after the famous artist Albrecht Dürer, "DoorMaker" is a full-featured GTK-3 theme for XFCE4 (with partial GTK-4 support and a GTK-2 fallback), including an XFWM4 theme, an XFCE-notify theme, an XFSM (logout dialog) theme, a customized LightDM (login & lockscreen) theme, a Kvantum theme for Qt apps, and more.
+
+DoorMaker takes its inspiration from the desktop GUIs from the 1990s and 2000s, and it uses the 256-color VGA palette.
+
+How to install
+- Put the "DoorMaker" folder into your "~/.themes" directory.
+- Copy the "hicolor" subfolder (or its contents if it already exists) into your "~/.icons" directory.
+- Open xfce4-appearance-settings and select the DoorMaker GTK theme.
+- Open xfwm4-settings and select the DoorMaker XFWM4 theme.
+- Open xfce4-notifyd-config (Notifications), choose Appearance and select the DoorMaker theme.
+- To make your theme available globally, copy your files to "/usr/share/themes/" and "/usr/share/icons/" (same applies to cursor theme). This can be achieved in Terminal by typing: sudo cp -r '/home/your_user_name/.themes/DoorMaker' '/usr/share/themes'. This is required if you would like to use the theme for the LightDM Greeter as well.
+- Open LightDM GTK+ Greeter settings and select the DoorMaker LightDM theme. To make your background available in LightDM, copy the image file to "usr/share/backgrounds" and choose this file in the LightDM GTK+ Greeter settings.
+- You can find nice wooden backgrounds for your XFCE panel in the "xfpanel" subfolder. (The width of the right-side panel is 48 pixel in the screenshot. It is set to Deskbar mode, it has 2 lines and uses the docklike XFCE panel plugin.)
+- You can find two icons for the applications menu button or the Whiskermenu button in the "xfpanel" subfolder ("start.png" and "start2.png").
+- You can find wallpapers in the "backgrounds" subfolder.
+
+Other details
+- Icon theme: Elementary XFCE
+- Font: Noto Sans (Xubuntu default)
+- Cursor theme: Simp1e
+- Wallpaper: Coconut tree near body of water by Pedro Monteiro (you can find it in the "backgrounds" folder)
+
+Hacks & extra customizations
+- How to use Kvantum theme: 1. Install qt5ct and Kvantum manager. 2. Install the DoorMaker Kvantum theme by selecting the "kvantum" subfolder that can be found in your "DoorMaker" directory. 3. Copy the "DoorMaker.conf" file from the "qt5ct" subfolder to "~/.config/qt5ct/colors". 4. Open qt5ct and select Kvantum as the style of the Qt apps in your system, select DoorMaker as the custom palette. 5. Add (or change) the following line in the "etc/environment" file (or "etc/X11/Xsession.d/56xubuntu-session" on Xubuntu): export QT_QPA_PLATFORMTHEME=qt5ct
+- Use GTK-2 fallback for the Flatpak version of GIMP: copy the "gtkrc" file from the "gtk-2.0" subfolder to the following directory: "/var/lib/flatpak/app/org.gimp.GIMP/x86_64/stable/active/files/share/gimp/2.0/themes/DoorMaker" (requires root access)
+- A config file for skippy-xd can be found in the "skippy-xd" subfolder. Copy this folder to the "~/.config" directory. Note that you have to modify the path of the background image in the "skippy-xd.rc" file.
+- Avoid disappearing scrollbars: add (or change) the following line in the "etc/environment" file (or "etc/X11/Xsession.d/56xubuntu-session" file for Xubuntu users): export GTK_OVERLAY_SCROLLING=0
+- To override the default libadwaita theme in GTK-4 apps, add the following line in the "etc/environment" file (or "etc/X11/Xsession.d/56xubuntu-session" file for Xubuntu users): GTK_THEME=DoorMaker
+- To make Inkscape a bit more consistent, copy the "inkscape/style.css" file to the "~/.config/inkscape/ui" directory.

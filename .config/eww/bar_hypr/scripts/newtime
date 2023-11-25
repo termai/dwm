@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Get the current date and time
+#date_str=$(date +"%b:%d:%a %I:%M:%S:%p")
+#date_str=$(date +"%b:%d:%a %r")
+#date_str=$(date +"%a:%d %r")
+#date_str=$(date +"%a,%b %d %I:%M %p")
+date_str=$(date +"%a:%d %I:%M:%S %p")
+
+
+
+#echo "(box :class \"volume\" :space-evenly \"false\" :orientation \"h\" $date_str)"
+#one="(button :class \"time-button\" $date_str)"
+one="(label :text "$date_str")"
+echo "(box :class \"time\" :space-evenly \"false\" :orientation \"h\" $one)"
+
+
+

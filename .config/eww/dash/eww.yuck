@@ -1,0 +1,167 @@
+(
+    defwindow appdash
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :geometry
+    (
+        geometry
+        :anchor "center"
+        :width "38%"
+        :height "0"
+        :x "50"
+        :y "-110"
+    )
+    (appdash)
+)
+
+
+(
+    defwidget appdash []
+    
+    (
+        box :class "parent-container" :space-evenly "true" :orientation "v" :halign "center"
+        (
+            box :class "parent-containers-child" :space-evenly "true" :orientation "h" :halign "center"
+            (
+                button
+                :class "exit"
+                :onclick "./scripts/closedash.sh"
+                "X"
+            )
+        )
+        
+        (apps1) 
+        (apps2) 
+        (apps3) 
+        (apps4) 
+    )
+)
+
+( 
+    defwidget apps1 []
+    (
+        box :class "apps-container" :space-evenly "true" :orientation "h" :halign "center"
+        (
+            box :class "apps" :space-evenly "true" :orientation "h" :halign "center"
+            (
+                button
+                :onclick "nohup alacritty &"
+                (image :path "/home/termai/.config/eww/bar/images/Alacritty.svg" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup firefox &"
+                (image :path "/home/termai/.config/eww/bar/images/firefox.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup obsidian &"
+                (image :path "/home/termai/.config/eww/bar/images/obsidian.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup xournalpp &"
+                (image :path "/home/termai/.config/eww/bar/images/Com.github.xournalpp.xournalpp.svg" :image-width 55 :image-height 55)
+            )
+        )
+    )
+)
+
+
+
+( 
+    defwidget apps2 []
+    (
+        box :class "apps-container" :space-evenly "true" :orientation "h" :halign "center"
+        (
+            box :class "apps" :space-evenly "true" :orientation "h" :halign "center"
+            (
+                button
+                :onclick "nohup google-chrome-stable &"
+                (image :path "/home/termai/.config/eww/bar/images/Google-chrome.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup adspotify &"
+                (image :path "/home/termai/.config/eww/bar/images/Spotify.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup emacs &"
+                (image :path "/home/termai/.config/eww/bar/images/emacs.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup brave &"
+                (image :path "/home/termai/.config/eww/bar/images/Brave-browser.png" :image-width 55 :image-height 55)
+            )
+        )
+    )
+)
+
+
+
+( 
+    defwidget apps3 []
+    (
+        box :class "apps-container" :space-evenly "true" :orientation "h" :halign "center"
+        (
+            box :class "apps" :space-evenly "true" :orientation "h" :halign "center"
+            (
+                button
+                :onclick "nohup arandr &"
+                (image :path "/home/termai/.config/eww/bar/images/Arandr.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup thunar &"
+                (image :path "/home/termai/.config/eww/bar/images/Thunar.svg" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup nitrogen &"
+                (image :path "/home/termai/.config/eww/bar/images/Nitrogen.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "nohup vlc &"
+                (image :path "/home/termai/.config/eww/bar/images/vlc.png" :image-width 55 :image-height 55)
+            )
+        )
+    )
+)
+
+
+( 
+    defwidget apps4 []
+    (
+        box :class "apps-container" :space-evenly "true" :orientation "h" :halign "center"
+        (
+            box :class "apps" :space-evenly "true" :orientation "h" :halign "center"
+            (
+                button
+                :onclick "nohup alacritty -e nvim &"
+                (image :path "/home/termai/.config/eww/bar/images/nvim.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "gucharmap &"
+                (image :path "/home/termai/.config/eww/bar/images/gucharmap.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "zathura &"
+                (image :path "/home/termai/.config/eww/bar/images/Zathura.png" :image-width 55 :image-height 55)
+            )
+            (
+                button
+                :onclick "pavucontrol &"
+                (image :path "/home/termai/.config/eww/bar/images/pavucontrol.svg" :image-width 55 :image-height 55)
+            )
+        )
+    )
+)
+
+
+;(image :path "/home/termai/.config/eww/bar/images/Alacritty.svg")

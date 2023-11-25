@@ -1,0 +1,19 @@
+#!/bin/sh
+# This shell script is PUBLIC DOMAIN. You may do whatever you want with it.
+
+TOGGLE=$HOME/.toggles
+
+if [ ! -e $TOGGLE ]; then
+    touch $TOGGLE
+    iwctl station wlan0 scan
+    iwctl station wlan0 get-networks
+    iwctl station wlan0 connect "Home-Awesome"
+
+else
+    rm $TOGGLE
+    iwctl station wlan0 scan
+    iwctl station wlan0 get-networks
+    iwctl station wlan0 connect "xfinitywifi"
+fi
+
+

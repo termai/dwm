@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Get the current date and time
+#date_str=$(date +"%b:%d:%a %I:%M:%S:%p")
+#date_str=$(date +"%b:%d:%a %r")
+#date_str=$(date +"%a:%d %r")
+#date_str=$(date +"%a,%b %d %I:%M %p")
+date_str=$(date +"%a %d, %I:%M %p")
+
+#echo "  $date_str "
+echo "$date_str "
+

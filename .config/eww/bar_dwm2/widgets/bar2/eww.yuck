@@ -1,0 +1,34 @@
+(
+    defwindow bar2
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :windowtype "dock"
+    :reserve (struts :distance "44px" :side "bottom")
+    :wm-ignore false
+    :geometry
+    (
+        geometry
+        :anchor "bottom center"
+        :width "40%"
+        :height "40px"
+        :x "0"
+        :y "0px"
+    )
+    (bar2)
+)
+
+
+(
+    defwidget bar2 []
+    (
+        box :class "bar2-parent" :space-evenly "true" :orientation "h" :halign "center"
+        (planks)
+    )
+)
+
+(defwidget planks []
+    (box :class "plank-parent" :space-evenly "true" :orientation "h" :halign "center"
+    (button :class "plank-button")))
+
+

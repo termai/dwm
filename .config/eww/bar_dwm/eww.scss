@@ -1,0 +1,182 @@
+//$background:#111321;
+$background:#171B2C;
+$foreground:#808bd9;
+
+*,button {
+
+  all:unset;
+  padding:0px;
+  min-height:0px;
+  min-width:0px;
+}
+
+.dwmbar {
+  background-color:$background;
+  font-family: "JetBrainsMono NF";
+  opacity:0.88;
+}
+
+/*
+.dwmbar-parent {
+  background-color:$background;
+  font-family: "JetBrainsMono NF";
+  opacity:0.88;
+}
+*/
+.all-tags {
+  margin-left:10px;
+  margin-top:2px; 
+  .tag-button {
+    color:white;
+    border:1px solid $foreground;
+    background-color:#232943;
+    padding:2px 12px;
+    margin-left:6px;
+    border-radius:6px;
+    font-size:1.1em;
+    transition: background-color 1s ease, color 0.3s ease;
+  }
+  .focused {
+    color:$background;
+    background-color:$foreground;
+    padding:2px 12px;
+    margin-left:6px;
+    border-radius:4px;
+    font-size:1.1em;
+    transition: background-color 1s ease, color 0.3s ease;
+  }
+  .occupied {
+  }
+}
+
+
+
+.media {
+  margin-left:230px;
+  margin-top:4px;
+  .media-image {
+    margin-right:14px;
+  }
+  .media-buttons {
+    margin-left:14px;
+    background-color:$foreground;
+    padding:0px 14px;
+    border-radius:10px;
+    font-size:1.8em;
+    margin-bottom:3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    .ispaused-button {
+    }
+    .prev-button {
+      margin-right:8px;
+    }
+    .next-button {
+      margin-left:8px;
+    }
+  }
+
+}
+
+
+.program {
+  margin-right:10px;
+  margin-top:5.5px;
+  margin-bottom:3px;
+  background-color:$foreground;
+  padding:2px 12px;
+  border-radius:10px;
+  margin-bottom:3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+
+  .program-image {
+    //margin-left:20px;
+  }
+  
+  label {
+    font-size:1em;
+  }
+
+}
+
+
+
+
+.sides {
+  margin-right:10px;
+  padding:0px 20px;
+  .side {
+    margin-right:10px;
+  }
+}
+
+.poweroffs {
+  margin-right:10px;
+  margin-top:6px;
+  margin-bottom:6px;
+  background-color:$foreground;
+  padding:0px 12px;
+  border-radius:10px;
+  font-size:1.1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+  .poweroff {
+      background-color:$foreground;
+    }
+  
+}
+
+.poweroffs:hover {
+  color:red;
+}
+
+
+.volume {
+  background-color:$foreground;
+  padding:0px 4px;
+  border-radius:10px;
+  margin-bottom:6px;
+  margin-top:4px;
+  font-size:1.1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+  .volume-button {
+  }
+}
+
+
+.time {
+  background-color:$foreground;
+  padding:0px 14px;
+  margin:4px 0px 4px 0px;
+  border-radius:10px;
+  font-size:1.2em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+
+}
+
+.user-container {
+  margin-right:30px;
+  margin-bottom:4px;
+  .user-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border:2px solid $foreground;
+    border-radius: 100%;
+    box-shadow: 0 0 2px 2px rgba($background, 0.3);
+    min-width:36px;
+    margin-right:10px;
+  }
+}
+
+.wifi {
+  background-color:$foreground;
+  padding:0px 14px 0px 12px;
+  margin:4px 10px 4px 5px;
+  border-radius:10px;
+  font-size:1.2em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+}

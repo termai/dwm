@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Wifi
+
+iwctl station wlan0 scan
+iwctl station wlan0 get-networks
+iwctl station wlan0 connect "xfinitywifi"
+#iwctl station wlan0 connect "Home-Awesome"
+iwctl station wlan0 get-networks

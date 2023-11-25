@@ -1,0 +1,127 @@
+(
+    defwindow wifi-wid
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    ;:windowtype "dock"
+    ;:reserve (struts :distance "52px" :side "top")
+    :wm-ignore false
+    :geometry
+    (
+        geometry
+        :x "500px"
+        :y "70px"
+        :width "18%"
+        :height "20%"
+        :anchor "top center")
+
+
+    (wifi-wid)
+)
+
+(defwidget wifi-wid []
+    (box :class "parent" :space-evenly "false" :orientation "v"
+        ;(button :class "current-wifi" :onclick "iwctl station wlan0 connect Home-Awesome" wifilist)
+        (wifi-box)
+        ;(wifi)
+        (whats)))
+
+
+(defwidget wifi-current []
+    (box :class "wifi-current" :space-evenly "false" :orientation "v"
+        ;(button :class "current-wifi" :onclick "iwctl station wlan0 connect Home-Awesome" wifilist)
+        (button :class "current-wifi" :onclick "iwctl station wlan0 connect Home-Awesome" (label :text "what"))
+        ))
+
+
+
+(
+    defwidget whats []
+    (
+        literal :content whats
+    )
+)
+
+(defwidget labels []
+  (box :space-evenly "false" :orientation "h" (label :text "Yes, worked")))
+
+
+;(defwidget wifi []
+  ;(eventbox :onhover "${eww} update wifi_rev=true"
+        ;:onhoverlost "${eww} update wifi_rev=false"
+    ;(box :vexpand "false" :hexpand "false" :space-evenly "false" :class "wifi-slider"
+      ;(button :class "button-revealed" :onclick "iwctl station wlan0 connect xfinitywifi" :orientation "h" "${revals}")
+  ;)))
+
+
+
+(defwidget scaler [] 
+  (eventbox :onhover "${eww} update wifi_rev=true"
+			  :onhoverlost "${eww} update wifi_rev=false"
+		(box :vexpand "false" :hexpand "false" :space-evenly "false" :class "wifi-slider"
+				(button :class "module-wif" :onclick "echo 'True'" :wrap "false" :limit-width 12 "${revals} ")
+	(scale :flipped true
+			  :orientation "h"
+			  :onchange "ls")
+	;(button :class "button-revealed" :onclick "iwctl station wlan0 connect xfinitywifi" :orientation "h" "Revealed")
+  (button :class "button-revealed" :onclick "iwctl station wlan0 connect xfinitywifi" :orientation "h" "Revealed"))))
+
+(defwidget wifi-box [] 
+  (eventbox :onhover "${eww} update wifi_rev=true" :onhoverlost "${eww} update wifi_rev=false"
+    (literal :content ifi)))
+
+
+
+(defwidget wifi [] 
+  (eventbox :onhover "${eww} update wifi_rev=true"
+			  :onhoverlost "${eww} update wifi_rev=false"
+		(box :vexpand "false" :hexpand "false" :space-evenly "false" :class "wifi-slider"
+				(button :class "module-wif" :onclick "echo 'True'" :wrap "false" :limit-width 12 "${revals} ")
+	(revealer :transition "slideright"
+			  :reveal wifi_rev
+			  :duration "1000ms"
+	(button :class "button-revealed" :onclick "iwctl station wlan0 connect xfinitywifi" :orientation "h" "Revealed"
+        )))))
+
+
+(defvar volum false)
+
+
+;(defwidget revals []
+  ;(box :space-evenly "false" :class "what"
+      ;revals))
+
+
+(defwidget newbar []
+    (centerbox :class "parent" :space-evenly "true" :orientation "h"
+    (start-box)
+    (tags)
+    (sides)))
+
+
+;Defvar
+;(defvar wifilist "iwctl known-networks list")
+(defvar current-wifis false)
+(defvar eww "/usr/local/bin/eww -c $HOME/.config/eww/bar_herbstluftwm/widgets/wifi-wid")
+(defvar wifi_rev false)
+
+
+;Defpoll
+
+;(defpoll what_media :interval "1s" `./scripts/new2.sh what_media`)
+;(defpoll wifilist :interval "1s" `iwctl known-networks list`)
+(defpoll wifilist :interval "1s" `iwctl station wlan0 show | awk 'FNR == 7 {print $3}'`)
+(defpoll revals :interval "1s" `iwctl station wlan0 show | awk 'FNR == 7 {print $3}'`)
+(defpoll whats :interval "1s" `./scripts/wifi`)
+(defpoll ifi :interval "1s" `./scripts/ifi`)
+
+;Deflisten
+
+;(deflisten tags_listen "./scripts/new2.sh" )
+;(deflisten whats "./scripts/wifi" )
+
+
+
+
+
+

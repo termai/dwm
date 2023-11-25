@@ -1,0 +1,23 @@
+$background:#171B2C;
+$foreground:#808bd9;
+
+*,button {
+
+  all:unset;
+}
+
+.bar2 {
+  background-color:$background;
+}
+
+.plank-button {
+  background-image:url('/home/termai/.config/eww/bar_dwm2/widgets/bar2/images/user4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  min-width:28px;
+  margin-right:6px;
+  box-shadow: 0 0 2px 2px rgba($background, 0.3);
+  border:2px solid $foreground;
+}

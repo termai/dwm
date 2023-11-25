@@ -1,0 +1,346 @@
+//@import '/home/termai/.cache/wal/colors.scss';
+
+//$background:#111321;
+$background:#141827;
+$foreground:#8f9dff;
+//$foreground:#808bd9;
+
+//Previous Colors
+//$background:#171B2C;
+//$foreground:#afafff;
+
+*,button {
+
+  all:unset;
+  padding:0px;
+  min-height:0px;
+  min-width:0px;
+}
+
+.dwmbar {
+  background-color:$background;
+  font-family: "JetBrainsMono NF";
+  border:2px solid $foreground;
+  opacity:0.88;
+  border-radius:18px;
+  box-shadow: 0 0 4px 2px rgba($foreground, 0.3);
+  //margin:1rem;
+}
+
+/*
+.dwmbar-parent {
+  background-color:$background;
+  font-family: "JetBrainsMono NF";
+  opacity:0.88;
+}
+*/
+.dwmbar-parent {
+  margin-top:4px;
+  margin-bottom:4px;
+}
+
+.all-tagss {
+  margin-left:12px;
+  //background:#353d64;
+  //border:2px solid $foreground;
+  //border-radius:16px;
+  margin-top:2px;
+  .tag-button {
+    color:$foreground;
+    //border:1px solid $foreground;
+    //background-color:#232943;
+    padding:0px 12px;
+    //margin-left:6px;
+    font-size:1.9em;
+    border-bottom:4px solid transparent;
+    transition: background-color 1s ease, color 0.3s ease;
+  }
+  .focused {
+    //color:#afafff;
+    color:$foreground;
+    //background-color:$foreground;
+    //margin-left:6px;
+    //border-radius:3px;
+    //border-bottom:4px solid $foreground;
+    transition:background-color 1s ease, color 0.3s ease;
+  }
+  .occupied {
+    color:white;
+  }
+  .empty {
+    color:gray;
+  }
+}
+
+/*
+.docks {
+  margin:0px 0px 0px 40px;
+  .alacritty {
+    //background-image:url('/home/termai/.config/eww/bar/images/Alacritty.svg');
+    background-image:url('/usr/share/icons/Papirus/16x16/apps/Alacritty.svg');
+  }
+  .brave {
+    background-image:url('/home/termai/.config/eww/bar/images/Brave-browser.png');
+  }
+  .firefox {
+    //background-image:url('/home/termai/.config/eww/bar/images/firefox.png');
+    background-image:url('/usr/share/icons/Papirus/32x32/apps/firefox.svg');
+  }
+  .obsidian {
+    background-image:url('/home/termai/.config/eww/bar/images/obsidian.png');
+  }
+  .thunar {
+    background-image:url('/home/termai/.config/eww/bar/images/Thunar.svg');
+  }
+  .xournalpp {
+    background-image:url('/home/termai/.config/eww/bar/images/xournalpp.svg');
+  }
+
+}
+
+.dock-button {
+  //background-image:url('/home/termai/.config/eww/bar_dwm2/images/user4.png');
+  //margin:0px 0px 0px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  //border:2px solid $foreground;
+  //border-radius: 20%;
+  margin:0px 30px 0px 0px;
+  //box-shadow: 0 0 2px 2px rgba($background, 0.3);
+  min-width:30px;
+  min-height:1px;
+  //border:2px solid $foreground;
+  padding:0px 2px 0px 2px;
+  &:hover {
+    //border:2px solid $foreground;
+    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    //box-shadow: 2px 3px 4px 2px rgba(255, 255, 255, 1);
+    box-shadow: -1px 20px 10px 0px rgba(112,105,112,1);
+    //min-width:39px;
+    //background-color:$foreground;
+    transition: background-color 1s ease, color 0.3s ease;
+  }
+  &:active {
+    transition: background-color 1s ease, color 0.3s ease;
+  }
+}*/
+
+
+
+.media {
+  margin-left:1px;
+  margin-top:3.5px;
+  .media-image {
+    margin-left:14px;
+    margin-right:14px;
+  }
+  .media-buttons {
+    margin-left:24px;
+    background-color:$foreground;
+    color:white;
+    padding:0px 10px;
+    border-radius:10px;
+    font-size:1.8em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    .ispaused-button {
+      &:hover {
+        color:$background;
+      }
+    }
+    .prev-button {
+      label {
+        margin-right:8px;
+      }
+      &:hover {
+        color:$background;
+      }
+    }
+    .next-button {
+      label {
+        margin-left:8px;
+      }
+      &:hover {
+        color:$background;
+      }
+    }
+  }
+  .cover-art {
+    margin-left:24px;
+  }
+  
+  label {
+  }
+  .music-text {
+    margin-left:10px;
+    color:$foreground;
+    font-family:"HeavyData";
+    font-style:italic;
+    font-size:1.3em;
+  }
+}
+
+
+
+.cover-art {
+  margin-left:16px;
+}
+
+.program {
+  margin:5px 20px 0px 0px;
+  //background-color:$foreground;
+  //padding:2px 12px;
+  //border-radius:10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+
+  .program-image {
+    //margin-left:20px;
+  }
+  
+  label {
+    font-size:1em;
+  }
+
+}
+
+
+
+
+.sides {
+  margin-right:0px;
+  padding:0px 20px;
+  .side {
+    margin-right:0px;
+  }
+}
+
+.poweroffs {
+  margin:3px 0px 3px 10px;
+  padding:0px 18px 0px 14px;
+  background-color:$foreground;
+  color:white;
+  font-size:1.6em;
+  border-radius:10px;
+  font-weight:bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  .poweroff {
+    //background-color:$foreground;
+    //.poweroff:active {
+   label {
+     &:hover {
+        background-color: #3e8e41;
+        color:red;
+        box-shadow: 0 5px #666;
+      }
+    }
+  }
+}
+  
+
+
+
+.volume {
+  //background-color:$foreground;
+  //padding:0px 4px;
+  //border-radius:10px;
+  //margin:0px 120px 0px 2px;
+  font-size:1.1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+  .volume-button {
+    background-color:$foreground;
+    padding:0px 13px 0px 13px;
+    border-radius:10px;
+    margin:2px 14px 2px 0px;
+
+    &:hover {
+      color:red;
+    }
+    &:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666; 
+    }
+  }
+}
+
+
+.time {
+  background-color:$foreground;
+  padding:0px 0px 0px 7px;
+  border-radius:10px;
+  margin:3px 2px 3px 8px;
+  color:white;
+  font-size:1.4em;
+  font-weight:bold;
+}
+
+.user-container {
+  margin:0px 10px 0px 0px;
+  
+  .user-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border:2px solid $foreground;
+    border-radius: 100%;
+    box-shadow: 0 0 2px 2px rgba($background, 0.3);
+    min-width:28px;
+    margin-right:6px;
+  }
+}
+
+
+.wifi {
+  background-color:$foreground;
+  color:white;
+  font-size:1.9em;
+  font-weight:bold;
+  border-radius:10px;
+  padding:0px 20px 0px 14px;
+  margin:3px 2px 3px 2px;
+}
+
+scale trough {
+  all: unset;
+  background-color: $foreground;
+  border-radius: 8px;
+  min-height: 18px;
+  min-width: 114px;
+  margin: .3rem 0 .3rem 0;
+  border:3px solid $foreground;
+}
+
+.volbar trough highlight {
+  background-color: $background;
+  border-radius: 5px;
+}
+
+.slider {
+  margin-right:1rem;
+}
+
+.volume-icon{
+  margin:3px 0px 3px 10px;
+  color:white;
+  font-size:1.4em;
+  font-weight:bold;
+  background-color:$foreground;
+  padding:0px 10px 0px 10px;
+  border-radius:10px;
+  //margin:2px 14px 2px 0px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+tooltip {
+  background-color:$foreground;
+  color:#ffffff;
+}
+
+.weather {
+  color:$foreground;
+  //color:$foreground;
+  font-size:1.8em;
+  margin-top:2px;
+  margin-left:26px;
+}

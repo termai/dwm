@@ -1,0 +1,163 @@
+//$background:#141c33;
+
+//$background:#202741;
+//$foreground:white;
+//$color1:#4d8fe6;
+
+//RED
+//$background:#070509;
+//$foreground:#ff0000;
+
+//Purple
+//$background:#171B2C;
+//$foreground:#8f9dff;
+//$foreground:#808bd9;
+
+// Current Purple
+$background:#141827;
+$foreground:#8f9dff;
+
+*,button{
+  all:unset;
+  margin:0;
+}
+
+
+.wifi-wid {
+  background-color:$background;
+  border:3px solid $foreground;
+  border-radius:20px;
+}
+
+
+.current-wifi {
+  //background-color:white;
+  //color:red;
+  //padding:10px;
+  //margin:10px 10px 20px 10px;
+  //margin:10px 0px 20px 0px;
+}
+
+
+.what {
+  background-color:blue;
+}
+
+/////// Wifi Widget //////
+
+
+
+/*
+.box-two {
+  label { 
+   color:gray;
+    min-width:10px;
+    border:1px solid red;
+  }
+  .button-two {
+  }
+}
+*/
+/*
+.current {
+  label {
+    color:blue;
+  }
+  button {
+    color:red;
+  }
+}*/
+
+.button-revealed {
+  color:white;
+  background-color:white;
+  padding:2px 4px;
+  border:2px solid white;
+  border-radius:10px;
+}
+
+.button-revealed:hover {
+  //color:red;
+  //background-color:red;
+}
+
+.box-wifi {
+  margin:10px 0px 0px 12px;
+  font-size:1.6em;
+}
+.button-on {
+  margin:0px 0px 0px 160px;
+  background-color:$foreground;
+  padding:0px 2px;
+  border:2px solid $foreground;
+  border-radius:26px 30px 26px 30px;
+}
+
+.button-on > label {
+  background-color:$background;
+  border:1px solid $background;
+  min-width:28px;
+  min-height:26px;
+  border-radius:54%;
+  margin:0px 0px 0px 60px;
+}
+
+
+.button-off {
+  margin:0px 0px 0px 160px;
+  background-color:white;
+  padding:2px 56px 2px 34px;
+  border:2px solid white;
+  border-radius:26px 30px 26px 30px;
+}
+
+.button-off > label {
+  background-color:gray;
+  border:1px solid gray;
+  min-width:30px;
+  min-height:26px;
+  border-radius:54%;
+  margin:0px 0px 0px -29px;
+}
+
+.boxes {
+  margin:20px 20px 0px 20px;
+}
+
+
+.current {
+  background-color:$foreground;
+  padding:4px 10px;
+  border-radius:14px;
+  color:white;
+  font-size:1.4em;
+}
+
+.current > label {
+  margin-right:20px;
+  font-size:1.3em;
+  padding:4px 6px;
+  color:$background;
+  background-color:white;
+  border-radius:80%;
+}
+
+.box-two {
+  margin:20px 0px 0px 8px;
+  font-size:1.4em;
+  &:hover {
+    color:$foreground;
+  }
+}
+.box-two > label {
+  margin-right:20px;
+  font-size:1.5em;
+  padding:2px 6px;
+  color:$background;
+  background-color:white;
+  border-radius:80%;
+}
+.box-two > button:hover {
+  color:$foreground;
+}
+

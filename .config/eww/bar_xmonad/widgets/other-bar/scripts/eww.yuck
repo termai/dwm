@@ -1,0 +1,25 @@
+(
+    defwindow helloworld
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :geometry
+    (
+        geometry
+        :anchor "center"
+        :width "4%"
+        :height "0"
+        :x "0"
+        :y "-495"
+    )
+    (helloworld)
+)
+
+
+(
+    defwidget helloworld []
+    (
+        box :class "user" :space-evenly "true" :orientation "h" :halign "center"
+        (label :text "Hello World")
+    )
+)

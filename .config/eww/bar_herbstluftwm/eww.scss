@@ -1,0 +1,199 @@
+//$background:#141c33;
+$background:#202741;
+//$background:#232a44;
+$foreground:white;
+$color1:#4d8fe6;
+
+*{
+  all:unset;
+}
+
+/*
+.newbar {
+}
+*/
+
+.herb-bar {
+  //background: rgb(7,26,31);
+  //background: linear-gradient(90deg, rgba(7,26,31,1) 0%, rgba(47,26,41,1) 21%, rgba(5,18,34,1) 53%, rgba(71,30,44,1) 86%, rgba(24,23,29,1) 100%);
+  background:$background;
+  font-family: "JetBrainsMono NF"; 
+  //box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  //border:4px solid #202741;
+  //border:2px solid white;
+  border:3px solid white;
+  border-radius:16px;
+  //box-shadow: 0 2px 3px 2px #202741;
+}
+
+
+/*
+.parent {
+  font-family: "JetBrainsMono NF"; 
+  background-color:$background;
+  padding:4px 4px 4px 4px;
+  border:1px solid $foreground;
+  opacity:0.8;
+}*/
+
+.parent {
+  margin-top:4px;
+  margin-bottom:2px;
+}
+
+.all-tags {
+  ///background:$background;
+  //border-radius:10px;
+  margin-top:4px;
+}
+
+.tag-button {
+  //padding:0px 20px; 
+  //font-size:1.1em;
+  margin-left:10px;
+  padding:0px 8px 0px 8px;
+  font-size:1.3em;
+}
+
+
+.focused {
+  color:$background;
+  background-color:$foreground;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius:100%;
+}
+
+.empty {
+  color:#909090;
+}
+
+/*
+.occupied {
+  background-color:red;
+}*/
+
+.sides {
+  margin:2px 0px 4px 0px;
+}
+
+
+.time {
+  background-color:$foreground;
+  color:$background;
+  font-size:1em;
+  border-radius:10px;
+  padding:0px 6px 0px 6px;
+  margin:0px 10px 0px 10px;
+}
+
+
+.wifi {
+  background-color:$foreground;
+  color:$background;
+  font-size:1.8em;
+  border-radius:10px;
+  padding:0px 18px 0px 12px;
+  margin:0px 2px 0px 2px;
+}
+
+.media {
+  margin-left:1px;
+  margin-top:2px;
+  .media-image {
+    margin-left:24px;
+    margin-right:14px;
+  }
+  .media-buttons {
+    margin-left:14px;
+    margin-bottom:4px;
+    background-color:$foreground;
+    color:$background;
+    padding:0px 10px;
+    border-radius:10px;
+    font-size:1.8em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    .ispaused-button {
+    }
+    .prev-button {
+      margin-right:8px;
+    }
+    .next-button {
+      margin-left:8px;
+    }
+  }
+
+  label .media-text {
+    color:red;
+  }
+}
+
+.weather {
+  //background-color:$foreground;
+  color:$foreground;
+  font-size:1.3em;
+  margin-top:6px;
+  margin-left:4px;
+}
+
+.program {
+  margin:5px 20px 0px 0px;
+  //background-color:$foreground;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color:white;
+
+  .program-image {
+    //margin-left:20px;
+  }
+
+  label {
+    font-size:1em;
+  }
+
+}
+
+
+scale trough {
+  all: unset;
+  background-color: black;
+  border-radius: 5px;
+  min-height: 8px;
+  min-width: 100px;
+  margin: .3rem 1rem .3rem 0;
+}
+
+.volbar trough highlight {
+  background-color: $foreground;
+  border-radius: 5px;
+}
+
+.slider {
+  margin-right:0.6rem;
+}
+/*
+.slider trough {
+  color:$background;
+  background-color: $foreground;
+}
+*/
+
+.volume-icon{
+  //margin:2px 0px 2px 10px;
+  color: $background;
+  font-size:1.2em;
+  background-color:$foreground;
+  padding:0px 10px 0px 10px;
+  border-radius:10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+
+}
+
+tooltip {
+  //background-color:$foreground;
+  background-color:$background;
+  color:white;
+}
+
+.calen-button {
+  color:red;
+}

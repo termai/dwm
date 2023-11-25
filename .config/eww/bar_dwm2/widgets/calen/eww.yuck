@@ -1,0 +1,35 @@
+(
+    defwindow calen
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    ;:windowtype "dock"
+    ;:reserve (struts :distance "52px" :side "top")
+    ;:wm-ignore false
+    :geometry
+    (
+        geometry
+        :x "500px"
+        :y "70px"
+        :width "14%"
+        :height "20%"
+        :anchor "top center")
+
+    (calen)
+)
+
+
+
+
+
+
+
+(defwidget calen []
+  (box :vexpand "false" :hexpand "false" :space-evenly "false" :orientation "v" :class "calen-box"
+    (box :class "exit" (button :class "exit-button" :onclick "eww close calen --config /home/termai/.config/eww/bar_dwm2/widgets/calen"))
+    (calendar :day day :month month :year year :show-details "true" :show-heading "true" :show-day-names "true")))
+    ;(calendar :class "calendar" :day 23 :month 10 :year 2023)))
+
+(defpoll day :interval "10h" "date '+%d'")
+(defpoll month :interval "10h" "date '+%B'")
+(defpoll year :interval "20h" "date '+%Y'")

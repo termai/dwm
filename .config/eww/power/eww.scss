@@ -1,0 +1,32 @@
+* {
+
+  all:unset;
+}
+
+
+.parent {
+    background-color: #000000;
+    border-radius:10px;
+    border: 2px solid gray;
+    padding:0px 0px 550px 0px;
+}
+
+.button {
+    background-color: #03c2fc;
+    border-radius: 8px;
+    padding: 2px 20px 2px 20px;
+    color:white;
+    font-size:40px;
+    margin:10px 34px 10px 34px;
+}
+
+
+.button:hover {
+
+  background-color:#68dafd;
+
+}
+
+.button:active {
+  background-color:#b3edfe;
+}

@@ -1,0 +1,238 @@
+(
+    defwindow dwmbar
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :windowtype "dock"
+    :reserve (struts :distance "10px" :side "top")
+    :wm-ignore false
+    :geometry
+    (
+        geometry 
+        :x "0%"
+        :y "2px"
+        :width "95%"
+        :height "0px"
+        :anchor "top center")
+
+
+    (dwmbar)
+)
+
+
+;(
+    ;defwidget hyprbar []
+    ;(
+        ;box :class "hyprbar-parent" :space-evenly "true" :orientation "h"
+        ;(start-box)
+    ;)
+;)
+
+
+(
+    defwidget dwmbar []
+    (
+        centerbox :class "dwmbar-parent" :space-evenly "false" :orientation "h"
+        ;(tags)
+        (start-box)
+        (tags)
+        (sides)
+    )
+)
+
+
+(
+    defwidget start-box []
+    (
+        box :class "start-box" :space-evenly "false" :orientation "h" :halign "start"
+        (whatmedia)
+        (weather)
+    )
+)
+
+(
+    defwidget sides []
+    (
+        box :class "sides" :space-evenly "false" :orientation "h" :halign "end"
+        (program)
+        (volum)
+        (wifi)
+        ;(volume)
+        (time)
+        (poweroff)
+    )
+)
+
+
+
+(
+    defwidget tags []
+    (
+        box :class "all-tagss" :space-evenly "false" :orientation "h" :halign "center"
+        (
+            literal :content tags_listen
+            
+        )
+    )
+)
+
+;(defwidget docks [] 
+    ;(box :class "docks" :orientation "h" :space-evenly "true" :halign "start"
+        ;(button :class "dock-button alacritty" :onclick "nohup alacritty &" :tooltip "alacritty" )
+        ;(button :class "dock-button brave" :onclick "nohup brave &" :tooltip "Brave")
+        ;(button :class "dock-button firefox" :onclick "nohup firefox &" :tooltip "Firefox")
+        ;(button :class "dock-button obsidian" :onclick "nohup obsidian &" :tooltip "Obsidian")
+        ;(button :class "dock-button thunar" :onclick "nohup thunar &" :tooltip "Thunar")
+        ;(button :class "dock-button xournalpp" :onclick "nohup xournalpp &" :tooltip "Xournal App")))
+
+
+(
+    defwidget whatmedia []
+    (
+        literal :content what_media
+    )
+)
+
+(defwidget time []
+  (box :class "side time" :orientation "h" :space-evenly "true" :halign "end"
+    time))
+
+
+
+
+(defwidget volume []
+    (
+        box :class "side volume" :orientation "h" :space-evenly "true" :halign "end"
+            (
+                button
+                :class "volume-button"
+                :onclick "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+                volume
+            )
+    )
+
+
+)
+
+
+
+(
+    defwidget program []
+    (
+        literal :content program
+    )
+)
+
+
+(defwidget poweroff []
+  (
+      box :class "poweroffs" :orientation "h" :space-evenly "true" :halign "end"
+      (
+          button
+          :class "poweroff"
+          :onclick "/home/termai/.config/eww/bar_dwm2/scripts/new2.sh is_power"
+          "⏻"
+      )
+  )
+)
+
+(defwidget weather []
+  (
+      literal :content weather
+  )
+)
+
+
+;; Volume Widgets ;;
+(defwidget volum []
+	(eventbox :onhover "${eww} update volum=true" 		
+			  :onhoverlost "${eww} update volum=false" :class "slider"
+	(box      :orientation "h" 	  
+			  :space-evenly "false" 
+			  ;:spacing "2"
+        :class "slider volume-buttos"
+	(revealer :transition "slideleft" 
+			  :reveal volum         
+			  :duration "550ms"
+	(scale    :class "volbar" 	  
+			  :value current-volume 
+			  :orientation "h"      
+			  :flipped false 
+			  :tooltip "Volume: ${current-volume}%" 
+			  :max 100 
+			  :min 0 
+			  ;:onchange "pactl set-sink-volume @DEFAULT_SINK@ +{}%"))
+			  :onchange "pamixer --set-volume {}"))
+	;(button   :onclick "scripts/popup audio"   :class "volume-icon" "${voluto}"))))
+	(button   :onclick "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"   :class "volume-icon" "${voluto}"))))
+;(defpoll current-volume :interval "1s" "pamixer --get-volume'")
+(defpoll current-volume :interval "1s" "pamixer --get-volume")
+(defpoll voluto :interval "1s" "./scripts/sb-vol")
+(defvar volum false)
+
+
+;Wifi
+(defwidget wifi []
+  (eventbox
+        :onhover "eww open wifi-wid --config /home/termai/.config/eww/bar_herbstluftwm/widgets/wifi-wid"
+        ;:onhoverlost "eww close wifi-wid --config /home/termai/.config/eww/bar_herbstluftwm/widgets/wifi-wid"
+    (box :vexpand "false" :hexpand "false" :space-evenly "false" :class "wifi-slider"
+        (button :class "wifi" :wrap "false" :limit-width 12 (literal :content wifi))
+  (revealer :transition "slideright"
+        ;:reveal wifi_rev
+        :duration "1000ms"
+  (literal :content wifi-wid)))))
+
+
+
+(defvar picture "images/user4.png")
+(defvar eww "/usr/local/bin/eww -c $HOME/.config/eww/bar_dwm2/")
+(defvar wifi_rev false)
+
+
+;defpoll
+(defpoll time :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/time`)
+
+(defpoll volume :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/sb-vol`)
+
+
+
+(defpoll what_media :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  ;`./scripts/new2.sh what_media`)
+  `./scripts/new2.sh wait_media`)
+
+
+(defpoll program :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/program1.sh program`)
+
+(defpoll weather :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/weath.sh`)
+
+(defpoll wifi :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/new2.sh is_wifi`)
+
+(defpoll wifi-wid :interval "1s" :initial "initial-value" :run-while time-visible `./scripts/togwifi`)
+
+
+;deflisten
+;(deflisten tags_listen "./scripts/tags.sh 0")
+(deflisten tags_listen "./scripts/tags.sh")
+
+;Scale
+
+
+;(scale :draw-value true :min 0 :max 100 :onchange "pactl set-sink-volume @DEFAULT_SINK@ +4%"  "")

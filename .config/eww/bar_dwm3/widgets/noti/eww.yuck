@@ -1,0 +1,73 @@
+(
+    defwindow noti
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    ;:windowtype "normal"
+    :geometry
+    (
+        geometry
+        :anchor "center"
+        :width "10%"
+        :height "520px"
+        :x "200"
+        :y "-220"
+    )
+    (noti)
+)
+
+
+(
+    defwidget noti []
+    (
+        box :class "noti-parent" :space-evenly "false" :orientation "v"
+        (widget-1)
+        (imagas)
+
+    )
+)
+
+;Widgets
+
+
+
+
+;Widget-1
+(defwidget widget-1 []
+    (box :class "widget-1" :space-evenly "false" :orientation "h"
+    (box :class "avatar-box" :space-evenly "false" :orientation "h" (button :class "avatar-box" :style "background-image: url('/home/termai/.config/eww/bar_dwm2/widgets/noti/images/avatar.jpg');"))
+
+;(image :class "image-box" :path "/home/termai/.config/eww/bar_dwm2/widgets/noti/images/avatar.jpg" :image-width: 60 :image-height 70))
+;:style "background-image: url('/home/termai/.config/eww/bar_dwm2/widgets/noti/images/avatar.jpg');")
+
+        (box :class "power-box" :space-evenly "false" :orientation "h"
+        (box :class "power-settings" (button :class "power-settingss" :onclick "dmenu_run" ""))
+        (box :class "power-uptime" (button :class "power-uptimee" :onclick "dmenu_run" power-uptime))
+        (box :class "power-lock" (button :class "power-lockk" :onclick "/home/termai/scripts/sclock.sh" ""))
+        (box :class "power-options" :space-evenly "true" :orientation "h" 
+        ;(button :class "power-optionss" :onclick "eww close noti --config /home/termai/.config/eww/bar_dwm2/widgets/noti/" "")))))
+        (button :class "power-optionss" :onclick "/usr/local/bin/eww open powerDash --config /home/termai/.config/eww/power_dash/" "")))))
+
+;(defvar image "/tmp/cover.jpg")
+;(defwidget imagas [] 
+    ;(box :class "cover-art" :space-evenly "false" :orientation "h"
+        ;(literal :content images_i))) 
+    ;(box :class "cover-art" :space-evenly "false" :orientation "h"))
+    ;(box :class "cover-art" :space-evenly "false" :orientation "h" :style "background-image:url('/tmp/cover.jpg');"))
+
+
+(
+    defwidget imagas []
+    (
+        literal :content images_i
+    )
+)
+
+
+;defpoll
+;Widget-1
+(defpoll power-uptime :interval "60s" "./scripts/scriptholder.sh uptimes")
+;(defpoll images_i     :interval "1s"  "./scripts/new2.sh wait_media")
+(defpoll images_i     :interval "1s"  "./scripts/scriptholder.sh imagas")
+(defpoll profile     :interval "1s"  "./scripts/scriptholder.sh profile")
+

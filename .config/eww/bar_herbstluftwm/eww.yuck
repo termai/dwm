@@ -1,0 +1,211 @@
+(
+    defwindow herb-bar
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :windowtype "dock"
+    :reserve (struts :distance "66px" :side "top")
+    :wm-ignore false
+    :geometry
+    (
+        geometry
+        :x "0%"
+        :y "10px"
+        :width "90%"
+        :height "0px"
+        :anchor "top center")
+
+
+    (newbar)
+)
+
+(defwidget newbar []
+    (centerbox :class "parent" :space-evenly "true" :orientation "h"
+    (start-box)
+    (tags)
+    (sides)))
+
+
+(
+    defwidget sides []
+    (
+        box :class "sides" :space-evenly "false" :orientation "h" :halign "end"
+        (program)
+        (volum)
+        (wifi)
+        (time)
+    )
+)
+
+(
+    defwidget start-box []
+    (
+        box :class "start-box" :space-evenly "false" :orientation "h" :halign "start"
+        (whatmedia)
+        (weather)
+    )
+)
+
+
+(defwidget time []
+  (box :class "time" :orientation "h" :space-evenly "true" :halign "end"
+    time))
+
+(defwidget volume []
+  (box :class "volume" :orientation "h" :space-evenly "true" :halign "end"
+    volume))
+
+(
+    defwidget tags []
+    (
+        literal :content tags_listen
+    )
+)
+
+;(defwidget wifi []
+  ;(box :class "wifi" :orientation "h" :space-evenly "false" :halign "end"
+      ;(
+      ;literal :content wifi
+  ;))
+;)
+
+
+
+(defwidget wifi []
+  (eventbox 
+        :onhover "eww open wifi-wid --config /home/termai/.config/eww/bar_herbstluftwm/widgets/wifi-wid"
+        ;:onhoverlost "eww close wifi-wid --config /home/termai/.config/eww/bar_herbstluftwm/widgets/wifi-wid"
+    (box :vexpand "false" :hexpand "false" :space-evenly "false" :class "wifi-slider"
+        (button :class "wifi" :wrap "false" :limit-width 12 (literal :content wifi))
+  (revealer :transition "slideright"
+        ;:reveal wifi_rev
+        :duration "1000ms"
+  (literal :content wifi-wid)))))
+
+
+
+
+(defwidget calensdar []
+  (eventbox 
+        :onhover "eww open calen --config /home/termai/.config/eww/bar_herbstluftwm/widgets/calen"
+        ;:onhoverlost "eww close calen --config /home/termai/.config/eww/bar_herbstluftwm/widgets/calen"
+    (box :vexpand "false" :hexpand "false" :space-evenly "false" :class "calen-box"
+        (button :class "calen-button" :wrap "false" :limit-width 12 (literal :content ""))
+  (revealer :transition "slidedown"
+        :reveal calen_dar
+        :duration "1000ms"
+  (literal :content calens_dar)))))
+
+(defvar calen_dar false)
+
+
+
+(defvar wifi_rev false)
+
+(
+    defwidget program []
+    (
+        literal :content program
+    )
+)
+
+
+(defwidget weather []
+  (
+      literal :content weather
+  )
+)
+
+(
+    defwidget whatmedia []
+    (
+        literal :content what_media
+    )
+)
+
+
+;; Volume Widgets ;;
+(defwidget volum []
+  (eventbox :onhover "${eww} update volum=true"
+        :halign "end"
+        :onhoverlost "${eww} update volum=false" :class "slider"
+  (box      :orientation "h"
+        :space-evenly "false"
+        ;:spacing "2"
+        :class "slider volume-buttos"
+  (revealer :transition "slideleft"
+        :reveal volum
+        :duration "550ms"
+  (scale    :class "volbar"
+        :value current-volume
+        :orientation "h"
+        :flipped false
+        :tooltip "Volume: ${current-volume}%"
+        :max 100
+        :min 0
+        ;:onchange "pactl set-sink-volume @DEFAULT_SINK@ +{}%"))
+        :onchange "pamixer --set-volume {}"))
+  ;(button   :onclick "scripts/popup audio"   :class "volume-icon" "${voluto}"))))
+  (button   :onclick "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"   :class "volume-icon" "${voluto}"))))
+;(defpoll current-volume :interval "1s" "pamixer --get-volume'")
+(defpoll current-volume :interval "1s" "pamixer --get-volume")
+(defpoll voluto :interval "1s" "./scripts/sb-vol")
+(defvar volum false)
+
+
+
+
+
+(defvar picture "images/user4.png")
+(defvar eww "/usr/local/bin/eww -c $HOME/.config/eww/bar_herbstluftwm")
+
+
+;defpoll
+
+
+(defpoll time :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/time`)
+
+(defpoll volume :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/sb-vol`)
+
+(defpoll wifi :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/new2.sh is_wifi`)
+
+(defpoll program :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/program1.sh program`)
+
+(defpoll weather :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/weath.sh`)
+
+(defpoll what_media :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  ;`./scripts/new2.sh what_media`)
+  `./scripts/new2.sh wait_media`)
+
+(defpoll wifi-wid :interval "1s" :initial "initial-value" :run-while time-visible `./scripts/togwifi`)
+
+(defpoll calens_dar :interval "1s" :initial "initial-value" :run-while time-visible `./scripts/togwifi2`)
+
+;deflisten
+
+;(deflisten tags_listen "./scripts/new2.sh" )
+(deflisten tags_listen "./scripts/tags.sh" )
+
+;Widgets
+
+
+
+
+

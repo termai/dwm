@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+_screen() {
+  xwinwrap -ov -g 1920x1080 -- mpv -wid %WID --panscan=1.0 --no-audio --no-osc --no-osd-bar --no-input-default-bindings --loop ~/Downloads/pixel-art/d8hpsqn-30aeff66-d465-49a3-94af-b7e2e93e5660.gif &
+}
+
+pkill xwinwrap
+#kill $(pidof xwinwrap)
+
+sleep 0.8
+
+for i in $( xrandr -q | grep 'HDMI-1' | grep -oP '\d+x\d+\+\d+\+\d+')
+do
+    _screen $i "$1" "${2:-#000000}" "${3:-0}"
+done

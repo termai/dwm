@@ -1,0 +1,54 @@
+#!/bin/bash
+# Program to get the current muslim prayer time using an API
+
+# Get the current date in the required format (dd-mm-yyyy)
+current_date=$(date +%d-%m-%Y)
+
+# API URL using the current date variable
+api_url="http://api.aladhan.com/v1/timingsByCity/$current_date?city=Bloomington&state=Minnesota&country=United+States"
+
+# Get the data from the API
+prayer_data=$(curl -s "$api_url")
+
+# Parse the data from JSON
+midnight=$(echo "$prayer_data" | jq -r '.data.timings.Midnight')
+fajr=$(echo "$prayer_data" | jq -r '.data.timings.Fajr')
+dhuhur=$(echo "$prayer_data" | jq -r '.data.timings.Dhuhr')
+asr=$(echo "$prayer_data" | jq -r '.data.timings.Asr')
+maghrib=$(echo "$prayer_data" | jq -r '.data.timings.Maghrib')
+isha=$(echo "$prayer_data" | jq -r '.data.timings.Isha')
+
+# Get the current Unix timestamp
+current_unix_time=$(date +%s)
+
+# Convert the prayer times to Unix timestamps
+fajr_unix_time=$(date -d "$(echo $prayer_data | jq -r '.data.date.readable') $fajr" +%s)
+dhuhur_unix_time=$(date -d "$(echo $prayer_data | jq -r '.data.date.readable') $dhuhur" +%s)
+asr_unix_time=$(date -d "$(echo $prayer_data | jq -r '.data.date.readable') $asr" +%s)
+maghrib_unix_time=$(date -d "$(echo $prayer_data | jq -r '.data.date.readable') $maghrib" +%s)
+isha_unix_time=$(date -d "$(echo $prayer_data | jq -r '.data.date.readable') $isha" +%s)
+
+# Check what time it is closest to and display the next upcoming prayer time
+if [[ $current_unix_time -lt $fajr_unix_time ]]
+then
+    echo "  🕋 Fajr: $(date -d "@$fajr_unix_time" +%r)"
+elif [[ $current_unix_time -lt $dhuhur_unix_time ]]
+then
+    echo "  🕋 Duhur: $(date -d "@$dhuhur_unix_time" +%r)"
+elif [[ $current_unix_time -lt $asr_unix_time ]]
+then
+    echo "  🕋 Asr: $(date -d "@$asr_unix_time" +%r)"
+elif [[ $current_unix_time -lt $maghrib_unix_time ]]
+then
+    echo "  🕋 Maghrib: $(date -d "@$maghrib_unix_time" +%r)"
+elif [[ $current_unix_time -lt $isha_unix_time ]]
+then
+    echo "  🕋 Isha: $(date -d "@$isha_unix_time" +%r)"
+else
+        # If all prayers have passed, show the next day's Fajr
+        fajr_tomorrow=$(echo $prayer_data | jq -r ".data.date.gregorian.date" | awk -F'-' '{print $3"-"$2"-"$1+1}')
+        fajr_tomorrow=$(curl -s "http://api.aladhan.com/v1/timingsByCity/$fajr_tomorrow?city=Bloomington&state=Minnesota&country=United+States" | jq -r ".data.timings.Fajr")
+        fajr_tomorrow=$(date -d "$fajr_tomorrow" +%r)
+        echo "  🕋 Fajr: $fajr_tomorrow"
+
+fi

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Initialize a variable to store the previous song title
+prev_song_title=""
+
+while true; do
+    # Use playerctl to get the currently playing song title
+    song_title=$(playerctl metadata --format '{{title}}')
+
+    # Check if the song title has changed
+    if [ "$song_title" != "$prev_song_title" ]; then
+        if [ -n "$song_title" ]; then
+            echo "Now playing: $song_title"
+        else
+            echo "No song is currently playing."
+        fi
+
+        # Update the previous song title
+        prev_song_title="$song_title"
+    fi
+
+    # Sleep for a short duration (e.g., 1 second) before checking again
+    sleep 1
+done

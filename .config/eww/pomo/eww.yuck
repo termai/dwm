@@ -1,0 +1,38 @@
+(
+    defwindow pomobar
+    :monitor 0
+    :stacking "fg"
+    :reserve (struts :distance "40px" :side "bottom")
+    :windowtype "dock"
+    :wm-ignore false
+    :geometry
+    (
+        geometry
+        :anchor "center"
+        :width "100%"
+        :height "0"
+        :x "300"
+        :y "50"
+    )
+    (pomo)
+)
+
+
+(
+    defwidget pomo []
+    (
+        box :class "pomo-parent" :space-evenly "true" :orientation "h" :halign "center"
+        (
+            button
+            :class "pomo-button"
+            :onclick "./scripts/pomo.sh"
+            ;literal :content pomo_links
+            "Click Here"
+        )
+    )
+)
+
+(defpoll pomo_links :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/pomo.sh`)

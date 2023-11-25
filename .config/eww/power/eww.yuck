@@ -1,0 +1,40 @@
+(
+  
+    defwindow buttons
+    :monitor 0
+    :exclusive "false"
+    :stacking "overlay"
+    :geometry
+    (
+        geometry 
+        :width "32%"
+        ;:height "0"
+        ;:x "-165"
+        :y "74"
+        :anchor "top center"
+    )
+    (buttons)
+)
+
+
+(
+    defwidget buttons []
+    (
+        box :class "parent" :space-evenly "false" :orientation "h"
+        (
+            box :class "body" :space-evenly "true" :orientation "h"
+            (
+                button
+                :class "button"
+                ;This was supposed to be shutdown but saved this for future case
+                ;:onclick "/home/termai/scripts/newone.sh wm"
+                :onclick "shutdown now"
+                (label :text "⏻")
+                ;(image :path "icons/shutdown.svg" :image-width 70 :image-height 70 )
+            )
+          
+        )
+
+    )
+
+)

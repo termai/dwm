@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/termai/wallpapers3/602575.png"
+let background = "#0B0D11"
+let foreground = "#f5e29d"
+let cursor     = "#f5e29d"
+
+" Colors
+let color0  = "#0B0D11"
+let color1  = "#98652E"
+let color2  = "#BE7434"
+let color3  = "#C1973A"
+let color4  = "#E79D38"
+let color5  = "#AD8E44"
+let color6  = "#E2AB46"
+let color7  = "#f5e29d"
+let color8  = "#ab9e6d"
+let color9  = "#98652E"
+let color10 = "#BE7434"
+let color11 = "#C1973A"
+let color12 = "#E79D38"
+let color13 = "#AD8E44"
+let color14 = "#E2AB46"
+let color15 = "#f5e29d"

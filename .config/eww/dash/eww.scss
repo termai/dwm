@@ -1,0 +1,65 @@
+*,button {
+
+  all:unset;
+}
+
+
+.parent-container {
+  padding:60px;
+  background-color:#1b1b27;
+  border-radius:20px;
+  box-shadow: 2px 2px 2px 0px rgba(black, 0.2);
+  opacity:0.9;
+}
+
+.parent-container > label {
+  font-size:40px;
+  font-weight:bold;
+}
+
+.apps > button {
+  padding:14px 20px;
+  margin:0px 29px 16px 0px;
+
+}
+.apps > button:hover {
+  background-color:#34344b;
+  border-radius:50px;
+  transition: background-color 0.8s ease, 0.8s ease;
+}
+
+
+.apps > button:active {
+  background-color:#34344b;
+  border-radius:50px;
+  transition: background-color 0.8s ease, 0.8s ease;
+}
+
+.exits {
+  color:red;
+}
+.exits > label {
+  color:red;
+
+}
+
+.parent-containers-child {
+  padding:0px;
+  margin:0px 0px 40px 0px;
+}
+
+
+
+.parent-containers-child > label {
+  font-size:2.6em;
+}
+.exit {
+  color:red;
+  padding:0px;
+  margin:5px 0px 0px 10px;
+  font-size:50px;
+}
+
+.exit:hover {
+  color:#bbbbfc;
+}

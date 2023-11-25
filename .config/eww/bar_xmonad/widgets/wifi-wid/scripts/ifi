@@ -1,0 +1,35 @@
+#!/bin/bash
+
+
+
+
+
+
+
+
+
+
+
+#onwifi=$(wifi on)
+#offwifi=$(wifi off)
+
+
+what="(box :vexpand \"false\" :hexpand \"false\" :space-evenly \"false\" :class \"box-wifi\" (button :class \"text-on\" :onclick \"eww close wifi-wid --config /home/termai/.config/eww/bar_xmonad/widgets/wifi-wid\" :wrap \"false\" :limit-width 12 \"Wifi\") (scale :flipped true :orientation \"h\" :onchange \"ls\") (button :class \"button-on\" :onclick \"wifi off\" :orientation \"h\" \"\"))"
+
+
+two="(box :vexpand \"false\" :hexpand \"false\" :space-evenly \"false\" :class \"box-wifi\" (button :class \"text-off\" :wrap \"false\" :limit-width 12 \"Wifi\") (scale :flipped true :orientation \"h\" :onchange \"ls\") (button :class \"button-off\" :onclick \"wifi on\" :orientation \"h\" \"\"))"
+
+
+
+#wifistatus=$(wifi | awk '{print $3}')
+wifistatus=$(iwctl device list | awk 'FNR == 5 {print $4}')
+
+
+if [[ "$wifistatus" = "on" ]]; then
+  echo "$what" 
+elif [[ "$wifistatus" = "off" ]]; then
+  echo "$two"
+fi
+
+
+

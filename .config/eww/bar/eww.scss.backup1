@@ -1,0 +1,130 @@
+@import '/home/termai/.cache/wal/colors.scss';
+/*
+//Pink(bg)//Black(fg)
+$background:#d3b0b9;
+$foreground:#0C0813;
+*/
+
+*{
+  all:unset;
+}
+
+
+.newbar {
+
+  font-family: "JetBrainsMono NF"; 
+}
+
+.parent {
+  background-color:$background;
+  border-radius:16px;
+  padding:2px 0px 2px 0px;
+  opacity:0.9;
+  border:2px solid $foreground;
+}
+
+
+//WorkSpaces
+//Workspaces Container
+.workspaces {
+  //padding: 1px 2px 1px 2px;
+  margin:0px 0px 4px 0px;
+}
+
+//Workspaces button
+.workspaces-button {
+
+  color: $foreground;
+  padding:0px 20px;
+  font-size:22px;
+  border-radius:8px;
+  margin-left:6px;
+  margin-top:6px;
+}
+
+//Workspaces button when active or pressed
+.workspaces-button:active {
+  background-color:$foreground;
+  color:$background;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+//Workspaces button when focused
+.focused {
+  background-color:$foreground;
+  color:$background;
+}
+
+//User
+// User image
+.user-image {
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  min-width:34px;
+  margin-right:10px;
+  border:2px solid $foreground;
+  border-radius:100%;
+}
+//User text
+.user-text {
+  font-size:1.3em;
+}
+//Icons_program
+//Icons container
+.icons {
+  margin-right:10px;
+  margin-top:1px;
+}
+//Sides
+//sides Container
+.parent-sides {
+  margin-right:28px;
+  margin-top:3px;
+}
+
+.time {
+  padding:0px 1px;
+  background-color:$foreground;
+  color:$background;
+  border-radius:2px;
+  font-size:0.9em;
+  border-radius:8px;
+  margin-right:5px;
+}
+
+.volume {
+  padding:0px 1px;
+  background-color:$foreground;
+  color:$background;
+  font-size:0.9em;
+  border-radius:8px;
+  margin-right:5px;
+}
+
+.batt {
+  padding:0px 1px;
+  background-color:$foreground;
+  color:$background;
+  border-radius:2px;
+  font-size:0.9em;
+  border-radius:8px;
+  margin-right:5px;
+}
+
+.prayer {
+  padding:0px 1px;
+  background-color:$foreground;
+  color:$background;
+  border-radius:2px;
+  font-size:0.9em;
+  border-radius:8px;
+  margin-right:5px;
+}
+
+.power {
+  padding:0px 12px;
+  background-color:$foreground;
+  color:$background;
+  border-radius:8px;
+  font-size:0.9em;
+}

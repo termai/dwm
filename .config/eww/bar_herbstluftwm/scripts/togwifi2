@@ -1,0 +1,2 @@
+#!/bin/bash
+eww open calen --config /home/termai/.config/eww/bar_herbstluftwm/widgets/calen

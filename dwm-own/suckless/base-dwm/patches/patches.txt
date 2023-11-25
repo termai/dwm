@@ -1,0 +1,13 @@
+* = Patches I have in my dwm config
+# = Patches I plan to add to my dwm config
+
+1.  *PreserveOnRestart-6.3
+2.  *dwm-barpadding-6.2
+3.  *Pertag_with_sel 
+4.  *Swallow 
+5.  *Cfacts+VanityGaps-6.4 
+6.  *Statusbutton 
+7.  *Underlinetags-6.2
+8.  *Notitle-6.2 
+9.  
+10.  

@@ -1,0 +1,30 @@
+(
+    defwindow calen
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :wm-ignore false
+    :geometry
+    (
+        geometry
+        :x "0%"
+        :y "10px"
+        :width "14%"
+        :height "20px"
+        :anchor "top center")
+
+
+    (calen)
+)
+
+
+
+
+
+
+
+(defwidget calen []
+  (box :vexpand "false" :hexpand "false" :space-evenly "false" :class "calen-box"
+    (calendar :class "calendar" :day 23 :month 10 :year 2023)))
+
+

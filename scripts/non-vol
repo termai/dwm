@@ -1,0 +1,41 @@
+#!/bin/bash
+black=#0f0f0f
+green=#74be88
+white=#dfdde0
+grey=#212126
+darkblue=#6d92b7
+red=#da696d
+blue=#6692bf
+yellow=#e1b56a
+lighter=#1a1e23
+magenta="#c68aee"
+
+#interval=0
+
+volume() {
+  date_str=$(/home/termai/.config/eww/bar_dwm2/scripts/sb-vol)
+  printf "^c$black^^b$red^$date_str%"
+}
+
+mpriss() {
+  mptitle=$(playerctl metadata --format "{{ title }}" | tr -d \"\"\")
+  mpartist=$(playerctl metadata artist)
+  mpmedia=$(echo "$mptitle")
+  mpmedias=$(echo "$mpmedia" | awk '{ if (length($0) <= 24) print; else print substr($0, 1, 24) "..." }')
+  printf "^c$green^ $mpmedias"
+}
+
+timess() {
+  #icons=""
+  #date_str=$(date +"%a %d, %I:%M %p")
+  #echo "^c$yellow^^b$blue^ $icons $date_str "
+
+  printf "^c$black^ ^b$darkblue^󱑆 "
+  printf "^c$black^^b$blue^$(date '+%a %d, %I:%M %p') "
+}
+
+#"$@"
+while true; do
+  interval=$((interval + 1))
+  sleep 1 && xsetroot -name "$(mpriss) $(volume) $(timess)"
+ done

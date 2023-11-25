@@ -1,0 +1,131 @@
+(
+    defwindow hyprbar
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :geometry
+    (
+        geometry 
+        :x "0%"
+        :y "0"
+        :width "100%"
+        :height "38px"
+        :anchor "top center")
+
+
+    (hyprbar)
+)
+
+
+;(
+    ;defwidget hyprbar []
+    ;(
+        ;box :class "hyprbar-parent" :space-evenly "true" :orientation "h"
+        ;(start-box)
+    ;)
+;)
+
+
+(
+    defwidget hyprbar []
+    (
+        centerbox :class "hyprbar-parent" :space-evenly "true" :orientation "h"
+        (tags)
+        (whatmedia)
+        (sides)
+    )
+)
+
+
+
+;(
+    ;defwidget start-box []
+    ;(
+        ;box :class "start-box" :space-evenly "true" :orientation "h" :halign "start"
+        ;(tags)
+        ;(whatmedia)
+    ;)
+;)
+
+(
+    defwidget sides []
+    (
+        box :class "sides" :space-evenly "false" :orientation "h" :halign "end"
+        (program)
+        (volume)
+        (time)
+    )
+)
+
+
+
+
+(
+    defwidget tags []
+    (
+        box :class "all-tags" :space-evenly "true" :orientation "h"
+        (
+            literal :content tags_listen
+            
+        )
+    )
+)
+
+
+
+(
+    defwidget whatmedia []
+    (
+        literal :content what_media
+    )
+)
+
+(
+defwidget time []
+    (
+        box :class "time" :orientation "h" :space-evenly false
+            (
+                button :class "times"
+                time
+            )
+    )
+)
+
+(defwidget volume []
+  (box :class "volume" :orientation "h" :space-evenly "true" :halign "end"
+    volume))
+
+(
+    defwidget program []
+    (
+        literal :content program_listen
+    )
+
+)
+
+
+;defpoll
+(defpoll time :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `date +"%a:%d %I:%M:%S %p"`)
+
+(defpoll volume :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/sb-vol`)
+
+
+(defpoll what_media :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/new2.sh what_media`)
+
+(defpoll program_listen :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/program1.sh`)
+
+
+;deflisten
+(deflisten tags_listen "./scripts/new5.sh 0")

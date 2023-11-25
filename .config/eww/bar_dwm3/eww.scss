@@ -1,0 +1,161 @@
+@import '/home/termai/.cache/wal/colors.scss';
+
+
+//$background:#171B2C;
+//$foreground:#afafff;
+
+*,button {
+
+  all:unset;
+  padding:0px;
+  min-height:0px;
+  min-width:0px;
+}
+
+.dwmbar {
+  background-color:$background;
+  font-family: "JetBrainsMono NF";
+  border:2px solid $foreground;
+  opacity:0.88;
+  box-shadow: 0 0 4px 2px rgba($foreground, 0.3);
+}
+
+
+.dwmbar-parent {
+  margin-top:4px;
+  margin-bottom:4px;
+}
+
+.all-tagss {
+  //margin-left:12px;
+  margin-top:2px;
+  .tag-button {
+    color:$foreground;
+    padding:0px 12px;
+    font-size:1.8em;
+    border-bottom:4px solid transparent;
+    transition: background-color 1s ease, color 0.3s ease;
+  }
+  .focused {
+    color:$foreground;
+    transition:background-color 1s ease, color 0.3s ease;
+  }
+  .occupied {
+    color:white;
+  }
+  .empty {
+    color:gray;
+  }
+}
+
+.media {
+  margin-left:0px;
+  margin-top:2px;
+  .media-image {
+    margin-left:10px;
+    margin-right:14px;
+  }
+  .media-buttons {
+    margin-left:24px;
+    background-color:$foreground;
+    color:$background;
+    padding:0px 10px;
+    //border-radius:10px;
+    font-size:1.9em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    .ispaused-button {
+      &:hover {
+        color:white;
+      }
+    }
+    .prev-button {
+      label {
+        margin-right:8px;
+      }
+      &:hover {
+        color:white;
+      }
+    }
+    .next-button {
+      label {
+        margin-left:8px;
+      }
+      &:hover {
+        color:white;
+      }
+    }
+  }
+  .cover-art {
+    margin-left:26px;
+  }
+
+  label {
+  }
+  .music-text {
+    margin-left:10px;
+    color:$foreground;
+    font-family:"HeavyData";
+    font-style:italic;
+    font-size:1.3em;
+  }
+}
+
+.weather {
+  color:$foreground;
+  //color:$foreground;
+  font-size:1.4em;
+  margin-top:2px;
+  margin-left:26px;
+}
+
+
+//Volume
+scale trough {
+  all: unset;
+  background-color: gray;
+  border-radius: 5px;
+  min-height: 20px;
+  min-width: 120px;
+  margin: .3rem 0 .3rem 1rem;
+}
+
+.volbar trough highlight {
+  background-color: $foreground;
+  border-radius: 5px;
+}
+
+.slider {
+  margin-right:0.7em;
+}
+
+.volume-icon{
+  margin:0px 0px 0px 14px;
+  color: $background;
+  font-size:1.4em;
+  font-weight:bold;
+  background-color:$foreground;
+  padding:0px 10px 0px 10px;
+  //border-radius:10px;
+  //margin:2px 14px 2px 0px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.time {
+  background-color:$foreground;
+  padding:0px 4px;
+  margin:0px 4px 0px 0px;
+  color:$background;
+  font-weight:bold;
+  font-size:1.4em;
+}
+.program {
+  margin:4px 4px 0px 0px;
+}
+
+.wifi {
+  background-color:$foreground;
+  color:$background;
+  font-size:1.8em;
+  padding:0px 18px 0px 10px;
+  margin-right:8px;
+}

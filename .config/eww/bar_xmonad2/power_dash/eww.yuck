@@ -1,0 +1,73 @@
+(
+    defwindow powerDash
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :geometry
+    (
+        geometry
+        ;:anchor "top right"
+        :width "50%"
+        :height "2%"
+        :x "470"
+        :y "450"
+    )
+    (powerDash)
+)
+
+
+(
+    defwidget powerDash []
+    (
+        box :class "dash-parent" :space-evenly "true" :orientation "h"
+        (power)
+    )
+)
+
+(
+    defwidget power []
+    (
+        box :class "power-parent" :space-evenly "true" :orientation "h"
+        (
+            button
+            :class "power"
+            :onclick "shutdown now"
+            :tooltip "Shutdown"
+            ""
+        )
+
+        (
+            button
+            :class "restart"
+            :onclick "reboot"
+            :tooltip "Reboot"
+            ""
+        )
+
+        (
+            button
+            :class "logout"
+            :onclick "pkill dwm"
+            :tooltip "Logout"
+            ""
+        )
+        
+        (
+            button
+            :class "lock"
+            :onclick "/home/termai/scripts/sclock.sh"
+            :tooltip "Lock Screen"
+            ""
+        )
+
+        (
+            button
+            :class "close"
+            :onclick "eww close powerDash --config /home/termai/.config/eww/bar_xmonad2/power_dash/."
+            :tooltip "Return To Desktop"
+            "󰗽"
+        )
+
+    )      
+)
+

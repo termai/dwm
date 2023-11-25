@@ -1,0 +1,9 @@
+#!/bin/bash
+
+date_str=$(date +"%a:%d %I:%M:%S %p")
+
+# Properly quote the Yuck code and set space-evenly as a boolean value.
+yuck_code="(box :class \"time\" :space-evenly false :orientation \"h\" (label :text \"$date_str\"))"
+
+# Print the Yuck code.
+echo "$yuck_code"

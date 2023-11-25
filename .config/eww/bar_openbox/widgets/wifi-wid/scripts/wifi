@@ -1,0 +1,45 @@
+#!/bin/bash
+#symbol=""
+#wifis=$(iwctl station wlan0 show | awk 'FNR == 7 {print $3}')
+#newwifi="$symbol ${wifis}"
+current_wifi=$(iwctl station wlan0 show | awk 'FNR == 7 {print $3}')
+#current_wifi=$(iwctl station wlan0 show | awk 'FNR == 7 {print $3}' | awk '{print " " $0}')
+#homes=$(iwctl known-networks list | awk 'FNR == 6 {print $1}')
+#xfin=$(iwctl known-networks list | awk 'FNR == 5 {print $2}')
+
+homes="Home-Awesome"
+xfin="xfinitywifi"
+
+one=""
+
+two=""
+
+
+
+
+
+
+if [[ "$current_wifi" = "Home-Awesome" ]]; then
+  one="(label :text \"\") (button :class \"button-one\" :onclick \"iwctl station wlan0 connect Home-Awesome\" :orientation \"h\" \"$current_wifi\")"
+  two="(label :text \"\")(button :class \"button-two\" :onclick \"iwctl station wlan0 connect xfinitywifi\" :orientation \"h\" \"$xfin\")"
+  
+  boxone="(box :class \"box-one current\" :space-evenly \"false\" :orientation \"h\" $one)"
+  
+  boxtwo="(box :class \"box-two\" :space-evenly \"false\" :orientation \"h\" $two)"
+  #echo "(box :class \"all-tags\" :space-evenly \"false\" :orientation \"v\" $one $two)"
+  
+  echo "(box :class \"boxes\" :space-evenly \"false\" :orientation \"v\" $boxone $boxtwo)"
+  
+elif [[ "$current_wifi" = "xfinitywifi" ]]; then
+  
+  one="(label :text \"\")(button :class \"button-one\" :onclick \"iwctl station wlan0 connect xfinitywifi\" :orientation \"h\" \"$current_wifi\")"
+  
+  two="(label :text \"\")(button :class \"button-two\" :onclick \"iwctl station wlan0 connect Home-Awesome\" :orientation \"h\" \"$homes\")"
+  
+  boxone="(box :class \"box-one current\" :space-evenly \"false\" :orientation \"h\" $one)"
+  boxtwo="(box :class \"box-two\" :space-evenly \"false\" :orientation \"h\" $two)"
+  echo "(box :class \"boxes\" :space-evenly \"false\" :orientation \"v\" $boxone $boxtwo)"
+fi
+
+
+

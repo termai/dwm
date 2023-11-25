@@ -1,0 +1,3 @@
+#!/bin/bash
+
+eww open wifi-wid --config /home/termai/.config/eww/bar_awesome2/widgets/wifi-wid

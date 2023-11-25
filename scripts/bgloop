@@ -1,0 +1,9 @@
+#!/bin/bash
+
+pkill feh
+
+for i in $(find /home/termai/wallpapers -type f)
+do
+  feh --bg-fill -r -z "$i"
+  sleep 60
+done

@@ -1,0 +1,201 @@
+@import '/home/termai/.cache/wal/colors.scss';
+
+//$background:#db1922;
+//$foreground:#070509;
+
+//Pink(bg)//Black(fg)
+//$foreground:#db1922;
+//$foreground:#fe1c27;
+
+//RED Colors
+//$background:#070509;
+//$foreground:#ff0000;
+//$fcolor:white;
+
+
+//$fcolor:#09140f;
+
+
+//Purple Colors
+//$background:#171B2C;
+//$foreground:#808bd9;
+$fcolor:#171B2C;
+
+// Other Purple Colors
+//$background:#171B2C;
+//$foreground:#afafff;
+//$fcolor:#171B2C;
+
+
+
+
+*,button {
+
+  all:unset;
+  padding:0px;
+  min-height:0px;
+  min-width:0px;
+  margin:0px;
+}
+
+.newbar {
+
+  font-family: "JetBrainsMono NF"; 
+}
+
+.x-parent {
+  background-color:$background;
+  border:2px solid $foreground;
+}
+
+.newbar-box2 {
+}
+.newbar-box1, .newbar-box2, .end-box {
+  margin:3px 0px 3px 0px;
+}
+
+
+.all-tags {
+  margin-top:1px;
+}
+
+.tag-button {
+  margin-left:10px;
+  padding:0px 8px 0px 8px; 
+  color:gray;
+  font-size:1.8em;
+}
+
+.numoftags {
+  margin-left:16px;
+  font-size:1.2em;
+}
+
+.focused {
+  color:$foreground;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.empty {
+}
+
+.occupied {
+  color:white;
+}
+
+.time {
+  padding:0px 4px;
+  color:$background;
+  background-color:$foreground;
+  font-weight:bold;
+  margin-right:4px;
+  font-size:1.4em;
+}
+
+.wifi {
+  background-color:$foreground;
+  color:$background;
+  padding:0px 12px 0px 10px;
+  margin-right:8px;
+  label {
+    font-size:2.1em;
+  }
+}
+
+scale trough {
+  all: unset;
+  background-color: $foreground;
+  border-radius: 5px;
+  min-height: 20px;
+  min-width: 120px;
+  margin: .3rem 1rem .3rem 0;
+}
+
+.volbar trough highlight {
+  background-color: $background;
+  margin:1px 1px 1px 1px;
+  border-radius:5px;
+}
+
+.slider {
+  margin-right:0.6rem;
+}
+
+.volume-icon{
+  color: white;
+  font-size:1.4em;
+  font-weight:bold;
+  background-color:$foreground;
+  color:$background;
+  padding:0px 10px 0px 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin:0px 4px 0px 0px;
+}
+
+tooltip {
+  background-color:$background;
+  color:white;
+}
+
+.media {
+  margin-left:4px;
+  .media-image {
+    margin-left:14px;
+    margin-right:14px;
+    //margin-bottom:2.8px;
+  }
+  .media-buttons {
+    //margin-left:4px;
+    background-color:$foreground;
+    color:$background;
+    padding:2px 0px;
+    font-size:1.9em;
+    //margin-bottom:3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    .ispaused-button {
+      &:hover {
+        color:white;
+      }
+    }
+    .prev-button {
+      label {
+        margin-right:8px;
+      }
+      &:hover {
+        color:white;
+      }
+    }
+    .next-button {
+      label {
+        margin-left:8px;
+      }
+      &:hover {
+        color:white;
+      }
+    }
+  }
+  .media-text {
+   //margin-left:10px;
+    color:$foreground;
+    font-family:"HeavyData";
+    font-style:italic;
+    font-size:1.3em;
+  }
+
+  .cover-art {
+    //border:2px solid $foreground;
+    //border-radius:2px;
+    //margin:0px 0px 2px 20px;
+    margin:0px 0px 0px 20px;
+  }
+}
+
+.weather {
+  color:$foreground;
+  font-size:1.6em;
+  margin-top:2px;
+  margin-right:10px;
+  label {
+    margin-left:6px;
+  }
+}

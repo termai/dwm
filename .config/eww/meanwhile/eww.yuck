@@ -1,0 +1,25 @@
+(
+    defwindow meanwhile
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :geometry
+    (
+        geometry
+        :anchor "center"
+        :width "30%"
+        :height "30%"
+        :x "-300"
+        :y "10"
+    )
+    (meanwhile)
+)
+
+
+
+(
+    defwidget meanwhile []
+    (
+        box :class "user" :space-evenly "true" :orientation "h" :halign "center"
+    )
+)

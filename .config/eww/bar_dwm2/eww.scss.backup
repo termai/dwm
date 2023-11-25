@@ -1,0 +1,48 @@
+$background:#111321;
+$foreground:#8791de;
+* {
+
+  all:unset;
+}
+
+.hyprbar-parent {
+  background-color:$background;
+  font-family: "JetBrainsMono NF";
+}
+
+
+.all-tags {
+  margin-left:10px;
+  
+  .tag-button {
+    color:$foreground;
+    border:1px solid $foreground;
+    padding:0px 20px;
+    margin-left:6px;
+    border-radius:4px;
+    font-size:1.1em;
+  }
+  .focused {
+    color:$background;
+    background-color:$foreground;
+    padding:0px 20px;
+    margin-left:6px;
+    border-radius:4px;
+    font-size:1.1em;
+  }
+}
+
+.media {
+  margin-left:210px;
+  .media-image {
+    margin-right:10px;
+  }
+}
+
+.sides {
+  margin-right:10px;
+
+  .side {
+    margin-right:10px;
+  }
+}

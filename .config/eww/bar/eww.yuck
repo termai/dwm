@@ -1,0 +1,184 @@
+(
+    defwindow newbar
+    :monitor 0
+    :exclusive "true"
+    :stacking "overlay"
+    :windowtype "dock"
+    :reserve (struts :distance "58px" :side "top")
+    :wm-ignore false
+    :geometry
+    (
+        geometry 
+        :width "90%"
+        :height "0"
+        :x "0"
+        :y "0"
+        :anchor "top center"
+    )
+    (newbar)
+)
+
+(defwidget newbar []
+    (box :class "parent" :space-evenly "false" :orientation "h"
+      (box :space-evenly "true" :class "parent-box" :space-evenly "false" :orientation "h"
+          (workspaces)
+          (spot))
+      (box :space-evenly "true" :class "user-box" :space-evenly "false" :orientation "h" :halign "center"
+          (user))
+      (box :space-evenly "true" :class "side-box" :space-evenly "true" :orientation "h" :halign "end"
+          (sides))))
+
+;(defwidget newbar []
+;  (centerbox :class "parent" :space-evenly "true" :orientation "h"
+;    (workspaces)
+    ;(user)
+;    (spot)
+;    (sides)))
+
+(defwidget sides []
+    (box :class "parent-sides" :space-evenly "false" :orientation "h"
+        (icons)
+        (time)
+        (volume)
+        (batt)
+        (prayer)
+        (power)))
+
+(defwidget time []
+  (box :class "sidestuff time" :orientation "h" :space-evenly "true" :halign "end"
+    time))
+
+
+(defwidget batt []
+  (box :class "batt" :orientation "h" :space-evenly "true" :halign "end"
+    batt))
+
+(defwidget prayer []
+  (box :class "prayer" :orientation "h" :space-evenly "true" :halign "end"
+    prayer))
+
+(defwidget volume []
+  (box :class "volume" :orientation "h" :space-evenly "true" :halign "end"
+    volume))
+
+
+(
+    defwidget spot []
+    (
+        literal :content spot
+    )
+)
+
+
+;(defwidget spot []
+  ;(box :class "spot" :orientation "h" :space-evenly "true" :halign "end"
+    ;spot))
+
+
+(defvar picture "images/user3.png")
+
+;defpoll
+
+
+(defpoll time :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/time`)
+
+(defpoll batt :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/batt`)
+
+(defpoll icons_listen :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/program1.sh`)
+
+
+(defpoll spot :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/spo3 wait_media`)
+
+(defpoll volume :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/sb-vol`)
+
+(defpoll prayer :interval "1s"
+              :initial "initial-value"  ; optional, defaults to poll at startup
+              :run-while time-visible   ; optional, defaults to 'true'
+  `./scripts/prayer`)
+
+
+;deflisten
+
+(deflisten workspaces_listen "./scripts/new.sh")
+
+
+;Widgets
+
+(
+    defwidget workspaces []
+    (
+        literal :content workspaces_listen
+    )
+
+)
+
+
+
+
+(
+    defwidget user []
+    (
+        box :space-evenly "true" :class "user-container" :space-evenly "false" :orientation "h" :halign "center"
+        :onhover "eww open helloworld --config /home/termai/.config/eww/dash"
+        (
+            box :class "user-image" :space-evenly "true" :orientation "h" :halign "center" 
+                ;:class "profile image" 
+                :style "background-image: url('${picture}');"
+                ;(image :path "images/user3.png" :image-width 30 :image-height 30)
+        )
+        (
+            box :class "user-text" :space-evenly "true" :orientation "h" :halign "center"
+            (button :class "text-text" :onclick "xdotool key super+1" (label :text "Pluto"))
+            ;(label :class "text-text" :text "Termai")
+        )
+    )
+)
+
+
+(
+    defwidget icons []
+    (
+        box :class "icons" :space-evenly "true" :orientation "h"
+        (
+            literal :content icons_listen
+        )
+    )
+
+)
+
+
+
+
+(
+  defwidget power []
+  (
+      box :class "parent-power" 
+      (
+          button
+          :class "power"
+          :onclick "shutdown now"
+          (label :text "⏻")
+      )
+  )
+)
+
+
+
+
+
+;(image :class "user-image" :path "images/user.jpg" :image-width 54 :image-height 54 )
