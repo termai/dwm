@@ -16,3 +16,9 @@
 ### Nov, 2023
 
 ![alt text](https://github.com/termai/dwm/blob/main/dwm_third_rice_dwmOwn.png?raw=true)
+
+## DWM-Gruv
+### Dec, 2023
+
+![alt text](https://github.com/termai/dwm/blob/main/dwm_fourth_rice_dwmGruv_1.png?raw=true)
+![alt text](https://github.com/termai/dwm/blob/main/dwm_fourth_rice_dwmGruv_2.png?raw=true)
