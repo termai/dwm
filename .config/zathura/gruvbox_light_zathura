@@ -1,0 +1,46 @@
+set recolor-keephue true
+set default-bg "#fbf1c7"
+set default-fg "#3c3836"
+
+set completion-bg "#fbf1c7"
+set completion-fg "#3c3836"
+set completion-group-bg "#fbf1c7"
+set completion-group-fg "#ebdbb2"
+set completion-highlight-bg "#ebdbb2"
+set completion-highlight-fg "#1d2021"
+
+set inputbar-bg "#fbf1c7"
+set inputbar-fg "#3c3836"
+set notification-bg "#fbf1c7"
+set notification-fg "#3c3836"
+set notification-error-bg "#554C68"
+set notification-error-fg "#b0b9dd"
+set notification-warning-bg "#554C68"
+set notification-warning-fg "#b0b9dd"
+set statusbar-bg "#3c3836"
+set statusbar-fg "#fbf1c7"
+set index-bg "#fbf1c7"
+set index-fg "#3c3836"
+set index-active-bg "#fbf1c7"
+set index-active-fg "#0F0F17"
+set render-loading-bg "#fbf1c7"
+set render-loading-fg "#3c3836"
+
+# Recolor book content's color
+set recolor-lightcolor          "#fbf1c7" # bg
+set recolor-darkcolor           "#3c3836" # fg
+set recolor-keephue             "true"    # keep original color
+set font "Terminus 9"
+
+set incremental-search true
+set search-hadjust true
+
+set window-title-home-tilde true
+set statusbar-basename true
+set selection-clipboard clipboard
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set recolor                     "true"
+map i recolor
+set page-padding 1
+map x toggle_statusbar
