@@ -1,0 +1,7 @@
+Installed Patches
+1. Dmenu-center-20240616-36c3d68.diff
+2. Dmenu-alpha-20230110-5.2.diff
+3. Dmenu-border-20230512-0fe460d.diff 
+4.
+5.
+6.
