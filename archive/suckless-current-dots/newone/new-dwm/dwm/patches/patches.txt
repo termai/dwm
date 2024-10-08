@@ -1,0 +1,31 @@
+* = Patches I have in my dwm config
+# = Patches I plan to add to my dwm config
+
+Installed
+1. *PreserveOnRestart-6.3
+2. *Pertag_with_sel
+3. *Swallow
+4. *Cfacts+VanityGaps-6.4
+
+In Folder Patches/
+1.  *PreserveOnRestart-6.3
+2.  *Barpadding-6.2
+3.  *Pertag_with_sel 
+4.  *Swallow 
+5.  *Cfacts+VanityGaps-6.4 
+6.  *Statusbutton 
+7.  *Underlinetags-6.2
+8.  #Notitle-6.2 
+9.  *Winicon-6.3 
+10. *CentreTitle 
+11. *Status2d-6.3 
+12. *StatusPadding-https://pastebin.com/h20mk3SE 
+13. #RainbowTags 
+14. *Zoomswap-6.2 
+15. *ActualFullscreen-2021
+16. *tagcolorscheme-6.4
+17. *cyclelayouts 
+18. *dwm-border-bar
+19. 
+28. 
+ 
