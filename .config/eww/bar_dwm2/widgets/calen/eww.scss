@@ -1,4 +1,4 @@
-
+/*
 .calen {
   background-color:#141827;
 }
@@ -11,5 +11,62 @@
 }
 
 .calen {
-  font-size:1.6em;
+  font-size:1.2em;
+}
+
+*/
+$black:#ffffff;
+//$blue:#00FFFF;
+$blue:#ffffff;
+$magenta:#8f9dff;
+$background:#141827;
+$grays:#808080;
+
+.calen {
+  //background-color: $black;
+  //font-family: Comic Mono;
+  font-size:1.3em;
+  //font-weight: bold;
+
+  /*.cal-inner-box {
+      padding: 1rem 1rem .2rem;
+
+      .cal {
+          &.highlight {
+              padding: 10rem;
+          }
+
+          padding: .8rem .25rem 0rem;
+          margin-left: 10px;
+      }
+  }*/
+}
+
+calendar:selected {
+  color: $background;
+  background-color:$magenta;
+}
+
+calendar.header {
+color: $blue;
+font-weight: bold;
+}
+
+calendar.button {
+color: $magenta;
+}
+
+calendar.highlight {
+color: $magenta;
+font-weight: bold;
+}
+
+calendar:indeterminate {
+color: $grays;
+}
+
+.exit-button {
+  margin:0px 100px 0px 100px;
+  padding:12px 0px 12px 0px;
+  background-color:$magenta;
 }

@@ -3,7 +3,7 @@
     :monitor 0
     :exclusive "true"
     :stacking "overlay"
-    :wm-ignore false
+    :wm-ignore true
     :geometry
     (
         geometry

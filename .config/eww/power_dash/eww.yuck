@@ -31,7 +31,7 @@
         (
             button
             :class "power"
-            :onclick "shutdown now"
+            :onclick "sudo shutdown now"
             :tooltip "Shutdown"
             ""
         )

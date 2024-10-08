@@ -1,30 +1,35 @@
-set recolor-lightcolor "#ffffff"
-set default-bg "#ffffff"
+set default-bg "#1d2021"
+set default-fg "#ebdbb2"
 
+set completion-bg "#1d2021"
+set completion-fg "#ebdbb2"
+set completion-group-bg "#1d2021"
+set completion-group-fg "#ebdbb2"
+set completion-highlight-bg "#ebdbb2"
+set completion-highlight-fg "#1d2021"
 
-set completion-bg "#141827"
-set completion-fg "#8f9dff"
-set completion-group-bg "#141827"
-set completion-group-fg "#8f9dff"
-set completion-highlight-bg "#8f9dff"
-set completion-highlight-fg "#141827"
-
-set inputbar-bg "#141827"
-set inputbar-fg "#b0b9dd"
-set notification-bg "#141827"
+set inputbar-bg "#1d2021"
+set inputbar-fg "#fbf1c7"
+set notification-bg "#1d2021"
 set notification-fg "#b0b9dd"
 set notification-error-bg "#554C68"
 set notification-error-fg "#b0b9dd"
 set notification-warning-bg "#554C68"
 set notification-warning-fg "#b0b9dd"
-set statusbar-bg "#141827"
-set statusbar-fg "#b0b9dd"
-set index-bg "#141827"
-set index-fg "#b0b9dd"
-set index-active-bg "#8f9dff"
+set statusbar-bg "#1d2021"
+set statusbar-fg "#ebdbb2"
+set index-bg "#1d2021"
+set index-fg "#fbf1c7"
+set index-active-bg "#fbf1c7"
 set index-active-fg "#0F0F17"
 set render-loading-bg "#0F0F17"
-set render-loading-fg "#b0b9dd"
+set render-loading-fg "#fbf1c7"
+
+# Recolor book content's color
+set recolor-lightcolor          "#1d2021" # bg
+set recolor-darkcolor           "#ebdbb2" # fg
+set recolor-keephue             "true"    # keep original color
+set font "Terminus 9"
 
 set incremental-search true
 set search-hadjust true
@@ -32,3 +37,9 @@ set search-hadjust true
 set window-title-home-tilde true
 set statusbar-basename true
 set selection-clipboard clipboard
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set recolor "false"
+map i recolor
+set page-padding 1
+map x toggle_statusbar
